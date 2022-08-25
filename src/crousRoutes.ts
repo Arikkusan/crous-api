@@ -9,7 +9,7 @@ import { resolve } from "path";
 
 import CrousAPI, { replacer } from "./crousApi";
 import { DataAvailabilityChecker } from "./customMiddlewares";
-import { ClasseDonneeCrous, Restaurant } from "./crousClasses";
+import { ClasseDonneeCrous, Restaurant, CustomSocketData } from "./crousClasses";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
