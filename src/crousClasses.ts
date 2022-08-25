@@ -367,3 +367,7 @@ export interface MenuDataBase {
 	};
 	_cdata: string;
 }
+
+export interface CustomSocketData {
+	followingRestaurants?: Array<string>;
+}

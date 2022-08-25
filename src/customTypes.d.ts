@@ -18,7 +18,3 @@ declare interface xml2jonResult {
 	};
 	root: any;
 }
-
-declare interface CustomSocketData {
-	followingRestaurants?: Array<string>;
-}
