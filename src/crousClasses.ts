@@ -358,7 +358,7 @@ export interface RestaurantMenuDataBase {
 	_attributes: {
 		id: string;
 	};
-	menu?: MenuDataBase[];
+	menu?: MenuDataBase[] | MenuDataBase;
 }
 
 export interface MenuDataBase {

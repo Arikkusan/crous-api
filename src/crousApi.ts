@@ -11,6 +11,7 @@ import {
 	ResidenceDataBase,
 	Restaurant,
 	Menu,
+	MenuDataBase,
 } from "./crousClasses";
 import he from "he";
 const axios = require("axios");
@@ -249,41 +250,42 @@ class CrousAPI {
 						case "menus": {
 							await this.fetchDataset(id.generateDatasetLink(), async (data: xml2jonResult) => {
 								for (const resto of <RestaurantMenuDataBase[]>data.root.resto) {
-									if (resto?.menu?.length && resto?.menu?.length > 0) {
-										let restaurantMenus: Menu[] = [];
+									let restoMenus: MenuDataBase[] = [];
+									if (Array.isArray(resto.menu) && resto.menu.length > 0) {
+										restoMenus = resto.menu;
+									} else if (typeof resto.menu == "object" && Object.keys(resto.menu)) {
+										restoMenus.push(resto.menu as MenuDataBase);
+									}
+									for (const menu of restoMenus) {
+										let date = menu._attributes.date;
+										let content = menu._cdata;
 
-										for (const menu of resto?.menu ?? []) {
-											let date = menu._attributes.date;
-											let content = menu._cdata;
+										for (const serviceData of content.match(/<h2>.*?<\/h2><h4>.*?<\/h4>.*?(?=<h4>|<h2>|$)(?=<h2>|$)/g) || []) {
+											let tmpMenu: { [key: string]: any } = {};
+											let [, service] = serviceData?.match(/(?:<h2>)(.*?)(?:<\/h2>)/) ?? [];
+											tmpMenu = {};
+											tmpMenu.date = date;
+											tmpMenu.restaurantId = resto._attributes.id;
+											tmpMenu.horaire = service;
+											tmpMenu.plats = new Map<String, string[]>();
 
-											for (const serviceData of content.match(/<h2>.*?<\/h2><h4>.*?<\/h4>.*?(?=<h4>|<h2>|$)(?=<h2>|$)/g) ||
-												[]) {
-												let tmpMenu: { [key: string]: any } = {};
-												let [, service] = serviceData?.match(/(?:<h2>)(.*?)(?:<\/h2>)/) ?? [];
-												tmpMenu = {};
-												tmpMenu.date = date;
-												tmpMenu.restaurantId = resto._attributes.id;
-												tmpMenu.horaire = service;
-												tmpMenu.plats = new Map<String, string[]>();
+											let differentFoodTypesArray =
+												serviceData?.match(/<h4>(?<typePlat>.*?)<\/h4>(?<data>.*?)(?=<h4>|$)/g) ?? [];
 
-												let differentFoodTypesArray =
-													serviceData?.match(/<h4>(?<typePlat>.*?)<\/h4>(?<data>.*?)(?=<h4>|$)/g) ?? [];
+											for (const foodList of differentFoodTypesArray) {
+												let [, foodCategory] = foodList?.match(/(?:<h4>)(.*?)(?:<\/h4>)/) ?? [];
+												let food = foodList
+													.replace(/<\/?ul.*?>|<h4>.*?<\/h4>/g, "")
+													.split(/<\/li>|<li>/g)
+													.filter(String);
+												tmpMenu.plats.set(foodCategory, food);
+											}
 
-												for (const foodList of differentFoodTypesArray) {
-													let [, foodCategory] = foodList?.match(/(?:<h4>)(.*?)(?:<\/h4>)/) ?? [];
-													let food = foodList
-														.replace(/<\/?ul.*?>|<h4>.*?<\/h4>/g, "")
-														.split(/<\/li>|<li>/g)
-														.filter(String);
-													tmpMenu.plats.set(foodCategory, food);
-												}
-
-												let parentRestaurant = await (<Restaurant>(
-													crousData.donnees.restaurants?.find((r) => r.id === resto._attributes.id)
-												));
-												if (parentRestaurant) {
-													parentRestaurant.addMenu(new Menu(tmpMenu.date, tmpMenu.horaire, tmpMenu.plats));
-												}
+											let parentRestaurant = await (<Restaurant>(
+												crousData.donnees.restaurants?.find((r) => r.id === resto._attributes.id)
+											));
+											if (parentRestaurant) {
+												parentRestaurant.addMenu(new Menu(tmpMenu.date, tmpMenu.horaire, tmpMenu.plats));
 											}
 										}
 									}
