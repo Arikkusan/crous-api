@@ -14,8 +14,33 @@
 			"name": "CROUS API"
 		}
 	],
-	"produces": ["application/json"],
+	"produces": [
+		"application/json"
+	],
 	"paths": {
+		"/crous/": {
+			"parameters": [],
+			"produces": [
+				"application/json"
+			],
+			"get": {
+				"tags": [
+					"CROUS API"
+				],
+				"summary": "Récupère la liste de tous les CROUS et leurs informations",
+				"responses": {
+					"200": {
+						"description": "ok",
+						"schema": {
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/Crous"
+							}
+						}
+					}
+				}
+			}
+		},
 		"/crous/{idCrous}": {
 			"parameters": [
 				{
@@ -26,9 +51,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les informations d'un CROUS",
 				"responses": {
 					"200": {
@@ -53,9 +82,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les restaurants d'un CROUS",
 				"responses": {
 					"200": {
@@ -90,9 +123,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les informations d'un restaurant",
 				"responses": {
 					"200": {
@@ -117,9 +154,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les actualités d'un CROUS",
 				"responses": {
 					"200": {
@@ -154,9 +195,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les informations d'un article d'actualité",
 				"responses": {
 					"200": {
@@ -181,9 +226,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les résidences d'un CROUS",
 				"responses": {
 					"200": {
@@ -218,9 +267,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les informations d'une résidence",
 				"responses": {
 					"200": {
@@ -245,9 +298,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les menus d'un crous",
 				"responses": {
 					"200": {
@@ -282,9 +339,13 @@
 					"type": "string"
 				}
 			],
-			"produces": ["application/json"],
+			"produces": [
+				"application/json"
+			],
 			"get": {
-				"tags": ["CROUS API"],
+				"tags": [
+					"CROUS API"
+				],
 				"summary": "Récupère les menus d'un restaurant",
 				"responses": {
 					"200": {
@@ -486,6 +547,9 @@
 				"date": {
 					"type": "string"
 				},
+				"horaires": {
+					"type": "string"
+				},
 				"plats": {
 					"type": "object",
 					"properties": {
@@ -496,11 +560,19 @@
 							}
 						}
 					},
-
 					"example": {
-						"grillades": ["grillade1", "grillade2"],
-						"salades": ["salade1", "salade2"],
-						"entrees": ["entrees1", "entrees2"]
+						"grillades": [
+							"grillade1",
+							"grillade2"
+						],
+						"salades": [
+							"salade1",
+							"salade2"
+						],
+						"entrees": [
+							"entrees1",
+							"entrees2"
+						]
 					}
 				}
 			}
