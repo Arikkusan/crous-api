@@ -27,7 +27,7 @@
 
 Les structures de données sont disponibles dans la documention fournie, soit [via l'url suivante](https://le-roux-nard.github.io/crous-api/), soit via l'endpoint `/docs` une fois l'API fonctionnelle
 
-⚠ _Seuls les restaurants et les menus sont disponibles dans un format JSON correct, les données étant récupérées au format HTML il est compliqué de déterminer un pattern pour les deux derniers types de données_
+⚠ _Les données de base étant stockées dans un fichier XML et contenant des balises HTML, certains type de données ne sont pas entièrement exploitables (Résidences et Actualités)_
 
 ## Installation
 
@@ -57,11 +57,10 @@ app.listen(process.env.PORT ?? 8080);
 
 <br/>
 
-~~L'API prend environ 2 minutes à s'initialiser, toute requête réalisée avant la fin de l'initialisation de l'api aboutira à la réponse suivante~~
+L'API prenant quelques secondes à s'initialiser, toute requête réalisée avant la fin de ce processus amènera la réponse suivante
 <br/>
 ~~`425 - Api Starting, please wait...`~~
 <br/>
-L'utilisation de [Promise.all()](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) a permis de diminuer le temps de chargement à environ **3 secondes**
 
 ## Auteur
 
