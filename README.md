@@ -59,7 +59,7 @@ app.listen(process.env.PORT ?? 8080);
 
 L'API prenant quelques secondes à s'initialiser, toute requête réalisée avant la fin de ce processus amènera la réponse suivante
 <br/>
-~~`425 - Api Starting, please wait...`~~
+`425 - Api Starting, please wait...`
 <br/>
 
 ## Auteur
