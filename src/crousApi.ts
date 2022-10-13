@@ -1,5 +1,5 @@
 import { isXmlRestaurant, parseRestaurantsFromXml, Restaurant } from "./classes/Restaurant";
-import { isXmlMenu, parseMenusFromXml } from "./classes/Menu";
+import { isXmlMenu, Menu, parseMenusFromXml } from "./classes/Menu";
 import axios from "axios";
 import { xml2json } from "xml-js";
 import { Dataset } from "./classes/Dataset";
@@ -61,7 +61,7 @@ class CrousAPI {
 				});
 
 				//#region Récupération des données
-				for (const dataset of data as Dataset[]) {
+				for await (const dataset of data as Dataset[]) {
 					let result = /^(?<type>.+?)(?=(?: du)? CROUS)(?:.+)(?<=CROUS (?:de |du |d'| )?)(?<crous>.+)/gim.exec(dataset.title);
 					if (result && result.groups) {
 						const nomCrous = result.groups.crous;
@@ -124,10 +124,18 @@ class CrousAPI {
 
 				let parsedResult = JSON.parse(xml2json(data, { compact: true }));
 				if (isXmlMenu(parsedResult)) {
-					let menus = parseMenusFromXml(parsedResult);
-					for await (const menu of menus) {
-						let restaurant = this.listeCrous.get(idCrous)?.restaurants.find((r) => r.id === menu.id);
-						!!restaurant && restaurant.addMenu(menu);
+					let listsOfMenus = parseMenusFromXml(parsedResult).reduce((acc: { id: string; menus: Menu[] }[], menu: Menu) => {
+						const index = acc.findIndex((a) => a.id === menu.id);
+						if (index === -1) {
+							acc.push({ id: menu.id.toString(), menus: [menu] });
+						} else {
+							acc[index].menus.push(menu);
+						}
+						return acc;
+					}, []);
+					for await (const listOfMenu of listsOfMenus) {
+						let restaurant = this.listeCrous.get(idCrous)?.restaurants.find((r) => r.id === listOfMenu.id);
+						!!restaurant && (restaurant.menus = listOfMenu.menus);
 					}
 				} else {
 					continue;
