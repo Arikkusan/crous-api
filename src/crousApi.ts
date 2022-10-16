@@ -6,6 +6,7 @@ import { Dataset } from "./classes/Dataset";
 import { isXmlActualites, parseActualitesFromXml } from "./classes/Actualites";
 import { isXmlResidence, parseResidencesFromXml, Residence } from "./classes/Residence";
 import { Crous } from "./classes/Crous";
+import { CronJob } from "cron";
 
 String.prototype.snake = function (this: string) {
 	return (this.escape().match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g) ?? [])
@@ -48,6 +49,10 @@ class CrousAPI {
 	static cache: CrousAPI | null = null;
 
 	private listeCrous: Map<String, Crous> = new Map<String, Crous>();
+
+	public static getInstance(): CrousAPI {
+		return new CrousAPI();
+	}
 
 	private async initialisationAPI() {
 		promises = [];
@@ -100,7 +105,7 @@ class CrousAPI {
 		CrousAPI.isLoaded = true;
 	}
 
-	private async recuperationMenus() {
+	public async recuperationMenus() {
 		const lienDataset = "https://www.data.gouv.fr/api/2/datasets/55f27f8988ee383ebda46ec1/resources/?page=1&type=main&page_size=-1";
 		let { data } = await axios({
 			method: "get",
@@ -183,3 +188,13 @@ class CrousAPI {
 }
 
 export default CrousAPI;
+
+new CronJob(
+	"59 */30 * * * *",
+	() => {
+		CrousAPI.getInstance().recuperationMenus();
+	},
+	null,
+	true,
+	"Europe/Paris"
+);
