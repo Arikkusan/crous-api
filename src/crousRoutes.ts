@@ -41,7 +41,7 @@ const apiRateLimit = rateLimit({
 
 router.use("/", apiRateLimit);
 
-router.use(function (req: Request, res: Response, next: any) {
+router.use(function (req: Request, res: Response, next: NextFunction) {
 	console.log("Time:", Date.now());
 	next();
 });

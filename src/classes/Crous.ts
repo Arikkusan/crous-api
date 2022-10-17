@@ -3,8 +3,8 @@ import { Residence } from "./Residence";
 import { Restaurant } from "./Restaurant";
 
 export class Crous {
-	nom: string = "";
-	id: string = "";
+	nom = "";
+	id = "";
 	restaurants: Restaurant[] = [];
 	actualites: Actualites[] = [];
 	residences: Residence[] = [];

@@ -36,7 +36,7 @@ function trimLowSnakeEscape(text: string) {
 	return text.trim().toLowerCase().snake().escape();
 }
 
-var promises: Promise<any>[] = [];
+var promises: Promise<void>[] = [];
 
 class CrousAPI {
 	static isLoaded: boolean = false;

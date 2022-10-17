@@ -4,8 +4,8 @@ import { DonneesCrous } from "./DonneesCrous";
 import { CrousXmlResponse, XmlMenuResponse } from "./XmlResponses";
 
 export class Menu extends DonneesCrous {
-	date: string = "";
-	horaire: string = "";
+	date = "";
+	horaire = "";
 	plats: Map<String, string[]> = new Map<String, string[]>();
 
 	constructor(restaurantId: string, menu: XmlMenu) {
