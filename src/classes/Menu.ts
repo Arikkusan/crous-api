@@ -80,27 +80,7 @@ export function parseMenusFromXml(object: XmlMenuResponse): Menu[] {
 	}, [] as Menu[]);
 }
 
-// /**
-//  * Convert a `Map` to a standard
-//  * JS object recursively.
-//  *
-//  * @param {Map} map to convert.
-//  * @returns {Object} converted object.
-//  */
-//  function map_to_object(map: Map<any, any>): JSON {
-// 	const out = Object.create(null);
-// 	map.forEach((value, key) => {
-// 		key = key.toString();
-// 		if (value instanceof Map) {
-// 			out[key] = map_to_object(value);
-// 		} else {
-// 			out[key] = value;
-// 		}
-// 	});
-// 	return out;
-// }
-
-export function replacer(key: any, value: any) {
+export function replacer(key: string | number, value: any) {
 	if (value instanceof Map) {
 		// let obj = map_to_object(value);
 		// return obj;
