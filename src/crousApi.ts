@@ -127,7 +127,17 @@ class CrousAPI {
 					url: dataset.url,
 				});
 
-				let parsedResult = JSON.parse(xml2json(data, { compact: true }));
+				let parsedResult;
+				try {
+					parsedResult = JSON.parse(xml2json(data, { compact: true }));
+				} catch (err) {
+					console.error(
+						(err as Error).message == "Attribute without value"
+							? `Erreur lors du parsing XML de ${dataset.title} : le fichier semble être mal formé`
+							: err
+					);
+					continue;
+				}
 				if (isXmlMenu(parsedResult)) {
 					let listsOfMenus = parseMenusFromXml(parsedResult).reduce((acc: { id: string; menus: Menu[] }[], menu: Menu) => {
 						const index = acc.findIndex((a) => a.id === menu.id);
