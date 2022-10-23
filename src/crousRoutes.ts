@@ -26,7 +26,7 @@ const swaggerOptions = {
 };
 const swaggerDoc = require(resolve(__dirname, "../swagger.json"));
 
-router.use("/docs", Swagger.serve, Swagger.setup(swaggerDoc, swaggerOptions));
+router.use("/docs", Swagger.serveFiles(swaggerDoc, swaggerOptions), Swagger.setup(swaggerDoc))
 
 const apiRateLimit = rateLimit({
 	windowMs: 1 * 1000, // 1 seconds
