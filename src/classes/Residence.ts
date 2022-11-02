@@ -1,10 +1,9 @@
 import { keys } from "ts-transformer-keys";
-import { DonneesCrous } from "./DonneesCrous";
+import { XmlBasedCrousData } from "./DonneesCrous";
 import { Position } from "./Position";
 import { CrousXmlResponse, XmlResidenceResponse } from "./XmlResponses";
 
-export class Residence extends DonneesCrous {
-	static datasetType = "";
+export class Residence extends XmlBasedCrousData {
 	name: string;
 	short_desc: string;
 	position: Position;

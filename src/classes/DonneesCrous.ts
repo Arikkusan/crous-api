@@ -1,13 +1,16 @@
 import pick from "./Utils";
 
-export abstract class DonneesCrous {
-	id: String;
-	toJson(): any {
+export abstract class CrousData {
+	id: string;
+	toJSON(): any {
 		return pick(this, ...this.keys());
 	}
-	constructor(id: String) {
+	constructor(id: string) {
 		this.id = id;
 	}
 	abstract keys(): Array<keyof this>;
+}
+
+export abstract class XmlBasedCrousData extends CrousData{
 	abstract parse_cdata(_cdata: string): void;
 }

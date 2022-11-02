@@ -10,7 +10,7 @@ import { resolve } from "path";
 import CrousAPI from "./crousApi";
 import { Crous } from "./classes/Crous";
 import { CustomSocketData } from "./classes/CustomSocketData";
-import { DonneesCrous } from "./classes/DonneesCrous";
+import { CrousData } from "./classes/DonneesCrous";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
@@ -26,7 +26,7 @@ const swaggerOptions = {
 };
 const swaggerDoc = require(resolve(__dirname, "../swagger.json"));
 
-router.use("/docs", Swagger.serveFiles(swaggerDoc, swaggerOptions), Swagger.setup(swaggerDoc))
+router.use("/docs", Swagger.serveFiles(swaggerDoc, swaggerOptions), Swagger.setup(swaggerDoc));
 
 const apiRateLimit = rateLimit({
 	windowMs: 1 * 1000, // 1 seconds
@@ -64,7 +64,7 @@ router.get("/:nomCrous/:ressource", (req: Request, res: Response) => {
 	try {
 		let crous = crousApi.getCrous(nomCrous);
 		if (!crous) throw new Error("Crous not found");
-		let payload = crous[ressource as keyof Crous] as DonneesCrous[];
+		let payload = crous[ressource as keyof Crous] as CrousData[];
 		if (!payload) throw new Error("Ressource not found");
 		res.json(payload);
 	} catch (e) {
@@ -77,10 +77,10 @@ router.get("/:nomCrous/:ressource/:ressourceId", (req: Request, res: Response) =
 	try {
 		let crous = crousApi.getCrous(nomCrous);
 		if (!crous) throw new Error("Crous not found");
-		let payload = crous[ressource as keyof Crous] as DonneesCrous[];
+		let payload = crous[ressource as keyof Crous] as CrousData[];
 		if (!payload) throw new Error("Ressource not found");
-		let ressourceItem = payload.find((item: DonneesCrous) => item.id === ressourceId);
-		res.json(ressourceItem?.toJson());
+		let ressourceItem = payload.find((item: CrousData) => item.id === ressourceId);
+		res.json(ressourceItem?.toJSON());
 	} catch (e) {
 		console.error(e);
 		res.status(404).send(`${ressource} with id ${req.params.ressource} not found in crous ${nomCrous}`);
@@ -138,7 +138,7 @@ function setupRouter(workspace: Namespace): Router {
 					for (const restaurantId of followingRestaurants) {
 						let restaurant = crousApi.getRestaurant(restaurantId);
 						if (!!restaurant && restaurant.getTodayMenu()) {
-							socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu()?.toJson());
+							socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu()?.toJSON());
 						}
 					}
 				}

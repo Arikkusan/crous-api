@@ -1,8 +1,8 @@
 import { keys } from "ts-transformer-keys";
-import { DonneesCrous } from "./DonneesCrous";
+import { XmlBasedCrousData } from "./DonneesCrous";
 import { CrousXmlResponse, XmlActualitesResponse } from "./XmlResponses";
 
-export class Actualites extends DonneesCrous {
+export class Actualites extends XmlBasedCrousData {
 	titre: String;
 	date: String;
 	category: String;

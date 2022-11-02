@@ -1,36 +1,35 @@
 import he from "he";
 import { keys } from "ts-transformer-keys";
-import { DonneesCrous } from "./DonneesCrous";
-import { Menu } from "./Menu";
+import { CrousData } from "./DonneesCrous";
+import { Menu, MenuJson } from "./Menu";
 import { Opening } from "./Opening";
 import { Position } from "./Position";
-import { CrousXmlResponse, XmlRestaurantResponse } from "./XmlResponses";
 
-export class Restaurant extends DonneesCrous {
+export class Restaurant extends CrousData {
 	nom: String;
 	short_desc: String;
 	opening: Opening[];
 	position: Position;
 	type: String;
-	contact?: String;
+	contact?: Contact;
 	horaires?: String;
 	moyen_acces?: String;
-	pratique?: String | Array<String>;
 	paiements?: String[];
 	menus: Menu[] = [];
 
-	constructor(object: XmlRestaurant) {
-		super(object._attributes.id);
-		this.nom = object._attributes.title;
-		this.short_desc = object._attributes.short_desc;
-		this.opening = object._attributes.opening.split(",").map((opening) => new Opening(opening));
-		this.position = new Position(parseInt(object._attributes.lat), parseInt(object._attributes.lon), object._attributes.zone);
-		this.type = object._attributes.type;
-		this.parse_cdata(object.infos._cdata);
-	}
-
-	addMenu(menu: Menu) {
-		this.menus.push(menu);
+	constructor(object: RestaurantJson) {
+		super(object.id.toString());
+		this.nom = object.title;
+		this.short_desc = object.shortdesc;
+		this.opening = object.opening.split(",").map((o) => new Opening(o));
+		this.position = new Position(object.lat, object.lon, object.area, object.description);
+		this.type = object.type;
+		this.moyen_acces = object.access;
+		this.contact = object.contact;
+		this.horaires = object.operationalhours;
+		this.paiements = object.payment.map((p) => p.name);
+		let myId = this.id;
+		this.menus = object.menus.map((menuList) => menuList.meal.map((repas) => new Menu(myId, menuList.date, repas))).flat();
 	}
 
 	getTodayMenu(): Menu | undefined {
@@ -41,61 +40,41 @@ export class Restaurant extends DonneesCrous {
 		return keys<typeof this>().filter((k) => typeof this[k as keyof typeof this] !== "function");
 	}
 
-	parse_cdata(_cdata: string): this {
-		let tempResto: { [key: string]: string } = {};
-		for (let arr of _cdata.replace(/<img.*?>/gi, "").split("<h2>")) {
-			arr = arr.replace("</p>", "");
-			let [key, value] = arr.split("</h2><p>");
-			if (value) {
-				let tempValue = value;
-				while (tempValue.includes("&#")) {
-					tempValue = he.decode(tempValue as string);
-				}
-				tempValue = tempValue
-					.replace(/(<br\/>|\n)+/gi, "\n")
-					.match(/(?! ).+(?=\n)/gim)?.join("\n") ?? "";
-				tempResto[key.toLowerCase()] = tempValue;
-			}
-		}
-		try {
-			this.position.localisation = tempResto.localisation;
-			this.horaires = tempResto.horaires;
-			this.pratique = tempResto.pratique?.split("\n");
-			this.paiements = tempResto["paiements possibles"].split("\n") ?? [];
-			this.moyen_acces = tempResto["moyen d'accès"];
-		} catch (e) {}
-		return this;
-	}
-	toJson() {
-		const jsonifiedThis = super.toJson();
-		jsonifiedThis.menus = this.menus.map((menu) => menu.toJson());
+	toJSON() {
+		const jsonifiedThis = super.toJSON();
+		jsonifiedThis.menus = this.menus.map((menu) => menu.toJSON());
 		return jsonifiedThis;
 	}
+
+	parse_cdata(_cdata: string): void {
+		throw new Error("Method not implemented.");
+	}
 }
 
-export interface XmlRestaurant {
-	_attributes: {
-		id: string;
-		title: string;
-		opening: string;
-		position: string;
-		short_desc: string;
-		lat: string;
-		lon: string;
-		zone: string;
-		zone2: string;
-		type: string;
+export interface RestaurantJson {
+	id: number;
+	title: string;
+	lat: number;
+	lon: number;
+	area: string;
+	opening: string;
+	closing: string;
+	type: string;
+	accessibility: boolean;
+	wifi: boolean;
+	shortdesc: string;
+	description: string;
+	access: string;
+	operationalhours: string;
+	contact: Contact;
+	photo: {
+		src: string;
 	};
-	infos: {
-		_cdata: string;
-	};
+	payment: { name: string }[];
+	menus: MenuJson[];
 }
 
-export function isXmlRestaurant(object: CrousXmlResponse): object is XmlRestaurantResponse {
-	const castedObject = object as XmlRestaurantResponse;
-	return "resto" in object.root && Array.isArray(castedObject.root?.resto) && !!castedObject.root.resto[0].infos;
-}
-
-export function parseRestaurantsFromXml(object: XmlRestaurantResponse): Restaurant[] {
-	return object.root.resto!.map((resto) => new Restaurant(resto));
+interface Contact {
+	tel: string;
+	email: string;
 }
