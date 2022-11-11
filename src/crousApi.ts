@@ -195,13 +195,3 @@ class CrousAPI {
 }
 
 export default CrousAPI;
-
-new CronJob(
-	"59 * * * * *",
-	() => {
-		// CrousAPI.getInstance().recuperationMenus();
-	},
-	null,
-	true,
-	"Europe/Paris"
-);
