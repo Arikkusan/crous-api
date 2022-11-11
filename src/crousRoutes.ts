@@ -8,9 +8,7 @@ import { Namespace, Server, Socket } from "socket.io";
 import { resolve } from "path";
 
 import CrousAPI from "./crousApi";
-import { Crous } from "./classes/Crous";
-import { CustomSocketData } from "./classes/CustomSocketData";
-import { CrousData } from "./classes/DonneesCrous";
+import { CrousData, Crous, CustomSocketData } from "crous-api-types";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
@@ -95,62 +93,61 @@ function setupRouter(workspace: Namespace): Router {
 		allSockets.set(socket.id, { followingRestaurants: [] });
 		setupSocketFunctions(socket);
 	});
+	return router;
+}
 
-	//setup socket functions
-	const setupSocketFunctions = (socket: Socket) => {
-		socket.on("subscribeToMenu", async (idRestaurant) => {
-			let socketData = allSockets.get(socket.id);
-			let localRestaurant = await crousApi.getRestaurant(idRestaurant);
-			if (socketData && localRestaurant != null) {
-				// ajoute le nouveau restaurant à la liste des restaurants suivis via un Set pour garantir l'unicité des identifiants
-				socketData.followingRestaurants = [...new Set([...(socketData.followingRestaurants ?? []), idRestaurant])];
+//setup socket functions
+const setupSocketFunctions = (socket: Socket) => {
+	socket.on("subscribeToMenu", async (idRestaurant) => {
+		let socketData = allSockets.get(socket.id);
+		let localRestaurant = await crousApi.getRestaurant(idRestaurant);
+		if (socketData && localRestaurant != null) {
+			// ajoute le nouveau restaurant à la liste des restaurants suivis via un Set pour garantir l'unicité des identifiants
+			socketData.followingRestaurants = [...new Set([...(socketData.followingRestaurants ?? []), idRestaurant])];
+		}
+	});
+
+	socket.on("unsubscribeToMenu", (idRestaurant) => {
+		let socketData = allSockets.get(socket.id);
+		if (socketData) {
+			// supprime le restaurant de la liste des restaurants suivis
+			if (socketData.followingRestaurants && socketData.followingRestaurants.length > 0) {
+				socketData.followingRestaurants = socketData.followingRestaurants?.filter((id: string) => id != idRestaurant);
 			}
-		});
+		}
+	});
 
-		socket.on("unsubscribeToMenu", (idRestaurant) => {
-			let socketData = allSockets.get(socket.id);
-			if (socketData) {
-				// supprime le restaurant de la liste des restaurants suivis
-				if (socketData.followingRestaurants && socketData.followingRestaurants.length > 0) {
-					socketData.followingRestaurants = socketData.followingRestaurants?.filter((id: string) => id != idRestaurant);
-				}
-			}
-		});
+	socket.onAny((eventName, ...args) => {
+		console.log(eventName, ...args);
+	});
 
-		socket.onAny((eventName, ...args) => {
-			console.log(eventName, ...args);
-		});
+	socket.on("disconnect", () => {
+		console.log("Socket disconnected");
+		allSockets.delete(socket.id);
+	});
+};
 
-		socket.on("disconnect", () => {
-			console.log("Socket disconnected");
-			allSockets.delete(socket.id);
-		});
-	};
-
-	//cronjob pour envoyer les menus à 11h tous les jours (si il y a un menu)
-	const cronJob = new CronJob(
-		"0 0 11 * * *",
-		() => {
-			const crousApi = new CrousAPI();
-			for (let [socketId, socket] of wssWorkspace.sockets) {
-				let followingRestaurants = allSockets.get(socketId)?.followingRestaurants ?? [];
-				if (followingRestaurants.length > 0) {
-					for (const restaurantId of followingRestaurants) {
-						let restaurant = crousApi.getRestaurant(restaurantId);
-						if (!!restaurant && restaurant.getTodayMenu()) {
-							socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu()?.toJSON());
-						}
+//cronjob pour envoyer les menus à 11h tous les jours (si il y a un menu)
+const cronJob = new CronJob(
+	"0 30 11 * * *",
+	() => {
+		const crousApi = new CrousAPI();
+		for (let [socketId, socket] of wssWorkspace.sockets) {
+			let followingRestaurants = allSockets.get(socketId)?.followingRestaurants ?? [];
+			if (followingRestaurants.length > 0) {
+				for (const restaurantId of followingRestaurants) {
+					let restaurant = crousApi.getRestaurant(restaurantId);
+					if (!!restaurant && restaurant.opening[new Date().getDay()] && restaurant.getTodayMenu()) {
+						socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu()?.toJSON());
 					}
 				}
 			}
-		},
-		null,
-		true,
-		"Europe/Paris"
-	);
-
-	return router;
-}
+		}
+	},
+	null,
+	true,
+	"Europe/Paris"
+);
 
 router.get("*", (req: Request, res: Response) => {
 	res.redirect("/");

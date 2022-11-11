@@ -1,28 +1,9 @@
-import { Actualites } from "./Actualites";
-import { Residence } from "./Residence";
-import { Restaurant } from "./Restaurant";
+import { Crous } from "crous-api-types";
 
-export class Crous {
-	nom = "";
-	id = "";
-	restaurants: Restaurant[] = [];
-	actualites: Actualites[] = [];
-	residences: Residence[] = [];
-
+export class CrousBuilder extends Crous {
 	constructor(id: string, nom: string) {
+		super();
 		this.id = id;
 		this.nom = nom;
-	}
-
-	getRestaurant(id: string): Restaurant | undefined {
-		return this.restaurants.find((r) => r.id === id);
-	}
-
-	getResidence(id: string): Residence | undefined {
-		return this.residences.find((r) => r.id === id);
-	}
-
-	getActualite(id: string): Actualites | undefined {
-		return this.actualites.find((r) => r.id === id);
 	}
 }

@@ -1,22 +1,8 @@
-import he from "he";
 import { keys } from "ts-transformer-keys";
-import { CrousData } from "./DonneesCrous";
-import { Menu, MenuJson } from "./Menu";
-import { Opening } from "./Opening";
-import { Position } from "./Position";
+import { MenuBuilder, MenuJson } from "./Menu";
+import { Menu, Restaurant, Opening, Position } from "crous-api-types";
 
-export class Restaurant extends CrousData {
-	nom: String;
-	short_desc: String;
-	opening: Opening[];
-	position: Position;
-	type: String;
-	contact?: Contact;
-	horaires?: String;
-	moyen_acces?: String;
-	paiements?: String[];
-	menus: Menu[] = [];
-
+export class RestaurantBuilder extends Restaurant {
 	constructor(object: RestaurantJson) {
 		super(object.id.toString());
 		this.nom = object.title;
@@ -29,11 +15,11 @@ export class Restaurant extends CrousData {
 		this.horaires = object.operationalhours;
 		this.paiements = object.payment.map((p) => p.name);
 		let myId = this.id;
-		this.menus = object.menus.map((menuList) => menuList.meal.map((repas) => new Menu(myId, menuList.date, repas))).flat();
+		this.menus = object.menus.map((menuList) => menuList.meal.map((repas) => new MenuBuilder(myId, menuList.date, repas))).flat();
 	}
 
 	getTodayMenu(): Menu | undefined {
-		return this.menus.find((menu) => menu.isToday());
+		return this.menus?.find((menu) => menu.isToday());
 	}
 
 	keys() {
@@ -42,12 +28,8 @@ export class Restaurant extends CrousData {
 
 	toJSON() {
 		const jsonifiedThis = super.toJSON();
-		jsonifiedThis.menus = this.menus.map((menu) => menu.toJSON());
+		jsonifiedThis.menus = this.menus?.map((menu) => menu.toJSON()) ?? [];
 		return jsonifiedThis;
-	}
-
-	parse_cdata(_cdata: string): void {
-		throw new Error("Method not implemented.");
 	}
 }
 

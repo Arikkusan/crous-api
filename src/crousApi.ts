@@ -1,12 +1,12 @@
-import { Restaurant, RestaurantJson } from "./classes/Restaurant";
+import { RestaurantBuilder, RestaurantJson } from "./classes/Restaurant";
+import { Residence, Restaurant, Actualites } from "crous-api-types";
 import axios from "axios";
 import { xml2json } from "xml-js";
 import { Dataset } from "./classes/Dataset";
 import { isXmlActualites, parseActualitesFromXml } from "./classes/Actualites";
-import { isXmlResidence, parseResidencesFromXml, Residence } from "./classes/Residence";
-import { Crous } from "./classes/Crous";
-import { CronJob } from "cron";
-import { isValidCrousName, CROUS_NAME } from "./classes/CrousShortName";
+import { isXmlResidence, parseResidencesFromXml } from "./classes/Residence";
+import { isValidCrousName, CROUS_NAME, Crous } from "crous-api-types";
+import { CrousBuilder } from "./classes/Crous";
 
 function snake(str: string) {
 	return (escape(str).match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g) ?? [])
@@ -77,7 +77,7 @@ class CrousAPI {
 						const idCrous = transformCrousName(trimLowSnakeEscape(nomCrous));
 
 						if (!this.listeCrous.has(idCrous)) {
-							this.listeCrous.set(idCrous, new Crous(idCrous, nomCrous));
+							this.listeCrous.set(idCrous, new CrousBuilder(idCrous, nomCrous));
 						}
 
 						let { data } = await axios({
@@ -140,7 +140,7 @@ class CrousAPI {
 			for (const restaurant of restaurants ?? []) {
 				const crous = this.listeCrous.get(crousShortName);
 				if (crous) {
-					crous.restaurants.push(new Restaurant(restaurant));
+					crous.restaurants.push(new RestaurantBuilder(restaurant));
 				}
 			}
 		}
@@ -178,6 +178,16 @@ class CrousAPI {
 			let residence = crous.getResidence(id);
 			if (residence) {
 				return residence;
+			}
+		}
+		return undefined;
+	}
+
+	getActualites(id: string): Actualites | undefined {
+		for (const crous of this.listeCrous.values()) {
+			let actualite = crous.getActualite(id);
+			if (actualite) {
+				return actualite;
 			}
 		}
 		return undefined;
