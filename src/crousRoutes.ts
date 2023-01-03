@@ -36,8 +36,8 @@ const apiRateLimit = rateLimit({
 	max: 1, // Limit each IP to 1 requests per `window` (here, per 1 seconds)
 	standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
 	legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-	skip: (request: Request, response: Response) => {
-		let socketId = request?.headers["x-socket-id"]?.toString();
+	skip: (request) => {
+		let socketId: string | undefined = request?.headers["x-socket-id"]?.toString();
 		return !!socketId && wssWorkspace.sockets.has(socketId);
 	},
 });
