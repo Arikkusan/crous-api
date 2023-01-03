@@ -17,6 +17,7 @@
 		"axios": "^0.26.0",
 		"cron": "^1.8.2",
 		"crous-api-types": "^1.0.0",
+		"dayjs": "^1.11.6",
 		"express": "^4.17.2",
 		"express-rate-limit": "^6.2.0",
 		"he": "^1.2.0",

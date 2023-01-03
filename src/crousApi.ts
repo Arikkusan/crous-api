@@ -7,39 +7,10 @@ import { isXmlActualites, parseActualitesFromXml } from "./classes/Actualites";
 import { isXmlResidence, parseResidencesFromXml } from "./classes/Residence";
 import { isValidCrousName, CROUS_NAME, Crous } from "crous-api-types";
 import { CrousBuilder } from "./classes/Crous";
+import { transformCrousName, trimLowSnakeEscape } from "./classes/Utils";
 
-function snake(str: string) {
-	return (escape(str).match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g) ?? [])
-		.map((x: string) => x.toLowerCase())
-		.join("_");
-}
-
-function escape(str: string) {
-	var accents = "ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž'";
-	var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz ";
-	let s = str.split("");
-	let strLen = s.length;
-	let i, x;
-	for (i = 0; i < strLen; i++) {
-		if (str[i] !== "'") {
-			if ((x = accents.indexOf(str[i])) != -1) {
-				s[i] = accentsOut[x];
-			}
-		} else {
-			s.splice(i, 1);
-		}
-	}
-	return s.join("");
-}
-
-function trimLowSnakeEscape(text: string) {
-	return snake(text.trim());
-}
-
-function transformCrousName(str: string) {
-	let name = snake(str.trim()).replace(/_/g, ".");
-	return name == "bourgogne.franche.comte" ? "bfc" : name;
-}
+import HolidaysManager from "./classes/HolidaysManager";
+import publicHolydaysManager from "./classes/publicHolydayManager";
 
 var promises: Promise<void>[] = [];
 
@@ -53,6 +24,22 @@ class CrousAPI {
 	static cache: CrousAPI | null = null;
 
 	private listeCrous: Map<string, Crous> = new Map<string, Crous>();
+	public holidaysManager: HolidaysManager = new HolidaysManager();
+	public publicHolydaysManager: publicHolydaysManager = new publicHolydaysManager();
+
+	constructor() {
+		if (CrousAPI.cache === null) {
+			CrousAPI.cache = this;
+			this.holidaysManager.updateCache().then(() => {
+				this.holidaysManager.loadCustomVacances();
+				this.publicHolydaysManager.updateCache().then(() => {
+					this.initialisationAPI();
+				});
+			});
+		} else {
+			return CrousAPI.cache;
+		}
+	}
 
 	public static getInstance(): CrousAPI {
 		return new CrousAPI();
@@ -143,15 +130,6 @@ class CrousAPI {
 					crous.restaurants.push(new RestaurantBuilder(restaurant));
 				}
 			}
-		}
-	}
-
-	constructor() {
-		if (CrousAPI.cache === null) {
-			CrousAPI.cache = this;
-			this.initialisationAPI();
-		} else {
-			return CrousAPI.cache;
 		}
 	}
 
