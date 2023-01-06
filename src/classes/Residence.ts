@@ -1,24 +1,7 @@
-import { keys } from "ts-transformer-keys";
-import { DonneesCrous } from "./DonneesCrous";
-import { Position } from "./Position";
 import { CrousXmlResponse, XmlResidenceResponse } from "./XmlResponses";
+import { Residence, Position } from "crous-api-types";
 
-export class Residence extends DonneesCrous {
-	static datasetType = "";
-	name: string;
-	short_desc: string;
-	position: Position;
-	infos: string;
-	services: string[];
-	contact: string;
-	mail: string;
-	phone: string;
-	websiteUrl: string;
-	appointmentUrl: string;
-	virtualVisitUrl: string;
-	bookingUrl: string;
-	troubleshootingUrl: string;
-
+export class ResidenceBuilder extends Residence {
 	constructor(xmlResidence: XmlResidence) {
 		super(xmlResidence._attributes.id);
 
@@ -30,7 +13,8 @@ export class Residence extends DonneesCrous {
 			xmlResidence._attributes.zone,
 			xmlResidence.address?._text
 		);
-		this.services = xmlResidence.services?._text?.match(/(?=\/>).+?(?<=<\/)/gim)?.map((service) => service?.replace(/\/>|<\//gim, "")?.trim()) ?? [];
+		this.services =
+			xmlResidence.services?._text?.match(/(?=\/>).+?(?<=<\/)/gim)?.map((service) => service?.replace(/\/>|<\//gim, "")?.trim()) ?? [];
 		this.infos = xmlResidence.infos?._text ?? "";
 		this.contact = xmlResidence.contact?._text ?? "";
 		this.mail = xmlResidence.mail?._text ?? "";
@@ -41,15 +25,6 @@ export class Residence extends DonneesCrous {
 		this.bookingUrl = xmlResidence.bookingUrl?._text ?? "";
 		this.troubleshootingUrl = xmlResidence.troubleshootingUrl?._text ?? "";
 	}
-
-	parse_cdata(_cdata: string): void {
-		throw new Error("Method not implemented.");
-	}
-	keys() {
-		return keys<typeof this>().filter((k) => typeof this[k as keyof typeof this] !== "function");
-	}
-
-	
 }
 
 export interface XmlResidence {
@@ -102,5 +77,5 @@ export function isXmlResidence(object: CrousXmlResponse): object is XmlResidence
 }
 
 export function parseResidencesFromXml(object: XmlResidenceResponse): Residence[] {
-	return object.root.residence!.map((residence) => new Residence(residence));
+	return object.root.residence!.map((residence) => new ResidenceBuilder(residence));
 }

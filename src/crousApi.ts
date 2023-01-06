@@ -1,40 +1,16 @@
-import { isXmlRestaurant, parseRestaurantsFromXml, Restaurant } from "./classes/Restaurant";
-import { isXmlMenu, Menu, parseMenusFromXml } from "./classes/Menu";
+import { RestaurantBuilder, RestaurantJson } from "./classes/Restaurant";
+import { Residence, Restaurant, Actualites } from "crous-api-types";
 import axios from "axios";
 import { xml2json } from "xml-js";
 import { Dataset } from "./classes/Dataset";
 import { isXmlActualites, parseActualitesFromXml } from "./classes/Actualites";
-import { isXmlResidence, parseResidencesFromXml, Residence } from "./classes/Residence";
-import { Crous } from "./classes/Crous";
-import { CronJob } from "cron";
+import { isXmlResidence, parseResidencesFromXml } from "./classes/Residence";
+import { isValidCrousName, CROUS_NAME, Crous } from "crous-api-types";
+import { CrousBuilder } from "./classes/Crous";
+import { transformCrousName, trimLowSnakeEscape } from "./classes/Utils";
 
-String.prototype.snake = function (this: string) {
-	return (this.escape().match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g) ?? [])
-		.map((x: String) => x.toLowerCase())
-		.join("_");
-};
-
-String.prototype.escape = function (this: string) {
-	var accents = "ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž'";
-	var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz ";
-	let s = this.split("");
-	let strLen = s.length;
-	let i, x;
-	for (i = 0; i < strLen; i++) {
-		if (this[i] !== "'") {
-			if ((x = accents.indexOf(this[i])) != -1) {
-				s[i] = accentsOut[x];
-			}
-		} else {
-			s.splice(i, 1);
-		}
-	}
-	return s.join("");
-};
-
-function trimLowSnakeEscape(text: string) {
-	return text.trim().toLowerCase().snake().escape();
-}
+import HolidaysManager from "./classes/HolidaysManager";
+import publicHolydaysManager from "./classes/publicHolydayManager";
 
 var promises: Promise<void>[] = [];
 
@@ -43,12 +19,27 @@ class CrousAPI {
 	private static liensDatasets: string[] = [
 		"https://www.data.gouv.fr/api/2/datasets/5548d35cc751df0767a7b26c/resources/?page=1&type=main&page_size=-1", //Actualites
 		"https://www.data.gouv.fr/api/2/datasets/5548d994c751df32e0a7b26c/resources/?page=1&type=main&page_size=-1", //Résidences
-		"https://www.data.gouv.fr/api/2/datasets/55f28fe088ee386774a46ec2/resources/?page=1&type=main&page_size=-1", //Restaurants
 	];
 
 	static cache: CrousAPI | null = null;
 
-	private listeCrous: Map<String, Crous> = new Map<String, Crous>();
+	private listeCrous: Map<string, Crous> = new Map<string, Crous>();
+	public holidaysManager: HolidaysManager = new HolidaysManager();
+	public publicHolydaysManager: publicHolydaysManager = new publicHolydaysManager();
+
+	constructor() {
+		if (CrousAPI.cache === null) {
+			CrousAPI.cache = this;
+			this.holidaysManager.updateCache().then(() => {
+				this.holidaysManager.loadCustomVacances();
+				this.publicHolydaysManager.updateCache().then(() => {
+					this.initialisationAPI();
+				});
+			});
+		} else {
+			return CrousAPI.cache;
+		}
+	}
 
 	public static getInstance(): CrousAPI {
 		return new CrousAPI();
@@ -70,10 +61,10 @@ class CrousAPI {
 					let result = /^(?<type>.+?)(?=(?: du)? CROUS)(?:.+)(?<=CROUS (?:de |du |d'| )?)(?<crous>.+)/gim.exec(dataset.title);
 					if (result && result.groups) {
 						const nomCrous = result.groups.crous;
-						const idCrous = trimLowSnakeEscape(nomCrous);
+						const idCrous = transformCrousName(trimLowSnakeEscape(nomCrous));
 
 						if (!this.listeCrous.has(idCrous)) {
-							this.listeCrous.set(idCrous, new Crous(idCrous, nomCrous));
+							this.listeCrous.set(idCrous, new CrousBuilder(idCrous, nomCrous));
 						}
 
 						let { data } = await axios({
@@ -92,10 +83,7 @@ class CrousAPI {
 							);
 							continue;
 						}
-						if (isXmlRestaurant(parsedResult)) {
-							let restaurants = parseRestaurantsFromXml(parsedResult);
-							this.listeCrous.get(idCrous)?.restaurants.push(...restaurants);
-						} else if (isXmlActualites(parsedResult)) {
+						if (isXmlActualites(parsedResult)) {
 							let actualites = parseActualitesFromXml(parsedResult);
 							this.listeCrous.get(idCrous)?.actualites.push(...actualites);
 						} else if (isXmlResidence(parsedResult)) {
@@ -110,71 +98,38 @@ class CrousAPI {
 			//#endregion
 		}
 		await Promise.all(promises);
-		await this.recuperationMenus();
+		await this.fetchRestaurants();
 		console.timeEnd("récupération datasets");
 		CrousAPI.isLoaded = true;
 	}
 
-	public async recuperationMenus() {
-		const lienDataset = "https://www.data.gouv.fr/api/2/datasets/55f27f8988ee383ebda46ec1/resources/?page=1&type=main&page_size=-1";
-		let { data } = await axios({
-			method: "get",
-			url: lienDataset,
-			transformResponse: [(data: string) => JSON.parse(data)?.data],
-		});
-		for (const dataset of data as Dataset[]) {
-			let result = /^(?<type>.+?)(?=(?: du)? CROUS)(?:.+)(?<=CROUS (?:de |du |d'| )?)(?<crous>.+)/gim.exec(dataset.title);
-			if (result && result.groups) {
-				const nomCrous = result.groups.crous;
-				const idCrous = trimLowSnakeEscape(nomCrous);
-
-				if (!this.listeCrous.has(idCrous)) {
-					this.listeCrous.set(idCrous, new Crous(idCrous, nomCrous));
-				}
-
-				let { data } = await axios({
-					method: "get",
-					url: dataset.url,
-				});
-
-				let parsedResult;
-				try {
-					parsedResult = JSON.parse(xml2json(data, { compact: true }));
-				} catch (err) {
-					console.error(
-						(err as Error).message == "Attribute without value"
-							? `Erreur lors du parsing XML de ${dataset.title} : le fichier semble être mal formé`
-							: err
-					);
-					continue;
-				}
-				if (isXmlMenu(parsedResult)) {
-					let listsOfMenus = parseMenusFromXml(parsedResult).reduce((acc: { id: string; menus: Menu[] }[], menu: Menu) => {
-						const index = acc.findIndex((a) => a.id === menu.id);
-						if (index === -1) {
-							acc.push({ id: menu.id.toString(), menus: [menu] });
-						} else {
-							acc[index].menus.push(menu);
-						}
-						return acc;
-					}, []);
-					for await (const listOfMenu of listsOfMenus) {
-						let restaurant = this.listeCrous.get(idCrous)?.restaurants.find((r) => r.id === listOfMenu.id);
-						!!restaurant && (restaurant.menus = listOfMenu.menus);
-					}
-				} else {
-					continue;
+	public async fetchRestaurants() {
+		const baseUrl = "http://webservices-v2.crous-mobile.fr/feed";
+		const minifiedJsonEndpoint = (crousName: CROUS_NAME) => `/externe/crous-${crousName}.min.json`;
+		const data: string = await axios({ method: "GET", url: baseUrl }).then((res) => res.data);
+		let reducedCrous = data
+			.replace(/<\/a>.+\n/g, "\n")
+			.split("\n")
+			.reduce((acc: CROUS_NAME[], str) => {
+				const regResult = /<a href=(?:"|')(?<url>.+?\/)(?:"|')>/g.exec(str);
+				const url = regResult?.groups?.url?.replace("/", "");
+				if (!!url && isValidCrousName(url)) acc.push(url);
+				return acc;
+			}, []);
+		for (const crousShortName of reducedCrous) {
+			const minifiedJsonUrl = `${baseUrl}/${crousShortName}/${minifiedJsonEndpoint(crousShortName)}`.replace(/(?<!http:)\/{2,}/g, "/");
+			// console.log(minifiedJsonUrl);
+			const res = await axios({ method: "GET", url: minifiedJsonUrl });
+			if (!res || !res?.data) continue;
+			typeof res.data == "string" && (res.data = JSON.parse(res.data.replace(/	/g, "")));
+			if (!res.data) continue;
+			const { restaurants }: { restaurants: RestaurantJson[] } = res.data;
+			for (const restaurant of restaurants ?? []) {
+				const crous = this.listeCrous.get(crousShortName);
+				if (crous) {
+					crous.restaurants.push(new RestaurantBuilder(restaurant));
 				}
 			}
-		}
-	}
-
-	constructor() {
-		if (CrousAPI.cache === null) {
-			CrousAPI.cache = this;
-			this.initialisationAPI();
-		} else {
-			return CrousAPI.cache;
 		}
 	}
 
@@ -205,16 +160,16 @@ class CrousAPI {
 		}
 		return undefined;
 	}
+
+	getActualites(id: string): Actualites | undefined {
+		for (const crous of this.listeCrous.values()) {
+			let actualite = crous.getActualite(id);
+			if (actualite) {
+				return actualite;
+			}
+		}
+		return undefined;
+	}
 }
 
 export default CrousAPI;
-
-new CronJob(
-	"59 */30 * * * *",
-	() => {
-		CrousAPI.getInstance().recuperationMenus();
-	},
-	null,
-	true,
-	"Europe/Paris"
-);
