@@ -11,6 +11,7 @@ import { transformCrousName, trimLowSnakeEscape } from "./classes/Utils";
 
 import HolidaysManager from "./classes/HolidaysManager";
 import publicHolydaysManager from "./classes/publicHolydayManager";
+import { CronJob } from "cron";
 
 var promises: Promise<void>[] = [];
 
@@ -30,15 +31,20 @@ class CrousAPI {
 	constructor() {
 		if (CrousAPI.cache === null) {
 			CrousAPI.cache = this;
-			this.holidaysManager.updateCache().then(() => {
-				this.holidaysManager.loadCustomVacances();
-				this.publicHolydaysManager.updateCache().then(() => {
-					this.initialisationAPI();
-				});
-			});
+			CrousAPI.setupApi();
 		} else {
 			return CrousAPI.cache;
 		}
+	}
+
+	private static setupApi() {
+		const api = this.cache ?? new this();
+		api.holidaysManager.updateCache().then(() => {
+			api.holidaysManager.loadCustomVacances();
+			api.publicHolydaysManager.updateCache().then(() => {
+				api.initialisationAPI();
+			});
+		});
 	}
 
 	public static getInstance(): CrousAPI {
@@ -47,7 +53,8 @@ class CrousAPI {
 
 	private async initialisationAPI() {
 		promises = [];
-		console.time("récupération datasets");
+		const timerName = `${Date.now()} - Récupération datasets`
+		console.time(timerName);
 		for (const lien of CrousAPI.liensDatasets) {
 			let promise = new Promise<void>(async (resolve) => {
 				let { data } = await axios({
@@ -99,7 +106,7 @@ class CrousAPI {
 		}
 		await Promise.all(promises);
 		await this.fetchRestaurants();
-		console.timeEnd("récupération datasets");
+		console.timeEnd(timerName);
 		CrousAPI.isLoaded = true;
 	}
 
@@ -170,6 +177,8 @@ class CrousAPI {
 		}
 		return undefined;
 	}
+
+	private cronJob = new CronJob("0 0 0 * * *", async () => CrousAPI.setupApi(), null, true, "Europe/Paris");
 }
 
 export default CrousAPI;
