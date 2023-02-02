@@ -42,6 +42,11 @@ class CrousAPI {
 		api.holidaysManager.updateCache().then(() => {
 			api.holidaysManager.loadCustomVacances();
 			api.publicHolydaysManager.updateCache().then(() => {
+				for (const crous of api.listeCrous.values()) {
+					crous.actualites = [];
+					crous.residences = [];
+					crous.restaurants = [];
+				}
 				api.initialisationAPI();
 			});
 		});
@@ -53,7 +58,7 @@ class CrousAPI {
 
 	private async initialisationAPI() {
 		promises = [];
-		const timerName = `${Date.now()} - Récupération datasets`
+		const timerName = `${Date.now()} - Récupération datasets`;
 		console.time(timerName);
 		for (const lien of CrousAPI.liensDatasets) {
 			let promise = new Promise<void>(async (resolve) => {
