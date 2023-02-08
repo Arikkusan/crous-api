@@ -21,7 +21,10 @@ export default class PublicHolydaysManager {
 			.get(PublicHolydaysManager.getDatasetLink())
 			.then(({ data }) => {
 				for (const [date, reason] of Object.entries(data)) {
-					this.cache.push(new PublicHoliday(new Date(date), reason as string));
+					//only add if not already in cache
+					if(this.cache.findIndex(p => p.date == new Date(date)) == -1){
+						this.cache.push(new PublicHoliday(new Date(date), reason as string));
+					}
 				}
 			})
 			.catch((error) => {
