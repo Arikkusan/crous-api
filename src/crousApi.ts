@@ -13,8 +13,6 @@ import HolidaysManager from "./classes/HolidaysManager";
 import publicHolydaysManager from "./classes/publicHolydayManager";
 import { CronJob } from "cron";
 
-var promises: Promise<void>[] = [];
-
 class CrousAPI {
 	static isLoaded: boolean = false;
 	private static liensDatasets: string[] = [
@@ -57,7 +55,7 @@ class CrousAPI {
 	}
 
 	private async initialisationAPI() {
-		promises = [];
+		let promises: Promise<void>[] = [];
 		const timerName = `${Date.now()} - Récupération datasets`;
 		console.time(timerName);
 		for (const lien of CrousAPI.liensDatasets) {
@@ -110,6 +108,7 @@ class CrousAPI {
 			//#endregion
 		}
 		await Promise.all(promises);
+		promises = [];
 		await this.fetchRestaurants();
 		console.timeEnd(timerName);
 		CrousAPI.isLoaded = true;
