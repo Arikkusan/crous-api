@@ -53,6 +53,33 @@ router.get("/", (req: Request, res: Response) => {
 	res.send(crousApi.getCrousList());
 });
 
+router.get("/restaurant/:idRestaurant", (req: Request, res: Response) => {
+	let { idRestaurant } = req.params;
+	try {
+		res.json(crousApi.getRestaurant(idRestaurant));
+	} catch (e) {
+		res.status(404).send(`No restaurant found with id ${idRestaurant}`);
+	}
+});
+
+router.get("/residence/:idResidence", (req: Request, res: Response) => {
+	let { idResidence } = req.params;
+	try {
+		res.json(crousApi.getResidence(idResidence));
+	} catch (e) {
+		res.status(404).send(`No restaurant found with id ${idResidence}`);
+	}
+});
+
+router.get("/actualite/:idActualites", (req: Request, res: Response) => {
+	let { idActualites } = req.params;
+	try {
+		res.json(crousApi.getActualites(idActualites));
+	} catch (e) {
+		res.status(404).send(`No restaurant found with id ${idActualites}`);
+	}
+});
+
 router.get("/:nomCrous", (req: Request, res: Response) => {
 	let { nomCrous } = req.params;
 	try {
@@ -94,7 +121,6 @@ function setupRouter(workspace: Namespace): Router {
 	wssWorkspace = workspace;
 
 	wssWorkspace.on("connection", (socket: Socket, ...args: any[]) => {
-		console.log("New socket connection");
 		const parsedQuery = JSON.parse(JSON.stringify(socket.handshake.query));
 		const socketSettings: CustomSocketData = pick(parsedQuery, ...keys<CustomSocketData>());
 		if (!Array.isArray(socketSettings.followingRestaurants)) {
@@ -127,12 +153,7 @@ const setupSocketFunctions = (socket: Socket) => {
 		}
 	});
 
-	socket.onAny((eventName: string, ...args: any[]) => {
-		console.log(eventName, ...args);
-	});
-
 	socket.on("disconnect", () => {
-		console.log("Socket disconnected");
 		allSockets.delete(socket.id);
 	});
 };
