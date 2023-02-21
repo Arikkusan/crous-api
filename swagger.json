@@ -319,6 +319,111 @@
 					}
 				}
 			}
+		},
+		"/crous/restaurant/{idRestaurant}": {
+			"parameters": [
+				{
+					"name": "idRestaurant",
+					"in": "path",
+					"required": true,
+					"description": "Identifiant du Restaurant",
+					"type": "string"
+				}
+			],
+			"produces": [
+				"application/json"
+			],
+			"get": {
+				"tags": [
+					"CROUS API"
+				],
+				"summary": "Récupère les informations d'un restaurant",
+				"responses": {
+					"200": {
+						"description": "ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Restaurant"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "not found"
+					}
+				}
+			}
+		},
+		"/crous/residence/{idResidence}": {
+			"parameters": [
+				{
+					"name": "idResidence",
+					"in": "path",
+					"required": true,
+					"description": "Identifiant de la résidence",
+					"type": "string"
+				}
+			],
+			"produces": [
+				"application/json"
+			],
+			"get": {
+				"tags": [
+					"CROUS API"
+				],
+				"summary": "Récupère les informations d'une résidence",
+				"responses": {
+					"200": {
+						"description": "ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Residence"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "not found"
+					}
+				}
+			}
+		},
+		"/crous/actualites/{idActualites}": {
+			"parameters": [
+				{
+					"name": "idActualites",
+					"in": "path",
+					"required": true,
+					"description": "Identifiant de l'article",
+					"type": "string"
+				}
+			],
+			"produces": [
+				"application/json"
+			],
+			"get": {
+				"tags": [
+					"CROUS API"
+				],
+				"summary": "Récupère les informations d'un article",
+				"responses": {
+					"200": {
+						"description": "ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Actualites"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "not found"
+					}
+				}
+			}
 		}
 	},
 	"components": {
