@@ -54,7 +54,7 @@ router.get("/", (req: Request, res: Response) => {
 });
 
 router.get("/restaurant/:idRestaurant", (req: Request, res: Response) => {
-	let { idRestaurant } = req.params;
+	const { idRestaurant } = req.params;
 	try {
 		res.json(crousApi.getRestaurant(idRestaurant));
 	} catch (e) {
@@ -63,7 +63,7 @@ router.get("/restaurant/:idRestaurant", (req: Request, res: Response) => {
 });
 
 router.get("/residence/:idResidence", (req: Request, res: Response) => {
-	let { idResidence } = req.params;
+	const { idResidence } = req.params;
 	try {
 		res.json(crousApi.getResidence(idResidence));
 	} catch (e) {
@@ -72,7 +72,7 @@ router.get("/residence/:idResidence", (req: Request, res: Response) => {
 });
 
 router.get("/actualite/:idActualites", (req: Request, res: Response) => {
-	let { idActualites } = req.params;
+	const { idActualites } = req.params;
 	try {
 		res.json(crousApi.getActualites(idActualites));
 	} catch (e) {
