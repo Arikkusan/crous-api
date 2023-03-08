@@ -124,9 +124,13 @@ function setupRouter(workspace: Namespace): Router {
 		const parsedQuery = JSON.parse(JSON.stringify(socket.handshake.query));
 		const socketSettings: CustomSocketData = pick(parsedQuery, ...keys<CustomSocketData>());
 		if (socketSettings.followingRestaurants) {
-			if (!Array.isArray(socketSettings.followingRestaurants)) {
-				socketSettings.followingRestaurants = (socketSettings.followingRestaurants as unknown as string)!.split(",") ?? [];
+			if (!Array.isArray(socketSettings.followingRestaurants) && typeof socketSettings.followingRestaurants === "string") {
+				socketSettings.followingRestaurants = (<string>socketSettings.followingRestaurants).split(",") ?? [];
+			}else{
+				socketSettings.followingRestaurants = [];
 			}
+		}else{
+			socketSettings.followingRestaurants = [];
 		}
 		allSockets.set(socket.id, socketSettings);
 		setupSocketFunctions(socket);
