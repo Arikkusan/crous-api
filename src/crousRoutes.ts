@@ -123,7 +123,7 @@ function setupRouter(workspace: Namespace): Router {
 	wssWorkspace.on("connection", (socket: Socket, ...args: any[]) => {
 		const parsedQuery = JSON.parse(JSON.stringify(socket.handshake.query));
 		const socketSettings: CustomSocketData = pick(parsedQuery, ...keys<CustomSocketData>());
-		if (!!socketSettings.followingRestaurants) {
+		if (socketSettings.followingRestaurants) {
 			if (!Array.isArray(socketSettings.followingRestaurants)) {
 				socketSettings.followingRestaurants = (socketSettings.followingRestaurants as unknown as string)!.split(",") ?? [];
 			}
