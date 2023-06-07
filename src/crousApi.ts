@@ -132,7 +132,7 @@ class CrousAPI {
 			typeof res.data == "string" && (res.data = JSON.parse(res.data.replace(/	/g, "")));
 			if (!res.data) continue;
 			const { restaurants } = res.data;
-			crous && crous.restaurants.addSome(restaurants);
+			crous?.restaurants?.addSome(restaurants);
 		}
 	}
 
