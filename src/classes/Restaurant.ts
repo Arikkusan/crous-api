@@ -1,4 +1,3 @@
-import { MenuJson } from "./Menu.js";
 import { Menu, Restaurant } from "crous-api-types";
 
 export class RestaurantBuilder extends Restaurant {

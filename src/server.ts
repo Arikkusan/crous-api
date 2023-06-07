@@ -28,6 +28,4 @@ httpServer.listen(port, () => {
 
 	let crousWssWorkspace = io.of(crousPath);
 	app.use(crousPath, setupRouter(crousWssWorkspace));
-
-	let crous = new CrousAPI();
 });

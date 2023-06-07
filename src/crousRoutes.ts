@@ -124,7 +124,7 @@ router.get("/:nomCrous/:resource/:resourceId", async(req: Request, res: Response
 function setupRouter(workspace: Namespace): Router {
 	wssWorkspace = workspace;
 
-	wssWorkspace.on("connection", (socket: Socket, ...args: any[]) => {
+	wssWorkspace.on("connection", (socket: Socket) => {
 		const parsedQuery = JSON.parse(JSON.stringify(socket.handshake.query));
 		const socketSettings: CustomSocketData = parsedQuery as CustomSocketData;
 		if (socketSettings.followingRestaurants) {
