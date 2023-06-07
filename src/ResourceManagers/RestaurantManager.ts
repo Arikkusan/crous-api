@@ -4,8 +4,16 @@ import { MenuBuilder } from "../classes/Menu.js";
 
 export default class RestaurantManager extends ResourceManager<Restaurant> {
 	searchByName(name: string): Promise<Restaurant[]> {
-		return new Promise((resolve, reject) => {
-			resolve([]);
+		return new Promise((resolve) => {
+			let matchingRestaurants = this.list.filter((restaurant) => restaurant.nom.trim().toLowerCase().includes(name.trim().toLowerCase()));
+			if (matchingRestaurants.length > 0) {
+				let perfectMatchIdx = matchingRestaurants.findIndex(
+					(restaurant) => restaurant.nom.trim().toLowerCase() === name.trim().toLowerCase()
+				);
+				//replace perfect match at the beginning of the array
+				perfectMatchIdx > -1 && matchingRestaurants.unshift(matchingRestaurants.splice(perfectMatchIdx, 1)[0]);
+			}
+			resolve(matchingRestaurants);
 		});
 	}
 

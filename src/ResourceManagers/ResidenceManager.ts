@@ -1,10 +1,20 @@
-import { Residence, Position, Crous } from "crous-api-types";
+import { Residence, Position } from "crous-api-types";
 import { CrousXmlResponse, XmlResidence, XmlResidenceResponse } from "../utils/XmlResponses.js";
 import XMLResourceManager from "./XmlResourceManager.js";
 
 export default class ResidenceManager extends XMLResourceManager<Residence> {
 	searchByName(name: string): Promise<Residence[]> {
-		throw new Error("Method not implemented.");
+		return new Promise((resolve) => {
+			let matchingResidence = this.list.filter((residence) => residence.name.trim().toLowerCase().includes(name.trim().toLowerCase()));
+			if (matchingResidence.length > 0) {
+				let perfectMatchIdx = matchingResidence.findIndex(
+					(residence) => residence.name.trim().toLowerCase() === name.trim().toLowerCase()
+				);
+				//replace perfect match at the beginning of the array
+				perfectMatchIdx > -1 && matchingResidence.unshift(matchingResidence.splice(perfectMatchIdx, 1)[0]);
+			}
+			resolve(matchingResidence);
+		});
 	}
 	matchXmlFormat(object: CrousXmlResponse): object is XmlResidenceResponse {
 		return "residence" in object.root;

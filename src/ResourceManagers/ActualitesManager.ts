@@ -1,11 +1,19 @@
-import { Actualites, Crous } from "crous-api-types";
+import { Actualites } from "crous-api-types";
 import { XmlActualites, XmlActualitesResponse, CrousXmlResponse } from "../utils/XmlResponses.js";
 import XMLResourceManager from "./XmlResourceManager.js";
 
 export default class ActualitesManager extends XMLResourceManager<Actualites> {
 	searchByName(name: string): Promise<Actualites[]> {
-		return new Promise((resolve, reject) => {
-			resolve([]);
+		return new Promise((resolve) => {
+			let matchingActualites = this.list.filter((actualites) => actualites.titre.trim().toLowerCase().includes(name.trim().toLowerCase()));
+			if (matchingActualites.length > 0) {
+				let perfectMatchIdx = matchingActualites.findIndex(
+					(actualites) => actualites.titre.trim().toLowerCase() === name.trim().toLowerCase()
+				);
+				//replace perfect match at the beginning of the array
+				perfectMatchIdx > -1 && matchingActualites.unshift(matchingActualites.splice(perfectMatchIdx, 1)[0]);
+			}
+			resolve(matchingActualites);
 		});
 	}
 
