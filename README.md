@@ -47,7 +47,7 @@ npm run start
 
 ```ts
 import express from "express";
-import setupRouter from "./router";
+import setupRouter from "./router.js";
 
 const app = express();
 const crousRouter = setupRouter(socketIoNamespace);
