@@ -21,7 +21,7 @@ export default class ResidenceManager extends XMLResourceManager<Residence> {
 	}
 
 	addFromXml(object: XmlResidenceResponse): void {
-		object.root.residence!.forEach((residence) => this.add(residence));
+		object.root.residence?.forEach((residence) => this.add(residence));
 	}
 
 	add(item: XmlResidence): void {

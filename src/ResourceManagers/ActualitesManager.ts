@@ -30,7 +30,7 @@ export default class ActualitesManager extends XMLResourceManager<Actualites> {
 	}
 
 	addFromXml(object: XmlActualitesResponse): void {
-		object.root.article!.forEach((article) => this.add(article));
+		object.root.article?.forEach((article) => this.add(article));
 	}
 
 	matchXmlFormat(object: CrousXmlResponse): object is XmlActualitesResponse {
