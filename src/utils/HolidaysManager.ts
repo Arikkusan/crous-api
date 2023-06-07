@@ -17,8 +17,6 @@ function pick<T, K extends keyof T>(obj: T, ...keys: K[]): Pick<T, K> {
 export type SpecialHolidaysType = { [key in CustomHolidays]?: (SpecialHoliday & ActualEvent)[] };
 
 export default class HolidaysManager {
-	private static DATASET_LINK =
-		"https://data.education.gouv.fr/api/records/1.0/search/?dataset=fr-en-calendrier-scolaire&q=annee_scolaire%3D2022-2023&lang=fr&rows=-1&sort=annee_scolaire&facet=start_date&facet=end_date&facet=zones&facet=annee_scolaire&timezone=Europe%2FParis";
 	private static instance: HolidaysManager;
 
 	private cache: DeepSet<Holiday> = new DeepSet();
@@ -33,8 +31,22 @@ export default class HolidaysManager {
 	}
 
 	public async updateCache() {
+		const today = new Date();
+		const thisYear = today.getFullYear();
+		const isBeforeSeptember = today.getMonth() < 8; // 8 représente le mois de septembre
+
+		// Calculer l'année scolaire en fonction de la date actuelle
+		let scholarYear = "";
+		if (isBeforeSeptember) {
+			scholarYear = `${thisYear - 1}-${thisYear}`;
+		} else {
+			scholarYear = `${thisYear}-${thisYear + 1}`;
+		}
+
 		await axios
-			.get(HolidaysManager.DATASET_LINK)
+			.get(
+				`https://data.education.gouv.fr/api/records/1.0/search/?dataset=fr-en-calendrier-scolaire&lang=fr&rows=-1&sort=annee_scolaire&facet=start_date&facet=end_date&facet=zones&facet=annee_scolaire&timezone=Europe%2FParis&q=annee_scolaire%3D${scholarYear}`
+			)
 			.then(async (response) => {
 				for await (const record of response.data.records) {
 					let vacance = new Holiday();

@@ -24,5 +24,6 @@
 
 		/* Completeness */
 		"skipLibCheck": true /* Skip type checking all .d.ts files. */,
-	}
+	},
+	"exclude": ["./**/__mocks__/*", "./**/__tests__/*"]
 }
