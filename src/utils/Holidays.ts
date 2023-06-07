@@ -22,7 +22,7 @@ export class Holiday {
 		);
 	}
 
-	static from(vac: Object): Holiday {
+	static from(vac: Holiday | Record<string, string>): Holiday {
 		const instance = new Holiday();
 		Object.assign(instance, vac);
 		return instance;
