@@ -5,7 +5,7 @@ export interface CrousXmlResponse {
 			encoding: string;
 		};
 	};
-	root: {};
+	root: Record<string, unknown>;
 }
 
 export interface XmlResidenceResponse extends CrousXmlResponse {
@@ -42,7 +42,7 @@ export interface XmlResidence {
 	phone: {
 		_text: string;
 	};
-	openingHours: {};
+	openingHours: Record<string, string>;
 	internetUrl: {
 		_text: string;
 	};

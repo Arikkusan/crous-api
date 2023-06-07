@@ -76,7 +76,7 @@ export default class HolidaysManager {
 					if (!Object.keys(this.customVacances).find((key) => key === customPlace)) {
 						this.customVacances[customPlace as CustomHolidays] = [specialVacance];
 					} else {
-						this.customVacances[customPlace as CustomHolidays]!.push(specialVacance);
+						this.customVacances[customPlace as CustomHolidays]?.push(specialVacance);
 					}
 				}
 			}
