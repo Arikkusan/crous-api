@@ -2,8 +2,8 @@ import express from "express";
 import { createServer } from "http";
 import { Server } from "socket.io";
 
-import setupRouter from "./crousRoutes";
-import CrousAPI from "./crousApi";
+import setupRouter from "./crousRoutes.js";
+import CrousAPI from "./crousApi.js";
 
 const app = express();
 const httpServer = createServer(app);
@@ -17,8 +17,6 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", (req, res) => {
-	let dirName = __dirname.split("\\");
-	dirName.pop();
 	res.send("Hello World");
 });
 

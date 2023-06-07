@@ -3,17 +3,15 @@ import { rateLimit } from "express-rate-limit";
 import { CronJob } from "cron";
 
 import * as Swagger from "swagger-ui-express";
-import { Namespace, Server, Socket } from "socket.io";
+import { Namespace, Socket } from "socket.io";
 
-import { resolve } from "path";
+import * as swaggerDoc from "./swagger.json" assert { type: "json" };
 
-import CrousAPI from "./crousApi";
-import { CrousData, Crous, CustomSocketData, CustomHolidays } from "crous-api-types";
+import CrousAPI from "./crousApi.js";
+import { CrousData, Crous, CustomSocketData, CustomHolidays, ResourceManager } from "crous-api-types";
 import { HolidayZone } from "crous-api-types/types/HolidayZones";
-import HolidaysManager from "./classes/HolidaysManager";
-import PublicHolydaysManager from "./classes/publicHolydayManager";
-import { keys } from "ts-transformer-keys";
-import { pick } from "./classes/Utils";
+import HolidaysManager from "./utils/HolidaysManager.js";
+import PublicHolydaysManager from "./utils/publicHolydayManager.js";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
@@ -27,7 +25,6 @@ const swaggerOptions = {
 	customSiteTitle: "Documentation",
 	customfavIcon: "/favicon.ico",
 };
-const swaggerDoc = require(resolve(__dirname, "../swagger.json"));
 
 router.use("/docs", Swagger.serveFiles(swaggerDoc, swaggerOptions), Swagger.setup(swaggerDoc));
 
@@ -53,30 +50,36 @@ router.get("/", (req: Request, res: Response) => {
 	res.send(crousApi.getCrousList());
 });
 
-router.get("/restaurant/:idRestaurant", (req: Request, res: Response) => {
+router.get("/restaurant/:idRestaurant", async(req: Request, res: Response) => {
 	const { idRestaurant } = req.params;
 	try {
-		res.json(crousApi.getRestaurant(idRestaurant));
+		let restaurant = await crousApi.getRestaurant(idRestaurant);
+		if(!restaurant) return res.status(404).send(`No restaurant found with id ${idRestaurant}`);
+		else res.json(restaurant);
 	} catch (e) {
 		res.status(404).send(`No restaurant found with id ${idRestaurant}`);
 	}
 });
 
-router.get("/residence/:idResidence", (req: Request, res: Response) => {
+router.get("/residence/:idResidence", async(req: Request, res: Response) => {
 	const { idResidence } = req.params;
 	try {
-		res.json(crousApi.getResidence(idResidence));
+		let residence = await crousApi.getResidence(idResidence);
+		if(!residence) return res.status(404).send(`No residence found with id ${idResidence}`);
+		else res.json(residence);
 	} catch (e) {
-		res.status(404).send(`No restaurant found with id ${idResidence}`);
+		res.status(404).send(`No residence found with id ${idResidence}`);
 	}
 });
 
-router.get("/actualite/:idActualites", (req: Request, res: Response) => {
+router.get("/actualite/:idActualites", async(req: Request, res: Response) => {
 	const { idActualites } = req.params;
 	try {
-		res.json(crousApi.getActualites(idActualites));
+		let actualites = await crousApi.getActualites(idActualites);
+		if(!actualites) return res.status(404).send(`No actualites found with id ${idActualites}`);
+		else res.json(actualites);
 	} catch (e) {
-		res.status(404).send(`No restaurant found with id ${idActualites}`);
+		res.status(404).send(`No actualites found with id ${idActualites}`);
 	}
 });
 
@@ -89,31 +92,32 @@ router.get("/:nomCrous", (req: Request, res: Response) => {
 	}
 });
 
-router.get("/:nomCrous/:ressource", (req: Request, res: Response) => {
-	let { nomCrous, ressource } = req.params;
+router.get("/:nomCrous/:resource", (req: Request, res: Response) => {
+	let { nomCrous, resource } = req.params;
 	try {
 		let crous = crousApi.getCrous(nomCrous);
 		if (!crous) throw new Error("Crous not found");
-		let payload = crous[ressource as keyof Crous] as CrousData[];
-		if (!payload) throw new Error("Ressource not found");
+		let payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
+		if (!payload) throw new Error("resource not found");
 		res.json(payload);
 	} catch (e) {
-		res.status(404).send(`ressource ${req.params.ressource} not found in crous ${nomCrous}`);
+		res.status(404).send(`resource ${req.params.resource} not found in crous ${nomCrous}`);
 	}
 });
 
-router.get("/:nomCrous/:ressource/:ressourceId", (req: Request, res: Response) => {
-	let { nomCrous, ressource, ressourceId } = req.params;
+router.get("/:nomCrous/:resource/:resourceId", async(req: Request, res: Response) => {
+	let { nomCrous, resource, resourceId } = req.params;
 	try {
 		let crous = crousApi.getCrous(nomCrous);
 		if (!crous) throw new Error("Crous not found");
-		let payload = crous[ressource as keyof Crous] as CrousData[];
-		if (!payload) throw new Error("Ressource not found");
-		let ressourceItem = payload.find((item: CrousData) => item.id === ressourceId);
-		res.json(ressourceItem?.toJSON());
+		let payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
+		if (!payload) throw new Error("resource not found");
+		let resourceItem = await payload.get(resourceId);
+		if(!resourceItem) throw new Error("resource item not found");
+		else res.json(resourceItem);
 	} catch (e) {
 		console.error(e);
-		res.status(404).send(`${ressource} with id ${req.params.ressource} not found in crous ${nomCrous}`);
+		res.status(404).send(`${resource} with id ${req.params.resourceId} not found in crous ${nomCrous}`);
 	}
 });
 
@@ -122,14 +126,14 @@ function setupRouter(workspace: Namespace): Router {
 
 	wssWorkspace.on("connection", (socket: Socket, ...args: any[]) => {
 		const parsedQuery = JSON.parse(JSON.stringify(socket.handshake.query));
-		const socketSettings: CustomSocketData = pick(parsedQuery, ...keys<CustomSocketData>());
+		const socketSettings: CustomSocketData = parsedQuery as CustomSocketData;
 		if (socketSettings.followingRestaurants) {
 			if (!Array.isArray(socketSettings.followingRestaurants) && typeof socketSettings.followingRestaurants === "string") {
 				socketSettings.followingRestaurants = (<string>socketSettings.followingRestaurants).split(",") ?? [];
-			}else{
+			} else {
 				socketSettings.followingRestaurants = [];
 			}
-		}else{
+		} else {
 			socketSettings.followingRestaurants = [];
 		}
 		allSockets.set(socket.id, socketSettings);
@@ -214,9 +218,9 @@ const cronJob = new CronJob(
 			const followingRestaurants = socketData?.followingRestaurants;
 			if (!!followingRestaurants && followingRestaurants.length > 0) {
 				for (const restaurantId of followingRestaurants) {
-					const restaurant = crousApi.getRestaurant(restaurantId);
+					const restaurant = await crousApi.getRestaurant(restaurantId);
 					if (!!restaurant && restaurant.opening[new Date().getDay()] && restaurant.getTodayMenu()) {
-						socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu()?.toJSON());
+						socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu());
 					}
 				}
 			}
