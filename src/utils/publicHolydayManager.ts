@@ -34,7 +34,6 @@ export default class PublicHolydaysManager {
 
 	public getPublicHolydays() : (PublicHoliday & ActualEvent)[] {
 		const standardVacances = this.cache;
-		standardVacances.length == 0 && this.updateCache();
 		const today = process.env.MOCKED_DATE ? new Date(process.env.MOCKED_DATE) : new Date();
 		for (const vac of standardVacances) {
 			if (vac.date.toDateString() == today.toDateString()) {
