@@ -1,16 +1,13 @@
-import { RestaurantBuilder, RestaurantJson } from "./classes/Restaurant";
 import { Residence, Restaurant, Actualites } from "crous-api-types";
 import axios from "axios";
 import { xml2json } from "xml-js";
-import { Dataset } from "./classes/Dataset";
-import { isXmlActualites, parseActualitesFromXml } from "./classes/Actualites";
-import { isXmlResidence, parseResidencesFromXml } from "./classes/Residence";
-import { isValidCrousName, CROUS_NAME, Crous } from "crous-api-types";
-import { CrousBuilder } from "./classes/Crous";
-import { transformCrousName, trimLowSnakeEscape } from "./classes/Utils";
+import { Dataset } from "./utils/Dataset.js";
+import { isCrousName } from "crous-api-types";
+import { CrousBuilder } from "./classes/Crous.js";
+import { transformCrousName, trimLowSnakeEscape } from "./utils/Utils.js";
 
-import HolidaysManager from "./classes/HolidaysManager";
-import publicHolydaysManager from "./classes/publicHolydayManager";
+import HolidaysManager from "./utils/HolidaysManager.js";
+import publicHolydaysManager from "./utils/publicHolydayManager.js";
 import { CronJob } from "cron";
 
 class CrousAPI {
@@ -22,7 +19,7 @@ class CrousAPI {
 
 	static cache: CrousAPI | null = null;
 
-	private listeCrous: Map<string, Crous> = new Map<string, Crous>();
+	private listeCrous: Map<string, CrousBuilder> = new Map<string, CrousBuilder>();
 	public holidaysManager: HolidaysManager = new HolidaysManager();
 	public publicHolydaysManager: publicHolydaysManager = new publicHolydaysManager();
 
@@ -41,9 +38,9 @@ class CrousAPI {
 			api.holidaysManager.loadCustomVacances();
 			api.publicHolydaysManager.updateCache().then(() => {
 				for (const crous of api.listeCrous.values()) {
-					crous.actualites = [];
-					crous.residences = [];
-					crous.restaurants = [];
+					crous.actualites.removeAll();
+					crous.residences.removeAll();
+					crous.restaurants.removeAll();
 				}
 				api.initialisationAPI();
 			});
@@ -77,6 +74,8 @@ class CrousAPI {
 							this.listeCrous.set(idCrous, new CrousBuilder(idCrous, nomCrous));
 						}
 
+						const crous = this.listeCrous.get(idCrous);
+
 						let { data } = await axios({
 							method: "get",
 							url: dataset.url,
@@ -93,12 +92,10 @@ class CrousAPI {
 							);
 							continue;
 						}
-						if (isXmlActualites(parsedResult)) {
-							let actualites = parseActualitesFromXml(parsedResult);
-							this.listeCrous.get(idCrous)?.actualites.push(...actualites);
-						} else if (isXmlResidence(parsedResult)) {
-							let residences = parseResidencesFromXml(parsedResult);
-							this.listeCrous.get(idCrous)?.residences.push(...residences);
+						if (crous?.residences.matchXmlFormat(parsedResult)) {
+							crous.residences.addFromXml(parsedResult);
+						} else if (crous?.actualites.matchXmlFormat(parsedResult)) {
+							crous.actualites.addFromXml(parsedResult);
 						}
 					}
 				}
@@ -116,70 +113,68 @@ class CrousAPI {
 
 	public async fetchRestaurants() {
 		const baseUrl = "http://webservices-v2.crous-mobile.fr/feed";
-		const minifiedJsonEndpoint = (crousName: CROUS_NAME) => `/externe/crous-${crousName}.min.json`;
+		const minifiedJsonEndpoint = (crousName: string) => `/externe/crous-${crousName}.min.json`;
 		const data: string = await axios({ method: "GET", url: baseUrl }).then((res) => res.data);
-		let reducedCrous = data
+		let crousShortNames = data
 			.replace(/<\/a>.+\n/g, "\n")
 			.split("\n")
-			.reduce((acc: CROUS_NAME[], str) => {
+			.reduce((acc: string[], str) => {
 				const regResult = /<a href=(?:"|')(?<url>.+?\/)(?:"|')>/g.exec(str);
 				const url = regResult?.groups?.url?.replace("/", "");
-				if (!!url && isValidCrousName(url)) acc.push(url);
+				if (!!url && isCrousName(url)) acc.push(url);
 				return acc;
 			}, []);
-		for (const crousShortName of reducedCrous) {
+		for (const crousShortName of crousShortNames) {
+			const crous = this.listeCrous.get(crousShortName);
 			const minifiedJsonUrl = `${baseUrl}/${crousShortName}/${minifiedJsonEndpoint(crousShortName)}`.replace(/(?<!http:)\/{2,}/g, "/");
-			// console.log(minifiedJsonUrl);
 			const res = await axios({ method: "GET", url: minifiedJsonUrl });
 			if (!res || !res?.data) continue;
 			typeof res.data == "string" && (res.data = JSON.parse(res.data.replace(/	/g, "")));
 			if (!res.data) continue;
-			const { restaurants }: { restaurants: RestaurantJson[] } = res.data;
-			for (const restaurant of restaurants ?? []) {
-				const crous = this.listeCrous.get(crousShortName);
-				if (crous) {
-					crous.restaurants.push(new RestaurantBuilder(restaurant));
-				}
-			}
+			const { restaurants } = res.data;
+			crous && crous.restaurants.addSome(restaurants);
 		}
 	}
 
-	getCrous(id: string): Crous | undefined {
+	getCrous(id: string): CrousBuilder | undefined {
 		return this.listeCrous.get(id);
 	}
 
-	getCrousList(): Crous[] {
+	getCrousList(): CrousBuilder[] {
 		return Array.from(this.listeCrous.values());
 	}
 
-	getRestaurant(id: string): Restaurant | undefined {
+	getRestaurant(id: string): Promise<Restaurant | undefined> {
+		let promises = [];
 		for (const crous of this.listeCrous.values()) {
-			let restaurant = crous.getRestaurant(id);
-			if (restaurant) {
-				return restaurant;
-			}
+			let restaurantPromise = crous.restaurants.get(id);
+			promises.push(restaurantPromise);
 		}
-		return undefined;
+		return Promise.any(promises).then((restaurant) => {
+			return restaurant;
+		});
 	}
 
-	getResidence(id: string): Residence | undefined {
+	getResidence(id: string): Promise<Residence | undefined> {
+		let promises = [];
 		for (const crous of this.listeCrous.values()) {
-			let residence = crous.getResidence(id);
-			if (residence) {
-				return residence;
-			}
+			let residencePromise = crous.residences.get(id);
+			promises.push(residencePromise);
 		}
-		return undefined;
+		return Promise.any(promises).then((residence) => {
+			return residence;
+		});
 	}
 
-	getActualites(id: string): Actualites | undefined {
+	getActualites(id: string): Promise<Actualites | undefined> {
+		let promises = [];
 		for (const crous of this.listeCrous.values()) {
-			let actualite = crous.getActualite(id);
-			if (actualite) {
-				return actualite;
-			}
+			let actualitePromise = crous.actualites.get(id);
+			promises.push(actualitePromise);
 		}
-		return undefined;
+		return Promise.any(promises).then((actualite) => {
+			return actualite;
+		});
 	}
 
 	private cronJob = new CronJob("0 0 0 * * *", async () => CrousAPI.setupApi(), null, true, "Europe/Paris");

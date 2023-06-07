@@ -1,7 +1,7 @@
 import { Router, Request, Response, NextFunction } from "express";
-import setupRouter from "./crousRoutes";
+import setupRouter from "./crousRoutes.js";
 import { Namespace } from "socket.io";
-import CrousAPI from "./crousApi";
+import CrousAPI from "./crousApi.js";
 
 const router = Router();
 router.use(function (req: Request, res: Response, next: NextFunction) {
