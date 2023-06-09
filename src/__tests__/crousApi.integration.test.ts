@@ -1,47 +1,35 @@
-import PublicHolidaysManager from "../utils/publicHolydayManager";
-import HolidaysManager from "../utils/HolidaysManager";
+import CrousAPI from "../crousApi.js";
 import server from "../__mocks__/server";
 
-beforeAll(() => {
-	server.listen();
-	jest.useFakeTimers().setSystemTime(new Date("2023-03-01"));
-});
+let crousApi: CrousAPI;
+let interval: NodeJS.Timer;
 
-describe("PublicHolidayManager", () => {
-	it("should return Public Holidays List for 2023", async () => {
-		jest.useFakeTimers().setSystemTime(new Date("2023-01-01"));
+beforeAll(
+	async () =>
+		new Promise((resolve) => {
+			server.listen();
+			jest.useRealTimers().setSystemTime(new Date("2023-06-09"));
+			crousApi = new CrousAPI();
+			interval = setInterval(() => {
+				if (CrousAPI.isLoaded) {
+					interval.unref();
+					resolve(true);
+				}
+			}, 500);
+		})
+);
 
-		const publicHolidaysManager = new PublicHolidaysManager();
-		await publicHolidaysManager.updateCache();
-		expect(publicHolidaysManager.getPublicHolydays()).toHaveLength(11);
+afterAll(() => {
+	interval.unref();
+})
 
-		const jourDeLan = publicHolidaysManager.getPublicHolydays()[0];
-		expect(jourDeLan.description).toBe("1er janvier");
-		expect(jourDeLan.date).toStrictEqual(new Date("2023-01-01"));
-		expect(jourDeLan.actual).toBeTruthy();
+describe("ResourceManager", () => {
+	it("should have fetch results", async () => {
+		expect(true).toBeTruthy();
 	});
-});
 
-describe("HolidayManager", () => {
-	it("should return Holidays List for 2022-2023 school year", async () => {
-		const holidayManager = new HolidaysManager();
-		await holidayManager.updateCache();
-		const holidays = holidayManager.getStandardVacances();
-		expect(holidays.size).toBe(holidays.size);
-	});
-
-	it("should delay start of special holidays", async () => {
-		const holidayManager = new HolidaysManager();
-		await holidayManager.updateCache();
-		await holidayManager.loadCustomVacances();
-		const customHolidays = holidayManager.getCustomVacances();
-		console.log(holidayManager.getStandardVacances());
-
-		expect(customHolidays?.["Le Mans Université"]).toBeDefined();
-
-		const expectedStartDate: Date = new Date("2022-10-28");
-		expectedStartDate.setUTCHours(22);
-
-		expect(customHolidays?.["Le Mans Université"]![0].start_date).toStrictEqual(expectedStartDate);
+	it("should return crous list", async () => {
+		const crousList = await crousApi.getCrousList();
+		expect(crousList).toHaveLength(26);
 	});
 });
