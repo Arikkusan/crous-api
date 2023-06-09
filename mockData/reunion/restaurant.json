@@ -1,0 +1,2302 @@
+{
+  "restaurants": [
+    {
+      "id": 507,
+      "title": "RU Hippolyte Foucque",
+      "lat": -20.899723,
+      "lon": 55.486617,
+      "area": "Nord",
+      "adresse": "20, rue Hippolyte Foucque - 97490 Sainte-Clotilde",
+      "opening": "011,011,011,011,011,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Le restaurant  Hippolyte est situé à proximité des cités Hippolyte Foucque et du Conseil Général. Restructurée en 1998, il a une capacité de 160 places",
+      "description": "Le restaurant  Hippolyte est situé à proximité des cités Hippolyte Foucque et du Conseil Général. Restructurée en 1998, il a une capacité de 160 places",
+      "access": "",
+      "operationalhours": "Le self : 11h30-13h15 / 18h30-20h<br/>Prestations : petits déjeuners, repas traditionnels, salades, sandwichs, barquettes à emporter, etc.<br/>Pôle pizzas : 18h30-20h<br/>Prestations : pizzas maison sur place ou à emporter.<br/>",
+      "contact": {
+        "tel": "",
+        "email": "restauration.nord@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.stockcrous.fr/reunion/rhf1.jpg",
+        "alt": "RU Hippolyte Foucque"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées variées"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Bœuf aux olives (origine Royaume-Uni) ou filet de dorade frit ou cuisse de poulet rôtie (origine Belgique)"
+                    },
+                    {
+                      "name": "Ou veggie pâtes à la bolognaise"
+                    },
+                    {
+                      "name": "Accompagnés de riz, grains et rougails"
+                    }
+                  ]
+                },
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Sauté de carottes"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Fruits"
+                    },
+                    {
+                      "name": "Yaourts"
+                    },
+                    {
+                      "name": "Pâtisseries"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées variées"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Merguez de poulet à la sauce de tomate (origine République Tchèque) ou filet de dorade à la sauce de haricots nains ou cuisse de poulet rôtie (origine Belgique)"
+                    },
+                    {
+                      "name": "Accompagnés de riz, grains et rougails"
+                    }
+                  ]
+                },
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Sauté de courgettes"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Fruits"
+                    },
+                    {
+                      "name": "Yaourts"
+                    },
+                    {
+                      "name": "Pâtisseries"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "title": "RU le Bourbon Pittoresque",
+      "lat": -20.902099,
+      "lon": 55.483833,
+      "area": "Nord",
+      "adresse": "Avenue René Cassin Sainte-Clotilde 97490",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Le Bourbon Pittoresque est situé au cœur du campus universitaire du Moufia entre les différentes facultés présentes sur les lieux.  Cet espace est consacré à la mise en vente de l'offre traditionnelle dont le repas social à 3,25 euros.  ",
+      "description": "Le Bourbon Pittoresque est situé au cœur du campus universitaire du Moufia entre les différentes facultés présentes sur les lieux. <br/>Cet espace est consacré à la mise en vente de l'offre traditionnelle dont le repas social à 3,25 euros. <br/>",
+      "access": "L'accès se fait au niveau de l'entrée principale du restaurant La Bourbonnaise en empruntant le couloir de gauche.",
+      "operationalhours": "De 11h30 - 13h15<br/>Prestations : Repas traditionnel : entrée + plat + dessert <br/>",
+      "contact": {
+        "tel": "02.62.73.37.00",
+        "email": "restauration.nord@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.stockcrous.fr/reunion/pittoresque1.jpg",
+        "alt": "RU le Bourbon Pittoresque"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées variées"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Bœuf aux olives (origine Royaume-Uni) ou filet de dorade frit ou cuisse de poulet rôtie (origine Belgique)"
+                    },
+                    {
+                      "name": "Ou veggie pâtes à la bolognaise"
+                    },
+                    {
+                      "name": "Accompagnés de riz, grains et rougails"
+                    }
+                  ]
+                },
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Sauté de carottes"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Fruits"
+                    },
+                    {
+                      "name": "Yaourts"
+                    },
+                    {
+                      "name": "Pâtisseries"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1040,
+      "title": "RU le Jeanne Baret",
+      "lat": -20.902099,
+      "lon": 55.483833,
+      "area": "Nord",
+      "adresse": "Avenue rené Cassin",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Brasserie",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé au cœur même du campus universitaire du Moufia, le Jeanne Baret a ouvert ses portes, le 20 août 2018, afin de répondre aux nouvelles attentes des convives. Cet espace est consacré à la mise en vente de l'offre diversifiée et gourmande du Crous.",
+      "description": "Situé au cœur même du campus universitaire du Moufia, le Jeanne Baret a ouvert ses portes, le 20 août 2018, afin de répondre aux nouvelles attentes des convives.<br/>Cet espace est consacré à la mise en vente de l'offre diversifiée et gourmande du Crous.",
+      "access": "L'accès à cet espace se fait au niveau de l'entrée principale du restaurant La Bourbonnaise en empruntant le couloir côté droit. Le Jeanne Baret et Le Bourbon Pittoresque partagent leur espace d'accueil d'une capacité de 800 places assises. ",
+      "operationalhours": "De 11h30 à 13h15",
+      "contact": {
+        "tel": "02.62.73.37.00",
+        "email": "restauration.nord@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.stockcrous.fr/reunion/Baret1.jpg",
+        "alt": "RU le Jeanne Baret"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Nos salades",
+                  "dishes": [
+                    {
+                      "name": "Grandes salades"
+                    },
+                    {
+                      "name": "Petites salades"
+                    }
+                  ]
+                },
+                {
+                  "name": "Nos plats gourmands",
+                  "dishes": [
+                    {
+                      "name": "Ribs (origine Espagne) ou cari de marlin au combava"
+                    },
+                    {
+                      "name": "Accompagnés de riz, haricots rouges et rougail de dakatine"
+                    },
+                    {
+                      "name": "Et sauté de courgettes"
+                    }
+                  ]
+                },
+                {
+                  "name": "La brasserie",
+                  "dishes": [
+                    {
+                      "name": "Poisson grillé"
+                    }
+                  ]
+                },
+                {
+                  "name": "Nos patisseries",
+                  "dishes": [
+                    {
+                      "name": "Fruits"
+                    },
+                    {
+                      "name": "Yaourts"
+                    },
+                    {
+                      "name": "Fromage Camembert"
+                    },
+                    {
+                      "name": "Pâtisseries fines"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 505,
+      "title": "Cafétéria Le Croustillant",
+      "lat": -20.902076,
+      "lon": 55.48387,
+      "area": "Nord",
+      "adresse": "Avenue René Cassin Sainte-Clotilde 97490",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "La cafétéria « Le Croustillant » se situe au rez-de-chaussée du Restaurant « La Bourbonnaise ». La cafétéria dispose d'une terrasse aménagée, face au théâtre Vladimir Canter. ",
+      "description": "La cafétéria « Le Croustillant » se situe au rez-de-chaussée du Restaurant « La Bourbonnaise ». La cafétéria dispose d'une terrasse aménagée, face au théâtre Vladimir Canter. ",
+      "access": "",
+      "operationalhours": "Du Lundi au Vendredi de 7h à 17h<br/>Prestations : restauration rapide. ",
+      "contact": {
+        "tel": "",
+        "email": "restauration.nord@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.stockcrous.fr/reunion/Croustillant1.jpg",
+        "alt": "Cafétéria Le Croustillant"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwichs divers",
+                  "dishes": [
+                    {
+                      "name": "Thon maïs"
+                    },
+                    {
+                      "name": "Crudités poulet"
+                    },
+                    {
+                      "name": "Crudités jambon"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé / café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Sandwichs du jour",
+                  "dishes": [
+                    {
+                      "name": "Saumon"
+                    },
+                    {
+                      "name": "Américain poulet"
+                    },
+                    {
+                      "name": "Panini (saumon, bouchons poulet, épaule)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Croque monsieur"
+                    },
+                    {
+                      "name": "Pâté au thon"
+                    },
+                    {
+                      "name": "Pizza"
+                    },
+                    {
+                      "name": "Sauté mine poulet"
+                    },
+                    {
+                      "name": "Bols de crudités"
+                    },
+                    {
+                      "name": "Baguettes pizza"
+                    },
+                    {
+                      "name": "Barquette de frites"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, bonbons piments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwichs divers",
+                  "dishes": [
+                    {
+                      "name": "Thon maïs"
+                    },
+                    {
+                      "name": "Crudités poulet"
+                    },
+                    {
+                      "name": "Crudités jambon"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé / café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Sandwichs du jour",
+                  "dishes": [
+                    {
+                      "name": "Saumon"
+                    },
+                    {
+                      "name": "Américain poulet"
+                    },
+                    {
+                      "name": "Panini (saumon, bouchons poulet, épaule)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Croque monsieur"
+                    },
+                    {
+                      "name": "Pâté au thon"
+                    },
+                    {
+                      "name": "Pizza"
+                    },
+                    {
+                      "name": "Sauté mine poulet"
+                    },
+                    {
+                      "name": "Bols de crudités"
+                    },
+                    {
+                      "name": "Baguettes pizza"
+                    },
+                    {
+                      "name": "Barquette de frites"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, bonbons piments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwichs divers",
+                  "dishes": [
+                    {
+                      "name": "Thon maïs"
+                    },
+                    {
+                      "name": "Crudités poulet"
+                    },
+                    {
+                      "name": "Crudités jambon"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé / café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Sandwichs du jour",
+                  "dishes": [
+                    {
+                      "name": "Saumon"
+                    },
+                    {
+                      "name": "Américain poulet"
+                    },
+                    {
+                      "name": "Panini (saumon, bouchons poulet, épaule)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Croque monsieur"
+                    },
+                    {
+                      "name": "Pâté au thon"
+                    },
+                    {
+                      "name": "Pizza"
+                    },
+                    {
+                      "name": "Sauté mine poulet"
+                    },
+                    {
+                      "name": "Bols de crudités"
+                    },
+                    {
+                      "name": "Baguettes pizza"
+                    },
+                    {
+                      "name": "Barquette de frites"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, bonbons piments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwichs divers",
+                  "dishes": [
+                    {
+                      "name": "Thon maïs"
+                    },
+                    {
+                      "name": "Crudités poulet"
+                    },
+                    {
+                      "name": "Crudités jambon"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé / café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Sandwichs du jour",
+                  "dishes": [
+                    {
+                      "name": "Saumon"
+                    },
+                    {
+                      "name": "Américain poulet"
+                    },
+                    {
+                      "name": "Panini (saumon, bouchons poulet, épaule)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Croque monsieur"
+                    },
+                    {
+                      "name": "Pâté au thon"
+                    },
+                    {
+                      "name": "Pizza"
+                    },
+                    {
+                      "name": "Sauté mine poulet"
+                    },
+                    {
+                      "name": "Bols de crudités"
+                    },
+                    {
+                      "name": "Baguettes pizza"
+                    },
+                    {
+                      "name": "Barquette de frites"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, bonbons piments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwichs divers",
+                  "dishes": [
+                    {
+                      "name": "Thon maïs"
+                    },
+                    {
+                      "name": "Crudités poulet"
+                    },
+                    {
+                      "name": "Crudités jambon"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé / café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Sandwichs du jour",
+                  "dishes": [
+                    {
+                      "name": "Saumon"
+                    },
+                    {
+                      "name": "Américain poulet"
+                    },
+                    {
+                      "name": "Panini (saumon, bouchons poulet, épaule)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Croque monsieur"
+                    },
+                    {
+                      "name": "Pâté au thon"
+                    },
+                    {
+                      "name": "Pizza"
+                    },
+                    {
+                      "name": "Sauté mine poulet"
+                    },
+                    {
+                      "name": "Bols de crudités"
+                    },
+                    {
+                      "name": "Baguettes pizza"
+                    },
+                    {
+                      "name": "Barquette de frites"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, bonbons piments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "title": "Le Rapido",
+      "lat": -20.902099,
+      "lon": 55.483833,
+      "area": "Nord",
+      "adresse": "Avenue René Cassin Sainte-Clotilde 97490",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": " Le Rapido est le point de vente à emporter du restaurant La Bourbonnaise.",
+      "description": " Le Rapido est le point de vente à emporter du restaurant La Bourbonnaise.",
+      "access": "Il se situe à l'extérieur du restaurant, face à la faculté de droit et d'économie.",
+      "operationalhours": "11h30-13h30<br/>Prestations : <br/>- pâtes fraîches maison + divers sauces  (carbonara, bolognaise, saumon et sauce du jour).<br/>- Barquettes de cari variés (avec tous les jours Rougail saucisses)",
+      "contact": {
+        "tel": "",
+        "email": "restauration.nord@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.stockcrous.fr/reunion/LeRapido1.jpg",
+        "alt": "Le Rapido"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Les plats",
+                  "dishes": [
+                    {
+                      "name": "Rougail de saucisses de porc (origine Réunion) ou sauté de poulet (origine Pologne)"
+                    },
+                    {
+                      "name": "Accompagnés de riz, grains et rougails"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Fruits"
+                    },
+                    {
+                      "name": "Yaourts"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 508,
+      "title": "Cafétéria du Tampon",
+      "lat": -21.269793,
+      "lon": 55.507745,
+      "area": "Sud",
+      "adresse": "",
+      "opening": "110,000,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "7h30 à 16h<br/>Prestations : formule petit déjeuner, restauration rapide et diversifiée : sandwiches, salades, pizzas, glaces, boissons fraîches, etc.",
+      "contact": {
+        "tel": "",
+        "email": "restauration.sud@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://stockcrous.fr/cm/reunion/resto/CafeteduTampon.JPG",
+        "alt": "Cafétéria du Tampon"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Petit déj",
+                  "dishes": [
+                    {
+                      "name": "Plateau petit déjeuner"
+                    },
+                    {
+                      "name": "Pains au chocolat, croissants, pains aux raisins"
+                    },
+                    {
+                      "name": "Torsades, macatias,beignets, patisserie"
+                    },
+                    {
+                      "name": "Muffins, doonut's, macarons"
+                    },
+                    {
+                      "name": "Boissons chaudes et froides"
+                    },
+                    {
+                      "name": "Jus de fruits frais"
+                    },
+                    {
+                      "name": "Barres chocolatées"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Pizza, croque monsieur, croissant fourré"
+                    },
+                    {
+                      "name": "bonbons piments, nem's, samoussas"
+                    },
+                    {
+                      "name": "Sandwichs froids, chauds, "
+                    },
+                    {
+                      "name": "Paninis, Américains, lords"
+                    },
+                    {
+                      "name": "Box salades et pâtes, Wraps, Pasta box"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Petit déj",
+                  "dishes": [
+                    {
+                      "name": "Plateau petit déjeuner"
+                    },
+                    {
+                      "name": "Pains au chocolat, croissants, pains aux raisins"
+                    },
+                    {
+                      "name": "Torsades, macatias,beignets, patisserie"
+                    },
+                    {
+                      "name": "Muffins, doonut's, macarons"
+                    },
+                    {
+                      "name": "Boissons chaudes et froides"
+                    },
+                    {
+                      "name": "Jus de fruits frais"
+                    },
+                    {
+                      "name": "Barres chocolatées"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Pizza, croque monsieur, croissant fourré"
+                    },
+                    {
+                      "name": "bonbons piments, nem's, samoussas"
+                    },
+                    {
+                      "name": "Sandwichs froids, chauds, "
+                    },
+                    {
+                      "name": "Paninis, Américains, lords"
+                    },
+                    {
+                      "name": "Box salades et pâtes, Wraps, Pasta box"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Petit déj",
+                  "dishes": [
+                    {
+                      "name": "Plateau petit déjeuner"
+                    },
+                    {
+                      "name": "Pains au chocolat, croissants, pains aux raisins"
+                    },
+                    {
+                      "name": "Torsades, macatias,beignets, patisserie"
+                    },
+                    {
+                      "name": "Muffins, doonut's, macarons"
+                    },
+                    {
+                      "name": "Boissons chaudes et froides"
+                    },
+                    {
+                      "name": "Jus de fruits frais"
+                    },
+                    {
+                      "name": "Barres chocolatées"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Pizza, croque monsieur, croissant fourré"
+                    },
+                    {
+                      "name": "bonbons piments, nem's, samoussas"
+                    },
+                    {
+                      "name": "Sandwichs froids, chauds, "
+                    },
+                    {
+                      "name": "Paninis, Américains, lords"
+                    },
+                    {
+                      "name": "Box salades et pâtes, Wraps, Pasta box"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Petit déj",
+                  "dishes": [
+                    {
+                      "name": "Plateau petit déjeuner"
+                    },
+                    {
+                      "name": "Pains au chocolat, croissants, pains aux raisins"
+                    },
+                    {
+                      "name": "Torsades, macatias,beignets, patisserie"
+                    },
+                    {
+                      "name": "Muffins, doonut's, macarons"
+                    },
+                    {
+                      "name": "Boissons chaudes et froides"
+                    },
+                    {
+                      "name": "Jus de fruits frais"
+                    },
+                    {
+                      "name": "Barres chocolatées"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Pizza, croque monsieur, croissant fourré"
+                    },
+                    {
+                      "name": "bonbons piments, nem's, samoussas"
+                    },
+                    {
+                      "name": "Sandwichs froids, chauds, "
+                    },
+                    {
+                      "name": "Paninis, Américains, lords"
+                    },
+                    {
+                      "name": "Box salades et pâtes, Wraps, Pasta box"
+                    },
+                    {
+                      "name": "Etc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "title": "RU du Tampon",
+      "lat": -21.269646,
+      "lon": 55.507154,
+      "area": "Sud",
+      "adresse": "",
+      "opening": "110,110,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Situé dans un cadre de verdure à l'entrée du campus universitaire du Tampon. Le RU dispose de 240 places assises à l'intérieur et de 90 places en terrasse.",
+      "description": "Situé dans un cadre de verdure à l'entrée du campus universitaire du Tampon. Le RU dispose de 240 places assises à l'intérieur et de 90 places en terrasse.",
+      "access": "",
+      "operationalhours": "11h30-13h15<br/>Prestations : repas traditionnel : entrée + plat + dessert.",
+      "contact": {
+        "tel": "",
+        "email": "restauration.sud@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://stockcrous.fr/cm/reunion/resto/RUTampon.JPG",
+        "alt": "RU du Tampon"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                },
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Feuilletés au Fromage"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Salades Diverses"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats",
+                  "dishes": [
+                    {
+                      "name": "Émincé de Poulet au Cheddar"
+                    },
+                    {
+                      "name": "(Orig: Pologne)"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Oeufs Sautés  aux Légumes"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Poulet Rôti, Sauce au Poivre Vert"
+                    },
+                    {
+                      "name": "(Orig: Pologne)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Repas Végétariens",
+                  "dishes": [
+                    {
+                      "name": "Quinoa aux légumes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 510,
+      "title": "RU de l'IUT de Saint Pierre",
+      "lat": -21.34136,
+      "lon": 55.490245,
+      "area": "Sud",
+      "adresse": "",
+      "opening": "111,110,010,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Situé à l'arrière des bâtiments de l'IUT, le restaurant dispose de 120 places assises à l'intérieur et de 40 places en terrasse.",
+      "description": "Situé à l'arrière des bâtiments de l'IUT, le restaurant dispose de 120 places assises à l'intérieur et de 40 places en terrasse.",
+      "access": "",
+      "operationalhours": "11h30 à 13h15<br/>Prestations : repas traditionnels, grillades et friteries.",
+      "contact": {
+        "tel": "02.62.73.37.74",
+        "email": "restauration.sud@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://stockcrous.fr/cm/reunion/resto/RUStPierre.JPG",
+        "alt": "RU de l'IUT de Saint Pierre"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                },
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Feuilletés au Fromage"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Salades Diverses"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS",
+                  "dishes": [
+                    {
+                      "name": "Émincé de Poulet au Poivre Vert"
+                    },
+                    {
+                      "name": "(Orig: Pologne)"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Poisson Pané"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Poulet Rôti, Sauce Diable"
+                    },
+                    {
+                      "name": "(Orig: Pologne)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Repas Végétariens",
+                  "dishes": [
+                    {
+                      "name": "-"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "LEGUMES",
+                  "dishes": [
+                    {
+                      "name": "Riz"
+                    },
+                    {
+                      "name": "Grains"
+                    },
+                    {
+                      "name": "Légumes"
+                    },
+                    {
+                      "name": "Pâtes"
+                    },
+                    {
+                      "name": "Rougail"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Compotes de Fruits"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Fruits Frais"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Laitages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "title": "Cafétéria de l'IUT de Saint-Pierre",
+      "lat": -21.34094,
+      "lon": 55.490253,
+      "area": "Sud",
+      "adresse": "",
+      "opening": "110,000,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "La cafétéria a été intégrée le RU depuis 2013.",
+      "description": "La cafétéria a été intégrée le RU depuis 2013.",
+      "access": "",
+      "operationalhours": "7h30 à 15h30<br/>Prestations : formule petit déjeuner, restauration rapide et diversifiée : sandwiches, salades, pizzas, glaces, boissons fraîches, etc.",
+      "contact": {
+        "tel": "",
+        "email": "restauration.sud@crous-reunion.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://stockcrous.fr/cm/reunion/resto/CafeteStPierre.JPG",
+        "alt": "Cafétéria de l'IUT de Saint-Pierre"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Salades Composées"
+                    },
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "Pizzas"
+                    },
+                    {
+                      "name": "Feuilletés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Salades Composées"
+                    },
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "Pizzas"
+                    },
+                    {
+                      "name": "Feuilletés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Salades Composées"
+                    },
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "Pizzas"
+                    },
+                    {
+                      "name": "Feuilletés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Salades Composées"
+                    },
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "Pizzas"
+                    },
+                    {
+                      "name": "Feuilletés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 789,
+      "title": "Cafétéria de l'IAE",
+      "lat": -20.876271,
+      "lon": 55.447618,
+      "area": "Nord",
+      "adresse": "",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "La cafétéria de l'IAE est située dans l'avenue de la victoire au centre-ville de Saint-Denis. Ouverte en février 2008, la cafétéria dispose d'une terrasse aménagée dans un cadre verdoyant.",
+      "description": "La cafétéria de l'IAE est située dans l'avenue de la victoire au centre-ville de Saint-Denis. Ouverte en février 2008, la cafétéria dispose d'une terrasse aménagée dans un cadre verdoyant.",
+      "access": "",
+      "operationalhours": "8h00 - 14h15<br/>Prestations : restauration rapide : pizzas, croque-monsieur, sandwichs, salades et desserts, viennoiseries, boissons chaudes et froides, etc.<br/>",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.noelshack.com/2018-41-4-1539244472-croustillant.jpg",
+        "alt": "Cafétéria de l'IAE"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwiches variés",
+                  "dishes": [
+                    {
+                      "name": "Jambon beurre, Jambon crudités, jambon emmenthal, Jambon dakatine, Jambon achards"
+                    },
+                    {
+                      "name": "Américain : poulet ou bouchons ou jambon"
+                    },
+                    {
+                      "name": "Poulet mayo, poulet crudités, poulet dakatine, poulet achards"
+                    },
+                    {
+                      "name": "Thon mais, thon crudités"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Salades différentes chaque jour"
+                    },
+                    {
+                      "name": "Viennoiseries"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, nems, bonbons piments"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé/café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Autres",
+                  "dishes": [
+                    {
+                      "name": "Lundi : croque-monsieur"
+                    },
+                    {
+                      "name": "Mercredi : sauté mines"
+                    },
+                    {
+                      "name": "Vendredi : hamburgers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwiches variés",
+                  "dishes": [
+                    {
+                      "name": "Jambon beurre, Jambon crudités, jambon emmenthal, Jambon dakatine, Jambon achards"
+                    },
+                    {
+                      "name": "Américain : poulet ou bouchons ou jambon"
+                    },
+                    {
+                      "name": "Poulet mayo, poulet crudités, poulet dakatine, poulet achards"
+                    },
+                    {
+                      "name": "Thon mais, thon crudités"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Salades différentes chaque jour"
+                    },
+                    {
+                      "name": "Viennoiseries"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, nems, bonbons piments"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé/café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Autres",
+                  "dishes": [
+                    {
+                      "name": "Lundi : croque-monsieur"
+                    },
+                    {
+                      "name": "Mercredi : sauté mines"
+                    },
+                    {
+                      "name": "Vendredi : hamburgers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwiches variés",
+                  "dishes": [
+                    {
+                      "name": "Jambon beurre, Jambon crudités, jambon emmenthal, Jambon dakatine, Jambon achards"
+                    },
+                    {
+                      "name": "Américain : poulet ou bouchons ou jambon"
+                    },
+                    {
+                      "name": "Poulet mayo, poulet crudités, poulet dakatine, poulet achards"
+                    },
+                    {
+                      "name": "Thon mais, thon crudités"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Salades différentes chaque jour"
+                    },
+                    {
+                      "name": "Viennoiseries"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, nems, bonbons piments"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé/café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Autres",
+                  "dishes": [
+                    {
+                      "name": "Lundi : croque-monsieur"
+                    },
+                    {
+                      "name": "Mercredi : sauté mines"
+                    },
+                    {
+                      "name": "Vendredi : hamburgers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwiches variés",
+                  "dishes": [
+                    {
+                      "name": "Jambon beurre, Jambon crudités, jambon emmenthal, Jambon dakatine, Jambon achards"
+                    },
+                    {
+                      "name": "Américain : poulet ou bouchons ou jambon"
+                    },
+                    {
+                      "name": "Poulet mayo, poulet crudités, poulet dakatine, poulet achards"
+                    },
+                    {
+                      "name": "Thon mais, thon crudités"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Salades différentes chaque jour"
+                    },
+                    {
+                      "name": "Viennoiseries"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, nems, bonbons piments"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé/café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Autres",
+                  "dishes": [
+                    {
+                      "name": "Lundi : croque-monsieur"
+                    },
+                    {
+                      "name": "Mercredi : sauté mines"
+                    },
+                    {
+                      "name": "Vendredi : hamburgers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Sandwiches variés",
+                  "dishes": [
+                    {
+                      "name": "Jambon beurre, Jambon crudités, jambon emmenthal, Jambon dakatine, Jambon achards"
+                    },
+                    {
+                      "name": "Américain : poulet ou bouchons ou jambon"
+                    },
+                    {
+                      "name": "Poulet mayo, poulet crudités, poulet dakatine, poulet achards"
+                    },
+                    {
+                      "name": "Thon mais, thon crudités"
+                    }
+                  ]
+                },
+                {
+                  "name": "Divers",
+                  "dishes": [
+                    {
+                      "name": "Salades différentes chaque jour"
+                    },
+                    {
+                      "name": "Viennoiseries"
+                    },
+                    {
+                      "name": "Bouchons, samoussas, nems, bonbons piments"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boissons",
+                  "dishes": [
+                    {
+                      "name": "Boissons chaudes (thé/café)"
+                    },
+                    {
+                      "name": "Boissons fraîches : eau, sodas, jus de fruits"
+                    }
+                  ]
+                },
+                {
+                  "name": "Autres",
+                  "dishes": [
+                    {
+                      "name": "Lundi : croque-monsieur"
+                    },
+                    {
+                      "name": "Mercredi : sauté mines"
+                    },
+                    {
+                      "name": "Vendredi : hamburgers"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

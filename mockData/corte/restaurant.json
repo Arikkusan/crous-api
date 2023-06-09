@@ -1,0 +1,179 @@
+{
+  "restaurants": [
+    {
+      "id": 1101,
+      "title": "Snacking Grimaldi U spuntinu ",
+      "lat": 42.299946,
+      "lon": 9.152061,
+      "area": "Campus Grimaldi",
+      "adresse": "Campus Grimaldi",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "A proximité du Campus Grimaldi, des facultés de Sciences et techniques. Ouvert le midi, du lundi au vendredi de 11h30 à 13h30. Accessible aux personnes à mobilité réduite. Wifi disponible.  ",
+      "shortdesc_legacy": "non renseigné",
+      "description": "A proximité du Campus Grimaldi, des facultés de Sciences et techniques.<br/>Ouvert le midi, du lundi au vendredi de 11h30 à 13h30.<br/>Accessible aux personnes à mobilité réduite.<br/>Wifi disponible.<br/><br/>",
+      "access": "",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "photo": {
+        "src": "https://www.crous-corse.fr/wp-content/uploads/sites/28/2020/05/DSCF4761.jpg",
+        "alt": "Snacking Grimaldi U spuntinu "
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 809,
+      "title": "Snaking Mariani",
+      "lat": 42.304383,
+      "lon": 9.154541,
+      "area": "Campus Mariani",
+      "adresse": "22, Avenue Jean Nicoli",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Au sein du resto U Mariani.  Sont proposés : hamburgers, nuggets, sandwichs, hot-dogs, paninis, pizzas, clubs, wraps, salades à emporter...  Ouvert du lundi au vendredi de 11h30 à 14h00 / Réouverture le 31/08/2020.  Accessible aux personnes à mobilité",
+      "shortdesc_legacy": "non renseigné",
+      "description": "Au sein du resto U Mariani. <br/>Sont proposés : hamburgers, nuggets, sandwichs, hot-dogs, paninis, pizzas, clubs, wraps, salades à emporter...<br/><br/>Ouvert du lundi au vendredi de 11h30 à 14h00 / Réouverture le 31/08/2020.<br/><br/>Accessible aux personnes à mobilité",
+      "access": "",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "photo": {
+        "src": "https://www.crous-corse.fr/wp-content/uploads/sites/28/2020/05/DSCF1621-e1589207759538.jpg",
+        "alt": "Snaking Mariani"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 502,
+      "title": "RU Campus Grimaldi",
+      "lat": 42.299946,
+      "lon": 9.152061,
+      "area": "Campus Grimaldi",
+      "adresse": "Campus Grimaldi",
+      "opening": "011,011,011,011,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "A proximité du Campus Grossetti, des facultés de Sciences et techniques, l’école d’Ingénieurs Paoli Tech et l’Institut Université de Santé. Un service en self vous propose un menu complet : assortiments d'entrées, plats du jour (2 choix de viande et/ou po",
+      "shortdesc_legacy": "non renseigné",
+      "description": "A proximité du Campus Grossetti, des facultés de Sciences et techniques, l’école d’Ingénieurs Paoli Tech et l’Institut Université de Santé.<br/>Un service en self vous propose un menu complet : assortiments d'entrées, plats du jour (2 choix de viande et/ou po",
+      "access": "",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "photo": {
+        "src": "https://www.crous-corse.fr/wp-content/uploads/sites/28/2020/05/DSCF2161.jpg",
+        "alt": "RU Campus Grimaldi"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 503,
+      "title": "Cafétéria I.U.T",
+      "lat": 42.297304,
+      "lon": 9.154163,
+      "area": "Campus Grimaldi",
+      "adresse": "Campus Grimaldi",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Au sein de l’IUT vue sur la citadelle,  filières technologiques universitaires (DUT, Licence professionnelle). Sont proposés : viennoiserie, plat complet à emporter ou à consommer sur place, assortiments de produit laitiers, fruits, desserts, sandwichs, p",
+      "shortdesc_legacy": "non renseigné",
+      "description": "Au sein de l’IUT vue sur la citadelle,  filières technologiques universitaires (DUT, Licence professionnelle).<br/>Sont proposés : viennoiserie, plat complet à emporter ou à consommer sur place, assortiments de produit laitiers, fruits, desserts, sandwichs, p",
+      "access": "",
+      "operationalhours": "du Lundi au Vendredi de 8h00 à 16h00<br/>(fermé le samedi et le dimanche)",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "photo": {
+        "src": "http://w4-web248.nordnet.fr/img/img25a.jpg",
+        "alt": "Cafétéria I.U.T"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1097,
+      "title": " RU Campus Mariani",
+      "lat": 42.304578,
+      "lon": 9.15462,
+      "area": "Campus Mariani",
+      "adresse": "22 Avenue Jean Nicoli 20250 Corte",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "A proximité du Campus Mariani, des facultés des lettres, des langues, arts, sciences humaines et sociales, faculté de Droit et sciences politiques et l’école de management économie. Un service en self vous propose un menu complet : une grande variété d'en",
+      "shortdesc_legacy": "non renseigné",
+      "description": "A proximité du Campus Mariani, des facultés des lettres, des langues, arts, sciences humaines et sociales, faculté de Droit et sciences politiques et l’école de management économie.<br/>Un service en self vous propose un menu complet : une grande variété d'en",
+      "access": "",
+      "operationalhours": "Le restaurant est ouvert :<br/>du Lundi au Vendredi : de 11h30 à 14h00. <br/>   ",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "photo": {
+        "src": "https://www.crous-corse.fr/wp-content/uploads/sites/28/2020/05/DSCF0075.jpg",
+        "alt": " RU Campus Mariani"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    }
+  ]
+}

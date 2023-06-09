@@ -1,0 +1,1130 @@
+{
+  "restaurants": [
+    {
+      "id": 468,
+      "title": "Restaurant Universitaire de Fouillole",
+      "lat": 16.2237701,
+      "lon": -61.5271988,
+      "area": "Guadeloupe",
+      "adresse": "Campus de Fouillole ",
+      "opening": "011,011,011,011,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Campus de Fouillole ",
+      "description": "Campus de Fouillole ",
+      "access": "",
+      "operationalhours": "    Le restaurant universitaire est ouvert:    du lundi au samedi de 11h30 à 13h45  et   de 19h00 à 20h00",
+      "contact": {
+        "tel": "0590894648",
+        "email": "resto-fouillole@crous-antillesguyane.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-antillesguyane.fr//wp-content/uploads/sites/25/2014/09/salle-LouSo3-e1411390609426.jpg",
+        "alt": "Restaurant Universitaire de Fouillole"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 512,
+      "title": "Cafétéria près du SCUIO",
+      "lat": 16.2233786391591,
+      "lon": -61.528400429638694,
+      "area": "Guadeloupe",
+      "adresse": "Campus de Fouillole ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Campus de Fouillole ",
+      "description": "Campus de Fouillole ",
+      "access": "UFR sciences à proximité de la Maison de l'Etudiant",
+      "operationalhours": "La cafétéria est ouverte du lundi au vendredi de 7h00 à 14h00",
+      "contact": {
+        "tel": " 0590 89 46 48",
+        "email": "resto-fouillole@crous-antillesguyane.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria près du SCUIO"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 514,
+      "title": "Cafétéria de Troubiran",
+      "lat": 4.93225,
+      "lon": -52.300701,
+      "area": "Guyane",
+      "adresse": "Cayenne",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Campus de troubiran",
+      "description": "Campus de troubiran",
+      "access": "",
+      "operationalhours": "Ouvert du lundi au vendredi de 7h30 à 14h30",
+      "contact": {
+        "tel": "0594 37 85 14",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-antillesguyane.fr/wp-content/uploads/sites/25/2014/09/20140314-081927-e1411154988272.jpg",
+        "alt": "Cafétéria de Troubiran"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 515,
+      "title": "Restaurant de la résidence de Kourou",
+      "lat": 5.1597,
+      "lon": -52.6503,
+      "area": "Guyane",
+      "adresse": "Kourou",
+      "opening": "111,111,111,111,111,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Quartier Branly",
+      "description": "Quartier Branly",
+      "access": "",
+      "operationalhours": "Ouvert sur pré-insription Du lundi au vendredi de 9h00 à 13h00 et de 17h00 à 20h00",
+      "contact": {
+        "tel": "0594 32 58 00",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-antillesguyane.fr/wp-content/uploads/sites/25/2014/09/Test-e1411389863955.jpg",
+        "alt": "Restaurant de la résidence de Kourou"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 774,
+      "title": "Buvette de la bibliothèque universitaire",
+      "lat": 14.620124,
+      "lon": -61.092694,
+      "area": "Martinique ",
+      "adresse": "Campus de Schoelcher",
+      "opening": "011,011,011,011,010,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "à l'entrée de la bibliothèque universitaire de Schoelcher",
+      "description": "à l'entrée de la bibliothèque universitaire de Schoelcher",
+      "access": "",
+      "operationalhours": "Le lundi, mardi, mercredi et vendredi  de 8h30 à 14h30<br/>Le jeudi de 9h30 à 14h30<br/>",
+      "contact": {
+        "tel": "0596615355",
+        "email": "resto-schoelcher@crous-antillesguyane.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-antillesguyane.fr/wp-content/uploads/sites/25/2014/09/Test-e1411389863955.jpg",
+        "alt": "Buvette de la bibliothèque universitaire"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 771,
+      "title": "Cafétéria UFR SJE",
+      "lat": 16.2258510103531,
+      "lon": -61.53167272463679,
+      "area": "Guadeloupe",
+      "adresse": "Campus de fouillole - UFR SJE",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "du lundi au vendredi  de 7h00 à 14h00",
+      "contact": {
+        "tel": "0590894648",
+        "email": "resto-fouillole@crous-antillesguyane.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria UFR SJE"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 772,
+      "title": "Restaurant universitaire de Saint-Claude",
+      "lat": 16.027477,
+      "lon": -61.701589,
+      "area": "Guadeloupe",
+      "adresse": "Campus du Camp Jacob",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "du lundi au vendredi de 11h30 à 13h30",
+      "contact": {
+        "tel": "0590607481",
+        "email": "resto-camp-jacob@crous-antillesguyane.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-antillesguyane.fr/wp-content/uploads/sites/25/2014/09/restaurant-st-claude2-e1411476158585.jpg",
+        "alt": "Restaurant universitaire de Saint-Claude"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "title": "Restaurant universitaire de Schoelcher",
+      "lat": 14.620024,
+      "lon": -61.0929926,
+      "area": "Martinique ",
+      "adresse": "Campus de Schoelcher",
+      "opening": "011,011,011,011,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi de 11h30 à 14h00 et du lundi au jeudi  de 18h30 à 20h30",
+      "contact": {
+        "tel": "0596615355",
+        "email": "resto-schoelcher@crous-antillesguyane.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Restaurant universitaire de Schoelcher"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrée",
+                  "dishes": [
+                    {
+                      "name": "Crudités"
+                    },
+                    {
+                      "name": "surimi"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dessert",
+                  "dishes": [
+                    {
+                      "name": "Fromage ou dessert"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 982,
+      "title": "RESTAURANT TROU BIRAN",
+      "lat": 4.93227,
+      "lon": -52.300701,
+      "area": "Guyane",
+      "adresse": "CAMPUS DE TROU BIRAN",
+      "opening": "011,011,011,011,011,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "RESTAURANT TROU BIRAN",
+      "description": "RESTAURANT TROU BIRAN",
+      "access": "",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-antillesguyane.fr/wp-content/uploads/sites/25/2017/02/Resto-Cayenne.jpg",
+        "alt": "RESTAURANT TROU BIRAN"
+      },
+      "payment": [
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "entree",
+                  "dishes": [
+                    {
+                      "name": "Crudités variées"
+                    }
+                  ]
+                },
+                {
+                  "name": "plat",
+                  "dishes": [
+                    {
+                      "name": "Émincé de bœuf "
+                    },
+                    {
+                      "name": "Darnes d’Acoupa à la vapeur  "
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Accompagnements : Gratin dachine / Haricots vert vapeur."
+                    }
+                  ]
+                },
+                {
+                  "name": "dessert",
+                  "dishes": [
+                    {
+                      "name": "Crème dessert"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Menu du soir",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1439 @@
+{
+  "restaurants": [
+    {
+      "id": 961,
+      "title": "Cafétéria Le Gingko",
+      "lat": 43.9118541,
+      "lon": 4.8896321,
+      "area": "Avignon",
+      "adresse": "301 rue Baruch de Spinoza 84000 Avignon",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Campus Agroparc 120 places",
+      "description": "Campus Agroparc<br/>120 places",
+      "access": "",
+      "operationalhours": "8h00-16h00",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Le Gingko"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1120,
+      "title": "Cafétéria Hexagone",
+      "lat": 43.238096,
+      "lon": 5.43562,
+      "area": "Marseille",
+      "adresse": "171 avenue de Luminy - 13009 Marseille ",
+      "opening": "111,111,111,111,111,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de l'Hexagone sur le campus de Luminy",
+      "description": "Au sein de l'Hexagone sur le campus de Luminy",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 8h-19h",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Hexagone"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 419,
+      "title": "RU Les Gazelles",
+      "lat": 43.5188791,
+      "lon": 5.4498591,
+      "area": "Aix",
+      "adresse": "31 avenue Jules Ferry 13100 Aix-en-Provence",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "En face de la faculté d'Éco-gestion Au sein de la cité universitaire Les Gazelles",
+      "description": "En face de la faculté d'Éco-gestion<br/>Au sein de la cité universitaire Les Gazelles",
+      "access": "",
+      "operationalhours": "11h30 - 13h30",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Les Gazelles"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 628,
+      "title": "RU Les Arts et Métiers",
+      "lat": 43.5302287,
+      "lon": 5.454456,
+      "area": "Aix",
+      "adresse": "Cours des Arts et Métiers - 13621 Aix-en-Provence cedex 1",
+      "opening": "110,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "prolongement de l'ENSAM",
+      "description": "prolongement de l'ENSAM",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 42 38 03 68",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/aix/resto-u/les-arts-et-metiers/arts-et-metiers-1/3266-1-fre-FR/arts-et-metiers-1_big.jpg",
+        "alt": "RU Les Arts et Métiers"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 629,
+      "title": "RU Les Fenouillères",
+      "lat": 43.5132209,
+      "lon": 5.4528503,
+      "area": "Aix",
+      "adresse": "Avenue Gaston Berger 13621 Aix-en-Provence cedex 1",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "À proximité de l'IUT et de la faculté de lettres + site Ruocco",
+      "description": "À proximité de l'IUT et de la faculté de lettres + site Ruocco",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": " 04 42 93 58 70",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Les Fenouillères"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 630,
+      "title": "RU IAE",
+      "lat": 43.586142,
+      "lon": 5.422629,
+      "area": "Aix",
+      "adresse": "Clos Guiot - Puyricard - CS 30063 - 13089 Aix-en- Provence cedex 2",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-14h00",
+      "contact": {
+        "tel": "04 42 28 08 69",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU IAE"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 962,
+      "title": "Cafétéria Ferry",
+      "lat": 43.5190061,
+      "lon": 5.4492602,
+      "area": "Aix",
+      "adresse": "14 avenue Jules Ferry - 13100 Aix-en-Provence",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de la faculté d'éco-gestion",
+      "description": "Au sein de la faculté d'éco-gestion",
+      "access": "",
+      "operationalhours": "7h30-17h00",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Ferry"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 632,
+      "title": "Cafétéria IAE",
+      "lat": 43.586142,
+      "lon": 5.422629,
+      "area": "Aix",
+      "adresse": "Clos Guiot - Puyricard - CS 30063 13089 Aix-en-Provence cedex 2",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 8h-15h45",
+      "contact": {
+        "tel": "04 42 28 08 69",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria IAE"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 633,
+      "title": "Cafétéria ESPE",
+      "lat": 43.533717,
+      "lon": 5.451985,
+      "area": "Aix",
+      "adresse": "2 avenue Jules Isaac - 13621 Aix-en-Provence cedex 1",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30-14h30",
+      "contact": {
+        "tel": " 04 42 96 48 62",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria ESPE"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 634,
+      "title": "Cafétéria Montperrin",
+      "lat": 43.5173577,
+      "lon": 5.4379284,
+      "area": "Aix",
+      "adresse": "26 rue du Pigonnet - 13090 Aix-en-Provence",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de la faculté des sciences et techniques de Montperrin",
+      "description": "Au sein de la faculté des sciences et techniques de Montperrin",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30-14h15",
+      "contact": {
+        "tel": " 04 42 27 42 33",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Montperrin"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 635,
+      "title": "Cafétéria Les Fenouillères",
+      "lat": 43.5132209,
+      "lon": 5.4528503,
+      "area": "Aix",
+      "adresse": "avenue Gaston Berger - 13621 Aix-en-Provence cedex 1",
+      "opening": "111,111,111,111,111,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30-19h30",
+      "contact": {
+        "tel": "04 42 93 58 70",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Les Fenouillères"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 636,
+      "title": "Cafétéria Le Galice",
+      "lat": 43.5311795,
+      "lon": 5.4326975,
+      "area": "Aix",
+      "adresse": "rue Jean Dalmas - 13100 Aix-en-Provence",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "du lundi au vendredi : 8h30-14h30",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Le Galice"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 637,
+      "title": "Cafétéria Lettres",
+      "lat": 43.5191929,
+      "lon": 5.4468557,
+      "area": "Aix",
+      "adresse": "29 avenue Robert Schumann 13621 Aix-en-Provence cedex 1",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "du lundi au vendredi : 7h30-17h00",
+      "contact": {
+        "tel": " 04 42 20 45 86",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Lettres"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 638,
+      "title": "La Crouzzéria",
+      "lat": 43.519007,
+      "lon": 5.447949,
+      "area": "Aix",
+      "adresse": "31 avenue Jules Ferry - 13621 Aix-en-Provence cedex 1",
+      "opening": "011,011,011,011,010,000,001",
+      "closing": "0",
+      "type": "Pizzéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "La pizzéria du Crous, située au sein de la cité universitaire Les Gazelles",
+      "description": "La pizzéria du Crous, située au sein de la cité universitaire Les Gazelles",
+      "access": "",
+      "operationalhours": "Cafétéria : du lundi au vendredi de 11h à 14h<br/>Pizzéria : du dimanche au jeudi : 18h00-23h00",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "La Crouzzéria"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 639,
+      "title": "RU Galinat",
+      "lat": 43.2868659,
+      "lon": 5.3997356,
+      "area": "Marseille",
+      "adresse": "38 boulevard Jean Moulin - 13005 Marseille",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Restauration traditionnelle En face du Campus santé de La Timone 520 places",
+      "description": "Restauration traditionnelle<br/>En face du Campus santé de La Timone<br/>520 places",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 91 29 62 50",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Galinat"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 640,
+      "title": "RU Gaston Berger",
+      "lat": 43.3056198,
+      "lon": 5.3785957,
+      "area": "Marseille",
+      "adresse": "43 rue du 141eme RIA - 13003 Marseille",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein du Campus Saint-Charles",
+      "description": "Au sein du Campus Saint-Charles",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 91 62 83 64",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Gaston Berger"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 641,
+      "title": "RU École Centrale",
+      "lat": 43.3543089,
+      "lon": 5.4552945,
+      "area": "Marseille",
+      "adresse": "Chemin de la Grave - 13013 Marseille",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 91 05 46 18",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU École Centrale"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 642,
+      "title": "RU Luminy",
+      "lat": 43.238096,
+      "lon": 5.43562,
+      "area": "Marseille",
+      "adresse": "171 avenue de Luminy - 13009 Marseille",
+      "opening": "011,011,011,011,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30<br/>Du lundi au jeudi : 18h30 - 20h15",
+      "contact": {
+        "tel": "04 91 41 19 84",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/resto-u/luminy/ru-luminy-2/32498-1-fre-FR/ru-luminy-2_big.jpg",
+        "alt": "RU Luminy"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 643,
+      "title": "RU Saint-Jérôme",
+      "lat": 43.3352253,
+      "lon": 5.408098,
+      "area": "Marseille",
+      "adresse": "Avenue Henri Poincaré - 13397 Marseille cedex 4",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 91 10 11 02",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Saint-Jérôme"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 644,
+      "title": "RU Canebière",
+      "lat": 43.2975953,
+      "lon": 5.3835992,
+      "area": "Marseille",
+      "adresse": "9-11 rue Sénac - 13001 Marseille",
+      "opening": "011,011,011,011,011,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "500 places assises",
+      "description": "500 places assises",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi de 11h30 à 13h30 et de 19h00 à 20h30",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/resto-u/canebiere/canebiere-2/39411-1-fre-FR/canebiere-2_big.jpg",
+        "alt": "RU Canebière"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 645,
+      "title": "Cafétéria Canebière",
+      "lat": 43.2980032,
+      "lon": 5.3828208,
+      "area": "Marseille",
+      "adresse": "Fac de droit - Canebière - 13001 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30 - 17h00",
+      "contact": {
+        "tel": "04 91 02 58 17",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Canebière"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 646,
+      "title": "Cafétéria de l'IUT",
+      "lat": 43.3414453,
+      "lon": 5.4086789,
+      "area": "Marseille",
+      "adresse": "Chemin des Géraniums - 13014 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30 - 16h00",
+      "contact": {
+        "tel": "04 91 10 11 02",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/iut/cafeteria-iut-1/16917-1-fre-FR/cafeteria-iut-1_big.jpg",
+        "alt": "Cafétéria de l'IUT"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 647,
+      "title": "Cafétéria Château-Gombert",
+      "lat": 43.3425998,
+      "lon": 5.4367564,
+      "area": "Marseille",
+      "adresse": "38 rue Frédéric Joliot Curie - 13013 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30 - 16h30",
+      "contact": {
+        "tel": "04 91 05 46 18",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/imt/cafeteria-imt-2/16951-1-fre-FR/cafeteria-imt-2_big.jpg",
+        "alt": "Cafétéria Château-Gombert"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 648,
+      "title": "Cafétéria Luminy",
+      "lat": 43.238096,
+      "lon": 5.43562,
+      "area": "Marseille",
+      "adresse": "171 avenue de Luminy - 13009 Marseille ",
+      "opening": "111,111,111,111,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h00 - 14h30<br/>Du lundi au jeudi : 19h-23h",
+      "contact": {
+        "tel": "04 91 41 19 84",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Luminy"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 649,
+      "title": "Cafétéria de Médecine",
+      "lat": 43.2881033,
+      "lon": 5.4033631,
+      "area": "Marseille",
+      "adresse": "27 boulevard Jean Moulin - 13005 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h15 - 17h00",
+      "contact": {
+        "tel": "04 91 80 25 67",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/medecine/cafeteria-medecine-2/17010-1-fre-FR/cafeteria-medecine-2_big.jpg",
+        "alt": "Cafétéria de Médecine"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 650,
+      "title": "Cafétéria Paul Cézanne",
+      "lat": 43.3339618,
+      "lon": 5.4100892,
+      "area": "Marseille",
+      "adresse": "Avenue Escadrille Normandie Niemen - 13013 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30 - 16h00",
+      "contact": {
+        "tel": "04 91 28 88 18",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/paul-cezanne/cafeteria-paul-cezanne-1/16934-1-fre-FR/cafeteria-paul-cezanne-1_big.jpg",
+        "alt": "Cafétéria Paul Cézanne"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 651,
+      "title": "Cafétéria Saint-Charles",
+      "lat": 43.3047761,
+      "lon": 5.3775126,
+      "area": "Marseille",
+      "adresse": "3 place Victor Hugo - 13331 Marseille cedex 3",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30 - 17h00",
+      "contact": {
+        "tel": "04 91 62 83 71 o",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/saint-charles/saint-charles-1/12804-1-fre-FR/saint-charles-1_big.jpg",
+        "alt": "Cafétéria Saint-Charles"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 652,
+      "title": "Cafétéria Médecine Nord",
+      "lat": 43.3775529,
+      "lon": 5.3615443,
+      "area": "Marseille",
+      "adresse": "Boulevard Pierre Dramard - 13015 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h30 - 14h30",
+      "contact": {
+        "tel": "04 91 69 88 05",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/medecine-nord/cafeteria-medecine-nord-01/16931-1-fre-FR/cafeteria-medecine-nord-01_big.jpg",
+        "alt": "Cafétéria Médecine Nord"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 653,
+      "title": "Cafétéria Pharmacie",
+      "lat": 43.2881033,
+      "lon": 5.4033631,
+      "area": "Marseille",
+      "adresse": "27 boulevard Jean Moulin - 13005 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 7h15 - 15h",
+      "contact": {
+        "tel": "04 91 25 97 28",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/marseille/cafet-u/pharmacie/cafeteria-pharmacie/16992-1-fre-FR/cafeteria-pharmacie_big.jpg",
+        "alt": "Cafétéria Pharmacie"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 654,
+      "title": "Cafétéria Thiers",
+      "lat": 43.2969164,
+      "lon": 5.3825864,
+      "area": "Marseille",
+      "adresse": "5 place du Lycée - 13001 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Au sein du lycée Thiers",
+      "description": "Au sein du lycée Thiers",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 9h30 - 14h00",
+      "contact": {
+        "tel": "04 91 94 90 14",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Thiers"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 655,
+      "title": "RU Agroparc",
+      "lat": 43.9098935,
+      "lon": 4.8912057,
+      "area": "Avignon",
+      "adresse": "106 avenue Michel Montaigne - 84000 Avignon",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 90 84 07 75",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/avignon/resto-u/agroparc/agroparc-2/3230-1-fre-FR/agroparc-2_big.jpg",
+        "alt": "RU Agroparc"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 656,
+      "title": "RU Sainte-Marthe",
+      "lat": 43.9494466,
+      "lon": 4.816995,
+      "area": "Avignon",
+      "adresse": "74 rue Louis Pasteur - 84000 Avignon",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "04 90 80 65 26",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Sainte-Marthe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 657,
+      "title": "Cafétéria Sainte-Marthe",
+      "lat": 43.9494466,
+      "lon": 4.8169987,
+      "area": "Avignon",
+      "adresse": "74 rue Louis Pasteur - 84000 Avignon",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein du campus Hannah Arendt",
+      "description": "Au sein du campus Hannah Arendt",
+      "access": "",
+      "operationalhours": "Du lundi au vendredi : 8h00-18h00",
+      "contact": {
+        "tel": "04 90 80 65 26",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-aix-marseille.fr/var/crousaix/storage/images/media/images/restauration/avignon/cafet-u/sainte-marthe/sainte-marthe-1/3254-1-fre-FR/sainte-marthe-1_big.jpg",
+        "alt": "Cafétéria Sainte-Marthe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 958,
+      "title": "Cafétéria Colbert",
+      "lat": 43.2998711,
+      "lon": 5.3752909,
+      "area": "Marseille",
+      "adresse": "14 rue Puvis de Chavannes 13003 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de la faculté Colbert",
+      "description": "Au sein de la faculté Colbert",
+      "access": "",
+      "operationalhours": "07h30-17h00 : du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Colbert"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 959,
+      "title": "Cafétéria Le Tropical",
+      "lat": 43.5143078,
+      "lon": 5.451476,
+      "area": "Aix",
+      "adresse": "413 avenue Gaston Berger 13090 Aix-en-Provence",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de l'IUT",
+      "description": "Au sein de l'IUT",
+      "access": "",
+      "operationalhours": "07h45-16h00",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Le Tropical"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 960,
+      "title": "RU Droit",
+      "lat": 43.5191514,
+      "lon": 5.4476824,
+      "area": "Aix",
+      "adresse": "3 avenue Schuman 13090 Aix-en-Provence",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de la faculté de Droit 470 places",
+      "description": "Au sein de la faculté de Droit<br/>470 places",
+      "access": "",
+      "operationalhours": "11h30-13h30 du lundi au vendredi<br/>",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Droit"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1034,
+      "title": "Cafétéria MMSH",
+      "lat": 43.5292111,
+      "lon": 5.4191753,
+      "area": "Aix",
+      "adresse": "5, rue du Château de l'horloge, 13090 Aix-en-Provence",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Cafétéria au sein de la MMSH",
+      "description": "Cafétéria au sein de la MMSH",
+      "access": "",
+      "operationalhours": "8h-11/ 11h30-14h",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria MMSH"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1118,
+      "title": "Cafétéria Droit",
+      "lat": 43.5191514,
+      "lon": 5.4476824,
+      "area": "Aix",
+      "adresse": "3 avenue Schuman 13090 Aix-en-Provence",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de la faculté de Droit",
+      "description": "Au sein de la faculté de Droit",
+      "access": "",
+      "operationalhours": "7h30-18h",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Droit"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1121,
+      "title": "RU Pharo",
+      "lat": 48.862725,
+      "lon": 2.287592,
+      "area": "Marseille",
+      "adresse": "Jardin du Pharo, 58 Boulevard Charles Livon, 13007 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Restaurant administratif",
+      "description": "Restaurant administratif",
+      "access": "",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Pharo"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1122,
+      "title": "Cafétéria École Centrale",
+      "lat": 43.3546358,
+      "lon": 5.4559897,
+      "area": "Marseille",
+      "adresse": "Chemin de la Grave - 13013 Marseille",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "7h30-15h",
+      "contact": {
+        "tel": "04 91 05 46 18",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria École Centrale"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1123,
+      "title": "RU Lettres",
+      "lat": 43.5191929,
+      "lon": 5.4468557,
+      "area": "Aix",
+      "adresse": "29 avenue Robert Schumann 13621 Aix-en-Provence cedex 1",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Restaurant administratif ",
+      "description": "Restaurant administratif ",
+      "access": "",
+      "operationalhours": "du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Lettres"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    }
+  ]
+}

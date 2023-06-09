@@ -1,0 +1,1466 @@
+{
+  "restaurants": [
+    {
+      "id": 1193,
+      "title": "RU ESIEE",
+      "lat": 48.840273,
+      "lon": 2.583999,
+      "area": "Marne-la-Vallée",
+      "adresse": "2, boulevard Blaise Pascal Cité DESCARTES BP 99 93162 Noisy le Grand CEDEX",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "RER A arrêt Noisy-Champs",
+      "operationalhours": "Ouvert de 11h30 à 14h",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU ESIEE"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 360,
+      "title": "Libre-service Forum Express",
+      "lat": 48.956298,
+      "lon": 2.338672,
+      "area": "Villetaneuse",
+      "adresse": "Avenue J.B. Clément - 93430 Villetaneuse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "description": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "access": "Sous le Forum, avec la cafétéria Café Expo",
+      "operationalhours": "Ouverture de 10h00 à 16h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.villetaneuse@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://lh3.googleusercontent.com/-CuitPSDo6Zg/UeVBXnMPUwI/AAAAAAAAADA/h16-fXk8QFg/s800/IMG_3606.JPG",
+        "alt": "Libre-service Forum Express"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 298,
+      "title": "RU Arlequin Champs-sur-Marne",
+      "lat": 48.840486,
+      "lon": 2.586272,
+      "area": "Marne-la-Vallée",
+      "adresse": "5 bd Descartes - 77420 Champs-sur-Marne",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "RER A - arrêt Noisy Champs",
+      "operationalhours": "Ouverture de 11h30-14h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/pku19mgu61dhb6o.jpg",
+        "alt": "RU Arlequin Champs-sur-Marne"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 299,
+      "title": "Libre-service Copernic Express Champs-sur-Marne",
+      "lat": 48.839201,
+      "lon": 2.587259,
+      "area": "Marne-la-Vallée",
+      "adresse": "hall Copernic de l'université - 5 boulevard Descartes 77420 Champs-sur-Marne",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "RER A arrêt Noisy Champs",
+      "operationalhours": "Ouverture de 8h30 à 16h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Libre-service Copernic Express Champs-sur-Marne"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 300,
+      "title": "RU Crous Club ",
+      "lat": 48.8426682,
+      "lon": 2.5860961,
+      "area": "Marne-la-Vallée",
+      "adresse": "10 boulevard Newton - 77420 Champs-sur-Marne",
+      "opening": "000,000,000,000,000,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "traditionnel et pizzeria",
+      "description": "traditionnel et pizzeria",
+      "access": "RER A - arrêt Noisy Champs",
+      "operationalhours": "Ouverture de 11h30 à 14h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Crous Club "
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 301,
+      "title": "Cafétéria IUT Champs",
+      "lat": 48.836786,
+      "lon": 2.585778,
+      "area": "Marne-la-Vallée",
+      "adresse": "4 rue Albert Einstein - 77420 Champs-sur-Marne",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "RER A - arrêt Noisy Champs",
+      "operationalhours": "Ouverture de 10h00 à 14h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://lh5.googleusercontent.com/-KbvUXDOTNFE/UlP3kRtQs6I/AAAAAAAAAKU/27txMMCNUnQ/w1452-h968-no/_MG_9420.jpg",
+        "alt": "Cafétéria IUT Champs"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 302,
+      "title": "Libre-service Lavoisier Express",
+      "lat": 48.837097,
+      "lon": 2.585585,
+      "area": "Marne-la-Vallée",
+      "adresse": "Bât LAVOISIER du site dit du Bois de l'Etang - Rue Galilée - 77420 Champs-sur-Marne",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Bâtiment Lavoisier à Champs-sur-Marne",
+      "description": "Bâtiment Lavoisier à Champs-sur-Marne",
+      "access": "RER A - arrêt Noisy Champs",
+      "operationalhours": "Ouverture de 8h30 à 16h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/bpp19mgw57maqps.jpg",
+        "alt": "Libre-service Lavoisier Express"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 307,
+      "title": "RU Les Vergers",
+      "lat": 48.956298,
+      "lon": 2.338672,
+      "area": "Villetaneuse",
+      "adresse": "Avenue J.B. Clément - 93430 Villetaneuse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "sur l'université Sorbonne Paris Nord",
+      "description": "sur l'université Sorbonne Paris Nord",
+      "access": "",
+      "operationalhours": "Ouverture de 11h30 à 14h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.villetaneuse@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/xvx19mgow6jlfgg.jpg",
+        "alt": "RU Les Vergers"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 308,
+      "title": "Cafétéria Les Vergers",
+      "lat": 48.956298,
+      "lon": 2.338672,
+      "area": "Villetaneuse",
+      "adresse": "Avenue J.B. Clément - 93430 Villetaneuse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "description": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "access": "Sous le restaurant universitaire Les Vergers.",
+      "operationalhours": "Ouverture du coin café les Vergers de 08h00 à 16h00<br/>",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.villetaneuse@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/hep19pa5a0e3s8w.jpg",
+        "alt": "Cafétéria Les Vergers"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 309,
+      "title": "Cafétéria Café expo",
+      "lat": 48.956298,
+      "lon": 2.338672,
+      "area": "Villetaneuse",
+      "adresse": "Avenue J.B. Clément - 93430 Villetaneuse",
+      "opening": "110,110,110,110,110,110,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "description": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "access": "Sous le Forum, avec le point de vente à emporter Forum Express.",
+      "operationalhours": "Ouverture de 8h30 à 17h30 + Samedi de 8h00 à 14h00 <br/>",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.villetaneuse@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Café expo"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 310,
+      "title": "Cafétéria Galilée",
+      "lat": 48.9559156,
+      "lon": 2.3388116,
+      "area": "Villetaneuse",
+      "adresse": "Avenue J.B. Clément - 93430 Villetaneuse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "description": "sur l'université Sorbonne Paris Nord site de Villetaneuse",
+      "access": "Au RDC de l'Institut TGalilée, après le PC sécurité.",
+      "operationalhours": "Ouverture de 8h00 à 17h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.villetaneuse@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria Galilée"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 313,
+      "title": "RU L'Allée Verte",
+      "lat": 48.94012,
+      "lon": 2.355881,
+      "area": "St Denis Paris 08",
+      "adresse": "Place du 8 mai 1945 - 93200 Saint-Denis",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Sur le campus de l université Sorbonne Paris Nord Site de Saint-Denis",
+      "description": "Sur le campus de l université Sorbonne Paris Nord Site de Saint-Denis",
+      "access": "",
+      "operationalhours": "Ouverture de 11h30 à 14h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.saint-denis@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/wjr19mgvb33o1vk.jpg",
+        "alt": "RU L'Allée Verte"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 314,
+      "title": "Cafétéria de L'IUT de Saint-Denis",
+      "lat": 48.94012,
+      "lon": 2.355881,
+      "area": "St Denis Paris 08",
+      "adresse": "Place du 8 mai 1945 - 93200 Saint-Denis",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "A l intérieur de l'IUT",
+      "description": "A l intérieur de l'IUT",
+      "access": "Tramway  Marché de Saint-Denis",
+      "operationalhours": "Ouverture de 8h00 à 16h00 <br/>",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.saint-denis@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/dip19mgq4ywle5c.jpg",
+        "alt": "Cafétéria de L'IUT de Saint-Denis"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 315,
+      "title": "RU Campus St Denis ",
+      "lat": 48.945518,
+      "lon": 2.363906,
+      "area": "St Denis Paris 08",
+      "adresse": "2 rue de la Liberté - 93200 Saint-Denis",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Sur le campus de l'université Paris 8   Les 4 pôles de distribution vous proposent quotidiennement un large choix de plats chauds : - Pizzas et pâtes - Grillades - Régions du monde - Le traditionnel ",
+      "description": "Sur le campus de l'université Paris 8 <br/> Les 4 pôles de distribution vous proposent quotidiennement un large choix de plats chauds : - Pizzas et pâtes - Grillades - Régions du monde - Le traditionnel ",
+      "access": "",
+      "operationalhours": "Ouverture de 11h30 à 14h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.paris8@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Campus St Denis "
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 316,
+      "title": "Cafétéria Campus St Denis",
+      "lat": 48.945518,
+      "lon": 2.363906,
+      "area": "St Denis Paris 08",
+      "adresse": "2 rue de la Liberté - 93200 Saint-Denis",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Située au rez-de-chaussée du bâtiment, elle vous propose des sandwiches, des salades ou des boissons chaudes et froides à consommer sur place ou à emporter.",
+      "description": "Située au rez-de-chaussée du bâtiment, elle vous propose des sandwiches, des salades ou des boissons chaudes et froides à consommer sur place ou à emporter.",
+      "access": "Métro 13 Saint-Denis Université",
+      "operationalhours": "Ouverture de 08h00 à 18h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.paris8@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/hwm19mgxyad8pb4.jpg",
+        "alt": "Cafétéria Campus St Denis"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 317,
+      "title": "La grande Cafétéria - Bâtiment A Campus St Denis",
+      "lat": 48.945518,
+      "lon": 2.363906,
+      "area": "St Denis Paris 08",
+      "adresse": "2 rue de la Liberté - 93200 Saint-Denis",
+      "opening": "110,110,110,110,110,110,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Ouverture de 8h30 à 18h00. <br/>Le samedi d'octobre à avril de 09h00 à 14h30.",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.paris8@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/djl19mgxeyekaw0.jpg",
+        "alt": "La grande Cafétéria - Bâtiment A Campus St Denis"
+      },
+      "payment": [
+        {
+          "name": "Espèce"
+        },
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 318,
+      "title": "La Cafétéria du Gai Savoir - Bâtiment A  Campus de St Denis",
+      "lat": 48.945518,
+      "lon": 2.363906,
+      "area": "St Denis Paris 08",
+      "adresse": "2 rue de la Liberté - 93200 Saint-Denis",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Ouverture de 9h00 à 17h00. ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.paris8@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/pwn19mgxozs7o80.jpg",
+        "alt": "La Cafétéria du Gai Savoir - Bâtiment A  Campus de St Denis"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 319,
+      "title": "RU La Pointe Jaune",
+      "lat": 48.788488,
+      "lon": 2.44596,
+      "area": "Créteil",
+      "adresse": "61 av. du Général de Gaulle - 94000 Créteil",
+      "opening": "111,111,010,110,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "situé sur le Campus de l'Université Paris Est Créteil ",
+      "description": "situé sur le Campus de l'Université Paris Est Créteil ",
+      "access": "Métro 8 : Créteil Université",
+      "operationalhours": "Ouverture de 11h30 à 14h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/rsh19mgygydx3i8.jpg",
+        "alt": "RU La Pointe Jaune"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 320,
+      "title": "Libre-service Pointe Jaune Express",
+      "lat": 48.788488,
+      "lon": 2.44596,
+      "area": "Créteil",
+      "adresse": "61 av. du Général de Gaulle - 94000 Créteil",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Libre-service sur le campus de l'UPEC",
+      "description": "Libre-service sur le campus de l'UPEC",
+      "access": "Métro 8 : Créteil Université",
+      "operationalhours": "Ouverture de 8h30 à 16h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ejr19mgylt0z1y8.jpg",
+        "alt": "Libre-service Pointe Jaune Express"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1046,
+      "title": "L'Atelier",
+      "lat": 48.791627,
+      "lon": 2.332084,
+      "area": "Cachan",
+      "adresse": "60 rue Camille Desmoulins 94234 Cachan",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Brasserie",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Service à table sur réservation ",
+      "description": "Service à table sur réservation ",
+      "access": "",
+      "operationalhours": "Ouverture de 12h00 à 14h30.",
+      "contact": {
+        "tel": "0141983980",
+        "email": "restaurant.cachan@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "L'Atelier"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 323,
+      "title": "RU Le Mondor",
+      "lat": 48.794822,
+      "lon": 2.455487,
+      "area": "Créteil",
+      "adresse": "8 rue du Général Sarrail 94000 Créteil",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "au CHU Henri Mondor-côté Faculté de médecine",
+      "description": "au CHU Henri Mondor-côté Faculté de médecine",
+      "access": "Métro 8 : Créteil l'Echat",
+      "operationalhours": "Ouverture de 11h45 à 14h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Le Mondor"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 325,
+      "title": "Brasserie du Mail des Mèches ",
+      "lat": 48.787746,
+      "lon": 2.450618,
+      "area": "Créteil",
+      "adresse": "Rue de la porte des champs 94000 Créteil",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "sur le site de l'UFR Sciences Eco",
+      "description": "sur le site de l'UFR Sciences Eco",
+      "access": "Métro 8 : Créteil Université",
+      "operationalhours": "Ouverture de 08h30 à 15h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/bib19mgyee6clpc.jpg",
+        "alt": "Brasserie du Mail des Mèches "
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 326,
+      "title": "RU L'Agora Créteil",
+      "lat": 48.794765,
+      "lon": 2.44478,
+      "area": "Créteil",
+      "adresse": "5 rue André Boulle 94000 Créteil",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Pizzéria, grillade et région du monde",
+      "description": "Pizzéria, grillade et région du monde",
+      "access": "Métro 8 : Créteil l'Echat",
+      "operationalhours": "Ouverture de 11h30 à 14h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/rur19mg9epny0e8.jpg",
+        "alt": "RU L'Agora Créteil"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 327,
+      "title": "Libre-service de L'Agora",
+      "lat": 48.7944844,
+      "lon": 2.4448736,
+      "area": "Créteil",
+      "adresse": "5 rue André Boulle 94000 Créteil",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Libre-service de l'Agora",
+      "description": "Libre-service de l'Agora",
+      "access": "Métro 8 : Créteil l'Echat",
+      "operationalhours": "Ouverture de 8h30 à 17h30 et de 08h30 à 16h30 le vendredi",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/rur19mg9epny0e8.jpg",
+        "alt": "Libre-service de L'Agora"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 329,
+      "title": "RU L'Arlequin Cachan",
+      "lat": 48.791641,
+      "lon": 2.33217,
+      "area": "Cachan",
+      "adresse": "60 rue Camille Desmoulins - 94234 Cachan Cedex",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Situé sur le Campus de Cachan 3 pôles pizza, grillade, plats chauds",
+      "description": "Situé sur le Campus de Cachan<br/>3 pôles pizza, grillade, plats chauds",
+      "access": "RER B, station Bagneux-Pont Royal",
+      "operationalhours": "Ouverture de 11h15 à 14h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.cachan@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU L'Arlequin Cachan"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 331,
+      "title": "Cafétéria L'Équinoxe",
+      "lat": 48.791627,
+      "lon": 2.332084,
+      "area": "Cachan",
+      "adresse": "60 rue Camille Desmoulins - 94234 Cachan Cedex",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "sur le campus de Cachan",
+      "description": "sur le campus de Cachan",
+      "access": "",
+      "operationalhours": "Ouverture de 07h30 à 17h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.cachan@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria L'Équinoxe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 332,
+      "title": "Cafétéria de L'ESTP",
+      "lat": 48.793761,
+      "lon": 2.330432,
+      "area": "Cachan",
+      "adresse": "28 avenue du Président Wilson - 94234 Cachan cedex",
+      "opening": "000,000,000,000,000,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Fermé pour travaux Située dans le campus l'ESTP à Cachan",
+      "description": "Fermé pour travaux<br/>Située dans le campus l'ESTP à Cachan",
+      "access": "",
+      "operationalhours": "Ouverture de 7h30 à 14h30",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.cachan@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafétéria de L'ESTP"
+      },
+      "payment": [],
+      "menus": []
+    },
+    {
+      "id": 333,
+      "title": "RU Le Pont de Pierre",
+      "lat": 48.912812,
+      "lon": 2.420104,
+      "area": "Bobigny",
+      "adresse": "74 rue Marcel Cachin - 93000 Bobigny",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Situé sur le campus de la faculté de médecine de l'université Sorbonne Paris Nord ",
+      "description": "Situé sur le campus de la faculté de médecine de l'université Sorbonne Paris Nord ",
+      "access": "Bus 134/234 Les Courtillères ou Tram: Hôpital Avicenne",
+      "operationalhours": "Ouverture de 11h30 à 15h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.bobigny@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ciy19mgpn499x28.jpg",
+        "alt": "RU Le Pont de Pierre"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 334,
+      "title": "Cafétéria Le Pont de Pierre",
+      "lat": 48.912812,
+      "lon": 2.420104,
+      "area": "Bobigny",
+      "adresse": "74 rue Marcel Cachin - 93000 Bobigny",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Situé sur le campus de l'université Sorbonne Paris Nord",
+      "description": "Situé sur le campus de l'université Sorbonne Paris Nord",
+      "access": "Bus 134/234 Les Courtillères ou Tram: Hôpital Avicenne",
+      "operationalhours": "Ouverture de 11h30 à 15h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.bobigny@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/hvs19mge8v7y94w.jpg",
+        "alt": "Cafétéria Le Pont de Pierre"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 335,
+      "title": "Cafétéria et Libre-service L'Illustration",
+      "lat": 48.913179,
+      "lon": 2.419074,
+      "area": "Bobigny",
+      "adresse": "74 rue Marcel Cachin - 93000 Bobigny",
+      "opening": "000,000,000,000,000,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le site de l'IUT de Bobigny 1",
+      "description": "Sur le site de l'IUT de Bobigny 1",
+      "access": "Bus 134/234 Les Courtillères ou Tram: Hôpital Avicenne",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.bobigny@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://lh3.googleusercontent.com/-7hBYlszVXp0/UeU-W0_5d5I/AAAAAAAAAB4/17sgL8BDPTU/w907-h680-no/cafet+bobigny.JPG",
+        "alt": "Cafétéria et Libre-service L'Illustration"
+      },
+      "payment": [],
+      "menus": []
+    },
+    {
+      "id": 336,
+      "title": "RU de Melun",
+      "lat": 48.537665,
+      "lon": 2.656975,
+      "area": "Sud Seine-et-Marne",
+      "adresse": "Rue du Port - 77000 Melun",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Ouverture de 11h30 à 14h00<br/>",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.melun@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU de Melun"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 337,
+      "title": "RU Les jardins du Fort",
+      "lat": 48.810721,
+      "lon": 2.34998,
+      "area": "Seine et Bièvre",
+      "adresse": "63 rue Gabriel Péri 94270 Le Kremlin-Bicêtre",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "RU traditionnel ",
+      "description": "RU traditionnel ",
+      "access": "Métro 7 le Kremlin-Bicêtre ",
+      "operationalhours": "Ouverture de 11h30 à 14h15<br/>",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.kremlin@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "RU Les jardins du Fort"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 338,
+      "title": "RU EFREI Villejuif",
+      "lat": 48.788828,
+      "lon": 2.363734,
+      "area": "Seine et Bièvre",
+      "adresse": "30/32 avenue de la République 94800 Villejuif",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Restaurant de l'Ecole Française d'Electronique et d'Informatique",
+      "description": "Restaurant de l'Ecole Française d'Electronique et d'Informatique",
+      "access": "Métro 7 Louis Aragon (5minutes)",
+      "operationalhours": "Ouverture de 11h45 à 14h30<br/>",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.kremlin@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/bxf19mgshmlapr4.jpg",
+        "alt": "RU EFREI Villejuif"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1047,
+      "title": "Libre-service EFREI Express",
+      "lat": 48.788828,
+      "lon": 2.363734,
+      "area": "Seine et Bièvre",
+      "adresse": "30/32 avenue de la République 94800 Villejuif",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Ouverture de 9h30 à 16h15.",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.kremlin@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/bum19mgt6ny3ebk.jpg",
+        "alt": "Libre-service EFREI Express"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 340,
+      "title": "RU L'Arlequin Sénart",
+      "lat": 48.627761,
+      "lon": 2.563677,
+      "area": "Sénart",
+      "adresse": "Avenue Pierre Point - 77127 Lieusaint",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "3 pôles : pizzeria, grill, cuisine du monde",
+      "description": "3 pôles : pizzeria, grill, cuisine du monde",
+      "access": "",
+      "operationalhours": "Ouverture de 11h30 à 14h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.lieusaint@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/dnu19mgo4o3yqbk.jpg",
+        "alt": "RU L'Arlequin Sénart"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 341,
+      "title": "Libre-service de l'IUT de Lieusaint",
+      "lat": 48.627676,
+      "lon": 2.563784,
+      "area": "Sénart",
+      "adresse": "Avenue Pierre Point - 77127 Lieusaint",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Située dans le Hall de l'IUT de Sénart ",
+      "description": "Située dans le Hall de l'IUT de Sénart ",
+      "access": "",
+      "operationalhours": "Ouverture de 09h00 à 15h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.lieusaint@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://lh4.googleusercontent.com/--8Y4wh-gGJs/VYFKBziS7lI/AAAAAAAAALU/qXUTqsqR3W8/w870-h650-no/lieusaint.png",
+        "alt": "Libre-service de l'IUT de Lieusaint"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 342,
+      "title": "Libre-service du Hurtault (IUT Fontainebleau)",
+      "lat": 48.398223,
+      "lon": 2.687616,
+      "area": "Sud Seine-et-Marne",
+      "adresse": "Route de Hurtault - 77300 Fontainebleau",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Libre-service",
+      "description": "Libre-service",
+      "access": "",
+      "operationalhours": "Ouverture de 8 H à 16 h ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.fontainebleau@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/bxf19mgshmlapr4.jpg",
+        "alt": "Libre-service du Hurtault (IUT Fontainebleau)"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1060,
+      "title": "Moovy Market",
+      "lat": 48.912812,
+      "lon": 2.420104,
+      "area": "Bobigny",
+      "adresse": "74 rue Marcel Cachin - 93000 Bobigny",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Foodtruck",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Libre-service situé sur le campus de l'université Sorbonne Paris Nord",
+      "description": "Libre-service situé sur le campus de l'université Sorbonne Paris Nord",
+      "access": "Bus 134/234 Les Courtillères ou Tram: Hôpital Avicenne",
+      "operationalhours": "De 9h00 à 16h00",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.bobigny@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Moovy Market"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1128,
+      "title": "Libre-service KB Express",
+      "lat": 48.810721,
+      "lon": 2.34998,
+      "area": "Seine et Bièvre",
+      "adresse": "63 avenue Gabriel Peri, 94270 Kremlin-Bicêtre",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Libre-service du RU' du CHU du Kremlin-Bicêtre",
+      "description": "Libre-service du RU' du CHU du Kremlin-Bicêtre",
+      "access": "Métro 7 le Kremlin-Bicêtre ",
+      "operationalhours": "Ouverture de 10h30 - 17h30",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.kremlin@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Libre-service KB Express"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1129,
+      "title": "Coffee Corner L'Aparté",
+      "lat": 48.788488,
+      "lon": 2.44596,
+      "area": "Créteil",
+      "adresse": "61 av. du Général de Gaulle - 94000 Créteil",
+      "opening": "111,111,111,111,111,000,000",
+      "closing": "0",
+      "type": "Coffee Corner",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Coffee Corner ",
+      "description": "Coffee Corner ",
+      "access": "Métro 8 : Créteil Université",
+      "operationalhours": "Ouverture de 8H30 à 19h00 ",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.creteil@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Coffee Corner L'Aparté"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1169,
+      "title": "Coffee corner ESIEE",
+      "lat": 48.840273,
+      "lon": 2.583999,
+      "area": "Marne-la-Vallée",
+      "adresse": "2, boulevard Blaise Pascal Cité DESCARTES BP 99 93162 Noisy le Grand CEDEX",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Coffee Corner",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "Ouverture de 7h à 15h",
+      "operationalhours": "",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/acv19pa510p9iww.jpg",
+        "alt": "Coffee corner ESIEE"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1168,
+      "title": "Libre-service ESIEE express",
+      "lat": 48.840273,
+      "lon": 2.583999,
+      "area": "Marne-la-Vallée",
+      "adresse": "2, boulevard Blaise Pascal Cité DESCARTES BP 99 93162 Noisy le Grand CEDEX",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Libre-service",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Ouverture de 10h30 à 14h30",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.champs-sur-marne@crous-creteil.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Libre-service ESIEE express"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    }
+  ]
+}

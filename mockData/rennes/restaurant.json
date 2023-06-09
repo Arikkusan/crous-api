@@ -1,0 +1,5999 @@
+{
+  "restaurants": [
+    {
+      "id": 1135,
+      "title": "Pizza du Métronome - distributeur automatique",
+      "lat": 48.121493,
+      "lon": -1.701286,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "Avenue de la Bataille Flandres-Dunkerque",
+      "opening": "111,111,111,111,111,111,111",
+      "closing": "0",
+      "type": "Distributeur automatique",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Le distributeur 24h/24 est situé devant le Resto U' le Métronome. Des pizzas fraîches sont préparées par l'équipe du Resto U', servies chaudes en quelques minutes.  ",
+      "description": "Le distributeur 24h/24 est situé devant le Resto U' le Métronome. Des pizzas fraîches sont préparées par l'équipe du Resto U', servies chaudes en quelques minutes.<br/><br/>",
+      "access": "",
+      "operationalhours": "24h/24, 7j/7",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/fzl19jhoha6j80w.jpeg",
+        "alt": "Pizza du Métronome - distributeur automatique"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-10",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-11",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-17",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-18",
+          "meal": [
+            {
+              "name": "matin",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "soir",
+              "foodcategory": [
+                {
+                  "name": "Disponible 24h/24",
+                  "dishes": [
+                    {
+                      "name": "Flamckuche "
+                    },
+                    {
+                      "name": "Kébab "
+                    },
+                    {
+                      "name": "3 Fromages  "
+                    },
+                    {
+                      "name": "Bœuf épicé "
+                    },
+                    {
+                      "name": "Exotique "
+                    },
+                    {
+                      "name": "Mexicaine  "
+                    },
+                    {
+                      "name": "Savoyarde  "
+                    },
+                    {
+                      "name": "Canadienne "
+                    },
+                    {
+                      "name": "Marina "
+                    },
+                    {
+                      "name": "Campagnarde  "
+                    },
+                    {
+                      "name": "Pepperoni  "
+                    },
+                    {
+                      "name": "Régina  "
+                    },
+                    {
+                      "name": "Dinde"
+                    },
+                    {
+                      "name": "Légumes grillés"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "title": "Resto U' Hoche",
+      "lat": 48.116811,
+      "lon": -1.675434,
+      "area": "Rennes Centre",
+      "adresse": "2 rue Lesage, Rennes",
+      "opening": "011,011,011,011,010,010,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé à côté de la fac de sciences économiques",
+      "description": "Situé à côté de la fac de sciences économiques",
+      "access": "Bus, arrêt 'Hôtel Dieu'.<br/>Métro, arrêt 'Sainte-Anne'.",
+      "operationalhours": "MIDI : 11h30-13h45, du lundi au vendredi<br/>SOIR : 18h30-20h, du lundi au jeudi <br/>SAMEDI : 11h30-13h45",
+      "contact": {
+        "tel": "02 99 84 30 98",
+        "email": "ru.rennes.centre@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ube19jhow96fulc.jpeg",
+        "alt": "Resto U' Hoche"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 438,
+      "title": "Resto U' La Harpe",
+      "lat": 48.124665,
+      "lon": -1.708613,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "36 Avenue Winston Churchill 35000 Rennes ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus La Harpe",
+      "description": "Sur le campus La Harpe",
+      "access": "Métro, arrêt 'JF Kennedy'",
+      "operationalhours": "11h30-13h45, du lundi au vendredi<br/>",
+      "contact": {
+        "tel": "02 99 59 35 63 ",
+        "email": "ru.villejean2@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ndl19jhihhsq4jk.jpeg",
+        "alt": "Resto U' La Harpe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 439,
+      "title": "Resto U' le Métronome",
+      "lat": 48.121628,
+      "lon": -1.701811,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "Avenue de la Bataille Flandres-Dunkerque  35000 Rennes ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé sur le campus de Villejean",
+      "description": "Situé sur le campus de Villejean",
+      "access": "Métro et bus, arrêt 'Villejean-Universités' ",
+      "operationalhours": "11h30-13h45 du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 59 17 82",
+        "email": "ru.villejean1@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/xpk19jjydvmcbkw.jpeg",
+        "alt": "Resto U' le Métronome"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 440,
+      "title": "Resto U' l'Ereve",
+      "lat": 48.119579,
+      "lon": -1.702149,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "Place du recteur Henri Le Moal  35 000 Rennes ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé au cœur du campus de Rennes 2",
+      "description": "Situé au cœur du campus de Rennes 2",
+      "access": "Accès métro « Villejean Université » ",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 59 35 63",
+        "email": "ru.villejean2@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/yby19jjxu7qey4g.jpeg",
+        "alt": "Resto U' l'Ereve"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Jeudi 1 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "title": "Resto U' le Mélénik",
+      "lat": 48.12286,
+      "lon": -1.685289,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "148 Boulevard de Verdun, RENNES ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Face à l'INSPÉ de Bretagne",
+      "description": "Face à l'INSPÉ de Bretagne",
+      "access": "Métro, arrêt «Anatole France» ",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 59 50 74 ",
+        "email": "ru.villejean1@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/pir19jjy91mqu9s.jpeg",
+        "alt": "Resto U' le Mélénik"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 442,
+      "title": "Resto U' le Fougères",
+      "lat": 48.118448,
+      "lon": -1.671041,
+      "area": "Rennes Centre",
+      "adresse": "46 rue Jean Guéhenno  35 000 RENNES ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé à proximité de la fac' de Droit, de l'IGR, IAE ",
+      "description": "Situé à proximité de la fac' de Droit, de l'IGR, IAE<br/>",
+      "access": "Métro : arrêt 'Jules Ferry'<br/>Bus, arrêt 'Fac de Droit', 'Sévigné', 'Guéhenno'<br/><br/>",
+      "operationalhours": "11h30-13h45, du lundi au vendredi<br/>",
+      "contact": {
+        "tel": "02 99 38 03 22 ",
+        "email": "ru.rennes.centre@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/uiu19jjy6zscgbk.jpeg",
+        "alt": "Resto U' le Fougères"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "title": "Resto U' Duchesse Anne ",
+      "lat": 48.12243,
+      "lon": -1.669217,
+      "area": "Rennes Centre",
+      "adresse": "110 Boulevard de la Duchesse Anne  35 000 RENNES ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Fermeture pour travaux, actuellement.   Sur le campus centre, proche de Sciences Po Rennes, l'IGR, et de l'IPAG. ",
+      "description": "Fermeture pour travaux, actuellement.<br/><br/><br/>Sur le campus centre, proche de Sciences Po Rennes, l'IGR, et de l'IPAG. ",
+      "access": "Métro : arrêt 'Jules Ferry'",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 84 30 96",
+        "email": "ru.rennes.centre@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/xui19jhouh344xs.jpeg",
+        "alt": "Resto U' Duchesse Anne "
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 444,
+      "title": "Resto U' l'Etoile",
+      "lat": 48.122703,
+      "lon": -1.640056,
+      "area": "Rennes est-Beaulieu",
+      "adresse": "39 avenue du professeur Charles Foulon  35700 RENNES ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "A proximité immédiate des Cités U' et dans le campus de Beaulieu",
+      "description": "A proximité immédiate des Cités U' et dans le campus de Beaulieu",
+      "access": "Métro, arrêt 'Beaulieu Université'<br/>Bus, arrêt 'Beaulieu Resto U'",
+      "operationalhours": "11h30-13h45",
+      "contact": {
+        "tel": "02 99 36 27 29 ",
+        "email": "ru.beaulieu@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/kmr19jgwam61k00.jpeg",
+        "alt": "Resto U' l'Etoile"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 445,
+      "title": "Resto U' l'Astrolabe",
+      "lat": 48.120425,
+      "lon": -1.638532,
+      "area": "Rennes est-Beaulieu",
+      "adresse": "Allée Jean d'Alembert, Rennes",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au coeur du campus de Beaulieu, face à la B.U.",
+      "description": "Au coeur du campus de Beaulieu, face à la B.U.",
+      "access": "Bus, arrêt 'Beaulieu INSA'",
+      "operationalhours": "11h30 -13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 87 07 18",
+        "email": "ru.beaulieu2@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/unt19jjxrvnsf1c.jpeg",
+        "alt": "Resto U' l'Astrolabe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 446,
+      "title": "Crous Market' IUT Brest",
+      "lat": 48.400146,
+      "lon": -4.506157,
+      "area": "Brest",
+      "adresse": "Rue de Kergoat",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Market' IUT Brest"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 450,
+      "title": "Resto U' Tohannic",
+      "lat": 47.645918,
+      "lon": -2.747656,
+      "area": "Vannes",
+      "adresse": "9 rue André Lwoff 56000 Vannes",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 97 46 09 08",
+        "email": "ru.vannes@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/amo19jjyo0gxlog.jpeg",
+        "alt": "Resto U' Tohannic"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 589,
+      "title": "Crous Market' IUT Vannes",
+      "lat": 47.6442927,
+      "lon": -2.7760469,
+      "area": "Vannes",
+      "adresse": "10 rue Montaigne,  Vannes",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé dans le hall de l'IUT. Boissons chaudes et fraîches, restauration rapide, confiseries, etc.",
+      "description": "Situé dans le hall de l'IUT. Boissons chaudes et fraîches, restauration rapide, confiseries, etc.",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 97 40 90 62",
+        "email": "ru.vannes@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/zyx19jhgkhkqdfk.jpeg",
+        "alt": "Crous Market' IUT Vannes"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 448,
+      "title": "Resto U' Kercado ",
+      "lat": 47.64859,
+      "lon": -2.78022,
+      "area": "Vannes",
+      "adresse": "78 Rue des Vénètes, VANNES ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 97 46 09 08",
+        "email": "ru.vannes@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ybc19jjxmcfhg68.jpeg",
+        "alt": "Resto U' Kercado "
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 623,
+      "title": "Crous Market' Paquebot",
+      "lat": 47.7453734,
+      "lon": -3.3865201,
+      "area": "Lorient",
+      "adresse": "10 rue Jean Zay 56000 Lorient",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Fermeture exceptionnelle suite à un problème technique.   Tout nouveau Crous Market' à Lorient, à proximité du Resto U' Lanveur",
+      "description": "Fermeture exceptionnelle suite à un problème technique.<br/><br/><br/>Tout nouveau Crous Market' à Lorient, à proximité du Resto U' Lanveur",
+      "access": "Bus<br/>Parking",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Market' Paquebot"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 25 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "title": "Resto U' Lanveur",
+      "lat": 47.743133,
+      "lon": -3.388148,
+      "area": "Lorient",
+      "adresse": "37, rue de Lanveur  56100 LORIENT ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "Resto U' : 11h30-13h45, du lundi au vendredi<br/>",
+      "contact": {
+        "tel": "02 97 87 17 57",
+        "email": "ant.lorient@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/iyf19jjy3st53ls.jpeg",
+        "alt": "Resto U' Lanveur"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 622,
+      "title": "Crous Market' St-Maudé",
+      "lat": 47.746819,
+      "lon": -3.393996,
+      "area": "Lorient",
+      "adresse": "Rue de Saint Maudé 56000 Lorient",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Fermeture exceptionnelle suite à un problème technique.",
+      "description": "Fermeture exceptionnelle suite à un problème technique.",
+      "access": "Bus <br/>Parking",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-rennes.fr/wp-content/uploads/sites/18/2015/01/cafet-St-MaudSo-Lorient-pouriresto.jpg",
+        "alt": "Crous Market' St-Maudé"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 454,
+      "title": "Resto U' Ker Ys",
+      "lat": 47.982267,
+      "lon": -4.097153,
+      "area": "Quimper",
+      "adresse": "4 rue de l'Université  BP 1722  29107 QUIMPER cedex ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Fermeture temporaire. Le Crous Market' au rez-de-chaussée continue de vous accueillir.",
+      "description": "Fermeture temporaire.<br/>Le Crous Market' au rez-de-chaussée continue de vous accueillir.",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 98 90 61 18",
+        "email": "ant.quimper@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ymm19jjwwqf27b4.jpeg",
+        "alt": "Resto U' Ker Ys"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 455,
+      "title": "Resto U' Pierre-Jakez Hélias",
+      "lat": 47.9724,
+      "lon": -4.0938,
+      "area": "Quimper",
+      "adresse": "18, av. de la Plage des Gueux  29000 Quimper ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 90 94 47 91",
+        "email": "ant.quimper@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/tqf19jjyg1xzucg.jpeg",
+        "alt": "Resto U' Pierre-Jakez Hélias"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 456,
+      "title": "Resto U' Kergoat",
+      "lat": 48.400061,
+      "lon": -4.506157,
+      "area": "Brest",
+      "adresse": "1 rue du Commandant Vibert  29200 BREST cedex ",
+      "opening": "011,010,011,011,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "MIDI : 11h30-13h45, du lundi au vendredi<br/>SOIR : 18h30-20h, du lundi au jeudi",
+      "contact": {
+        "tel": "02 98 03 22 56",
+        "email": "ru.kergoat@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/fur19jhhb35yc0w.jpeg",
+        "alt": "Resto U' Kergoat"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 457,
+      "title": "Crous Market' AES",
+      "lat": 48.400859,
+      "lon": -4.501043,
+      "area": "Brest",
+      "adresse": "Avenue Victor le Gorgeu, 29238 Brest Cedex 3 ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Market' AES"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 458,
+      "title": "Crous Market' Sciences",
+      "lat": 48.399605,
+      "lon": -4.496995,
+      "area": "Brest",
+      "adresse": "6 Avenue Victor le Gorgeu Brest",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Market' Sciences"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 459,
+      "title": "Resto U' L'Armen",
+      "lat": 48.39818,
+      "lon": -4.493626,
+      "area": "Brest",
+      "adresse": "2 bis, Av. Le Gorgeu  29287 BREST cedex ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": " 02 98 03 39 21 ",
+        "email": "ru.armen@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/cli19jjxpux0w74.jpeg",
+        "alt": "Resto U' L'Armen"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 460,
+      "title": "Resto U' IBRBS",
+      "lat": 48.396998,
+      "lon": -4.486244,
+      "area": "Brest",
+      "adresse": "22 avenue Camille Desmoulins",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Ce Resto U' comporte une salle de détente et de travail ouverte de 8h à 17h du lundi au vendredi.",
+      "description": "Ce Resto U' comporte une salle de détente et de travail ouverte de 8h à 17h du lundi au vendredi.",
+      "access": "",
+      "operationalhours": "Resto U': 11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "0298017094",
+        "email": "ru.brest@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/gkk19jjwhb0f9og.jpeg",
+        "alt": "Resto U' IBRBS"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 3 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1203,
+      "title": "Crous Market' La Harpe",
+      "lat": 48.124665,
+      "lon": -1.708613,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "36 Avenue Winston Churchill 35000 Rennes ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus La Harpe",
+      "description": "Sur le campus La Harpe",
+      "access": "Métro, arrêt 'JF Kennedy'",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 59 35 63 ",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ndl19jhihhsq4jk.jpeg",
+        "alt": "Crous Market' La Harpe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 461,
+      "title": "Resto U' Branly",
+      "lat": 48.75732,
+      "lon": -3.451556,
+      "area": "Lannion",
+      "adresse": "Rue Edouard Branly BP 80242  22302 LANNION cedex ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 96 48 43 31",
+        "email": "ant.lannionbranly@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/qmz19jhomc6tvpc.jpeg",
+        "alt": "Resto U' Branly"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 462,
+      "title": "Resto U' Trégor",
+      "lat": 48.729205,
+      "lon": -3.461512,
+      "area": "Lannion",
+      "adresse": "1, Rue Langonaval BP 80 313  22302 LANNION cedex ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 96 48 43 31",
+        "email": "ant.lannionbranly@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Resto U' Trégor"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 10 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 10 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 10 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 10 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 10 Juin 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "title": "Resto U' & Crous Market' Mazier",
+      "lat": 48.512724,
+      "lon": -2.740069,
+      "area": "Saint Brieuc",
+      "adresse": "Esplanade des Prix Nobel, Saint-Brieuc",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Ce tout jeune Resto U' propose des plats chauds et une offre Crous Market' de vente à emporter. Il comporte aussi une salle de détente et de travail ouverte toute la journée.",
+      "description": "Ce tout jeune Resto U' propose des plats chauds et une offre Crous Market' de vente à emporter. Il comporte aussi une salle de détente et de travail ouverte toute la journée.",
+      "access": "",
+      "operationalhours": "8h-17h, du lundi au vendredi<br/>RESTO U' : 11h30-13h45, du lundi au vendredi<br/>CROUS MARKET' : 9h-17h, du lundi au vendredi",
+      "contact": {
+        "tel": "02.99.84.93.52",
+        "email": "ant.stbrieuc@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/obz19jhoizzucv4.jpeg",
+        "alt": "Resto U' & Crous Market' Mazier"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 465,
+      "title": "Resto U' St-Malo",
+      "lat": 48.656727,
+      "lon": -1.974173,
+      "area": "Saint Malo",
+      "adresse": "3 bis rue Henri Lemarié, BP 50813, Saint-Malo",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "Bus, arrêt 'Paramé Cimetierre' ou 'IUT'",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 23 18 11 37",
+        "email": "ru.stmalo@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ant19jjyl7sx0qo.jpeg",
+        "alt": "Resto U' St-Malo"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 566,
+      "title": "Resto U' Ker Lann",
+      "lat": 48.0448384,
+      "lon": -1.7436425,
+      "area": "Bruz",
+      "adresse": "Campus de Ker Lann",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus de Ker Lann, à Bruz",
+      "description": "Sur le campus de Ker Lann, à Bruz",
+      "access": "Bus KLEXPRESS, 57",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 05 06 30",
+        "email": "ru.bruz@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ynx19jjwtgp5xpc.jpeg",
+        "alt": "Resto U' Ker Lann"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 568,
+      "title": "Crous Market' IUT - Clos Courtel",
+      "lat": 48.1275452,
+      "lon": -1.6291106,
+      "area": "Rennes est-Beaulieu",
+      "adresse": "Rue du Clos Courtel 35700 Rennes",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé dans l'IUT de Rennes, campus Beaulieu, le Crous Market' propose boissons chaudes et froides, viennoiseries,  sandwichs, paninis, etc",
+      "description": "Situé dans l'IUT de Rennes, campus Beaulieu, le Crous Market' propose boissons chaudes et froides, viennoiseries,  sandwichs, paninis, etc",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/pfd19jhez6clr34.jpeg",
+        "alt": "Crous Market' IUT - Clos Courtel"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1205,
+      "title": "Crous Market' Langues",
+      "lat": 48.119757,
+      "lon": -1.701815,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé dans le bâtiment L",
+      "description": "Situé dans le bâtiment L",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/wqc19jhiwn6w8hs.jpeg",
+        "alt": "Crous Market' Langues"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1206,
+      "title": "Crous Market' Ker Lann",
+      "lat": 48.0448384,
+      "lon": -1.7436425,
+      "area": "Bruz",
+      "adresse": "Campus de Ker Lann",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus de Ker Lann, à Bruz",
+      "description": "Sur le campus de Ker Lann, à Bruz",
+      "access": "Bus KLEXPRESS, 57",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 05 06 30",
+        "email": "ru.bruz@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/hwz19jhgvg0ev4w.jpeg",
+        "alt": "Crous Market' Ker Lann"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1204,
+      "title": "Crous Market' l'Ereve",
+      "lat": 48.119579,
+      "lon": -1.702149,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "Place du recteur Henri Le Moal 35000 Rennes ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé au cœur du campus de Rennes 2",
+      "description": "Situé au cœur du campus de Rennes 2",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/wua19jhi6eaoda8.jpeg",
+        "alt": "Crous Market' l'Ereve"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 612,
+      "title": "Crous Market' Hall B",
+      "lat": 48.119579,
+      "lon": -1.702149,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "Campus Villejean",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé au cœur du campus",
+      "description": "Situé au cœur du campus",
+      "access": "Métro, arrêt 'Villejean-Universités'",
+      "operationalhours": "9h-15, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ges19jhdufe7neo.jpeg",
+        "alt": "Crous Market' Hall B"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1202,
+      "title": "Crous Market' le Fougères",
+      "lat": 48.118448,
+      "lon": -1.671041,
+      "area": "Rennes Centre",
+      "adresse": "46 rue Jean Guéhenno  35 000 RENNES ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Situé à proximité de la fac' de Droit, de l'IGR, IAE Accès",
+      "description": "Situé à proximité de la fac' de Droit, de l'IGR, IAE<br/>Accès",
+      "access": "Métro : arrêt 'Jules Ferry'<br/>Bus, arrêt 'Fac de Droit', 'Sévigné', 'Guéhenno'",
+      "operationalhours": "9h-15, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 38 03 22 ",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/kko19jhmz2lf9og.jpeg",
+        "alt": "Crous Market' le Fougères"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 614,
+      "title": "Crous Market' Ker Ys",
+      "lat": 47.9821,
+      "lon": -4.096,
+      "area": "Quimper",
+      "adresse": "4 Rue de l' Université 29000 Quimper",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "Bus<br/>Parking gratuit",
+      "operationalhours": "9h-15h, du lundi au vendredi<br/>",
+      "contact": {
+        "tel": "02 98 90 61 18",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/nin19jhh6x3pk2o.jpeg",
+        "alt": "Crous Market' Ker Ys"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 615,
+      "title": "Crous Market' IUT St-Malo",
+      "lat": 48.6535056,
+      "lon": -1.9707808,
+      "area": "Saint Malo",
+      "adresse": "rue de la Croix Dessiles, Saint-Malo",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de l'IUT de St-Malo",
+      "description": "Au sein de l'IUT de St-Malo",
+      "access": "Bus, arrêt 'IUT' ou 'Lycée Maritime'",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 19 74 95",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Market' IUT St-Malo"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Vendredi 16 Juin 2023 au Dimanche 3 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "title": "Crous Market' Astrolabe",
+      "lat": 48.120625,
+      "lon": -1.638732,
+      "area": "Rennes est-Beaulieu",
+      "adresse": "Allée Jean d'Alembert, Rennes",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au cœur du campus de Beaulieu, face à la B.U.",
+      "description": "Au cœur du campus de Beaulieu, face à la B.U.",
+      "access": "Bus, arrêt 'Beaulieu INSA'",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/iss19jh2pws0ri8.jpeg",
+        "alt": "Crous Market' Astrolabe"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 618,
+      "title": "Resto U' Plouzané",
+      "lat": 48.3601649,
+      "lon": -4.5643133,
+      "area": "Brest",
+      "adresse": "260 avenue de Rochon 29280 Plouzane",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "Bus, parking",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 98 05 95 95",
+        "email": "ru.plouzane@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/grd19jjyi86268w.jpeg",
+        "alt": "Resto U' Plouzané"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 619,
+      "title": "Resto U' Centre",
+      "lat": 48.3927562,
+      "lon": -4.4877299,
+      "area": "Brest",
+      "adresse": "7 avenue foch 29200 Brest",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "Bus, Tram",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 98 01 69 15",
+        "email": "ru.centre@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/lpo19jhorkmfokg.jpeg",
+        "alt": "Resto U' Centre"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 620,
+      "title": "Crous Market' Centre",
+      "lat": 48.3927562,
+      "lon": -4.4877299,
+      "area": "Brest",
+      "adresse": "7 avenue foch 29200 Brest",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "Bus et Tram",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 98 01 69 15",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/xym19jhbxenr8w0.jpeg",
+        "alt": "Crous Market' Centre"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 621,
+      "title": "Crous Market' Kergoat",
+      "lat": 48.4000483,
+      "lon": -4.5061777,
+      "area": "Brest",
+      "adresse": "1 rue commandant Paul VIBERT 29200 Brest",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "Bus <br/>Parking",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 98 03 22 56",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/fur19jhhb35yc0w.jpeg",
+        "alt": "Crous Market' Kergoat"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1043,
+      "title": "Crous Market' BU Bouguen",
+      "lat": 48.399503,
+      "lon": -4.50063,
+      "area": "Brest",
+      "adresse": "10 avenue Le Gorgeu 29200 Brest",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Fermé pour travaux. Ouverture prochaine. Situé à l’accueil de la B.U. du Bouguen",
+      "description": "Fermé pour travaux. Ouverture prochaine.<br/>Situé à l’accueil de la B.U. du Bouguen",
+      "access": "Bus, arrêt Bouguen : Ligne 1, 5, 9 et 10",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": "ru.brest@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/kdm19mz5c6pb6ow.jpg",
+        "alt": "Crous Market' BU Bouguen"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Dimanche 7 Mai 2023 au Jeudi 31 Août 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1207,
+      "title": "Crous Market' Tohannic",
+      "lat": 47.645918,
+      "lon": -2.747656,
+      "area": "Vannes",
+      "adresse": "9 rue André Lwoff 56000 Vannes",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 97 46 09 08",
+        "email": "ru.vannes@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/xme19jho229pu1s.jpeg",
+        "alt": "Crous Market' Tohannic"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 968,
+      "title": "Crous Market' l'Etoile",
+      "lat": 48.122803,
+      "lon": -1.640106,
+      "area": "Rennes est-Beaulieu",
+      "adresse": "39 avenue du professeur Charles Foulon, RENNES",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "A proximité immédiate des Cités U' et du campus de Beaulieu",
+      "description": "A proximité immédiate des Cités U' et du campus de Beaulieu",
+      "access": "Bus,  arrêt 'Beaulieu Resto U'",
+      "operationalhours": "9h-15h, du lundi au vendredi<br/>",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/jpp19jhiamo6g00.jpeg",
+        "alt": "Crous Market' l'Etoile"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 967,
+      "title": "Crous Market' Santé",
+      "lat": 48.117874,
+      "lon": -1.696279,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "2 avenue Léon Bernard, Rennes",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus Santé",
+      "description": "Sur le campus Santé",
+      "access": "Métro et bus, arrêt 'Villejean Universités'<br/>Bus, arrêt 'Gaston Berger'",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/qoo19jhntq9frpc.jpeg",
+        "alt": "Crous Market' Santé"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-05",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-06",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-08",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Fermeture",
+                  "dishes": [
+                    {
+                      "name": "Structure fermée du Samedi 27 Mai 2023 au Vendredi 1 Septembre 2023"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 970,
+      "title": "Crous Market' Cité Internationale Paul Ricoeur",
+      "lat": 48.107019,
+      "lon": -1.675864,
+      "area": "Rennes Centre",
+      "adresse": "11 bis Boulevard de la Liberté",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au sein de la Cité Internationale Paul Ricoeur, ce Crous Market' vous accueille dans un cadre moderne et chaleureux",
+      "description": "Au sein de la Cité Internationale Paul Ricoeur, ce Crous Market' vous accueille dans un cadre moderne et chaleureux",
+      "access": "Métro, arrêt 'Charles De Gaulle', <br/>Proche Gare SNCF",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "02 99 84 93 97",
+        "email": "cite.internationale@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/hxd19jhc68jtteo.jpeg",
+        "alt": "Crous Market' Cité Internationale Paul Ricoeur"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 971,
+      "title": "Crous Market' le Métronome",
+      "lat": 48.121728,
+      "lon": -1.701911,
+      "area": "Rennes ouest-Villejean",
+      "adresse": "Avenue de la Bataille Flandres-Dunkerque, Rennes ",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Au rez de chaussée du Resto U' le Métronome, un espace pour faire une pause, et pour les petites et les grandes faims",
+      "description": "Au rez de chaussée du Resto U' le Métronome, un espace pour faire une pause, et pour les petites et les grandes faims",
+      "access": "Métro et bus, arrêt 'Villejean-Universités'",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/ofn19jhn4cffwrk.jpg",
+        "alt": "Crous Market' le Métronome"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1020,
+      "title": "Crous Market' IGR",
+      "lat": 48.11774814730921,
+      "lon": -1.668570712208748,
+      "area": "Rennes Centre",
+      "adresse": "11 rue Jean Macé",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "9h-15h, du lundi au vendredi",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Market' IGR"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1213,
+      "title": "Crous Snack' Kergoat",
+      "lat": 48.4000483,
+      "lon": -4.5061777,
+      "area": "Brest",
+      "adresse": "1 rue commandant Paul VIBERT 29200 Brest",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Bientôt, une nouvelle offre de restauration ",
+      "description": "Bientôt, une nouvelle offre de restauration ",
+      "access": "",
+      "operationalhours": "",
+      "contact": {
+        "tel": "02 98 03 22 56",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Snack' Kergoat"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1212,
+      "title": "Crous Snack' Chaplin",
+      "lat": 47.743134,
+      "lon": -3.388149,
+      "area": "Lorient",
+      "adresse": "37, rue de Lanveur 56100 Lorient ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Une nouvelle offre 100% veggie : le Crous Snack !  Au menu : burger, bruschetta, tarte au citron, tacos bowl, crème glacée, ...",
+      "description": "Une nouvelle offre 100% veggie : le Crous Snack ! <br/>Au menu : burger, bruschetta, tarte au citron, tacos bowl, crème glacée, ...",
+      "access": "",
+      "operationalhours": "11h30-13h45, du lundi au vendredi",
+      "contact": {
+        "tel": "02 97 87 17 57",
+        "email": "ant.lorient@crous-rennes.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://ephoto.nuonet.fr/link/zmp19jho4988rmo.jpeg",
+        "alt": "Crous Snack' Chaplin"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    }
+  ]
+}
