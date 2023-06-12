@@ -23,7 +23,12 @@ afterAll(() => {
 	interval.unref();
 });
 
+beforeEach(() => {
+	jest.useFakeTimers();
+});
+
 afterEach(() => {
+	jest.runOnlyPendingTimers();
 	jest.useRealTimers();
 });
 
