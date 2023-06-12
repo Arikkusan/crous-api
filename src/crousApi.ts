@@ -115,16 +115,12 @@ class CrousAPI {
 	public async fetchRestaurants() {
 		const minifiedJsonEndpoint = (crousName: string) => `/externe/crous-${crousName}.min.json`;
 		const data: string = await crousWebServiceAxios.get("").then((res) => res.data);
-		let crousShortNames = data
-			.replace(/<\/a>.+\n/g, "\n")
-			.split("\n")
-			.reduce((acc: string[], str) => {
-				const regResult = /<a href=(?:"|')(?<url>.+?\/)(?:"|')>/g.exec(str);
-				const url = regResult?.groups?.url?.replace("/", "");
-				if (!!url && isCrousName(url)) acc.push(url);
-				return acc;
-			}, []);
-		for (const crousShortName of crousShortNames) {
+		let crousShortNames: string[] = [];
+		for (const match of data.matchAll(/(?<=http:\/\/webservices-v2\.crous-mobile\.fr:8080\/feed\/).+?(?=\/">)/g)) {
+			let possibleCrousName = match[0];
+			if (isCrousName(possibleCrousName)) crousShortNames.push(possibleCrousName);
+		}
+		for await (const crousShortName of crousShortNames) {
 			const crous = this.listeCrous.get(crousShortName);
 			const minifiedJsonUrl = `${crousShortName}/${minifiedJsonEndpoint(crousShortName)}`.replace(/(?<!http:)\/{2,}/g, "/");
 			const res = await crousWebServiceAxios.get(minifiedJsonUrl);
