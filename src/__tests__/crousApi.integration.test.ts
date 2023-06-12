@@ -5,7 +5,7 @@ let crousApi: CrousAPI;
 let interval: NodeJS.Timer;
 
 beforeAll(
-	async () =>
+	() =>
 		new Promise((resolve) => {
 			server.listen();
 			crousApi = new CrousAPI();
@@ -15,7 +15,7 @@ beforeAll(
 					interval.unref();
 					resolve(true);
 				}
-			}, 500);
+			}, 1000);
 		})
 );
 
@@ -34,12 +34,12 @@ afterEach(() => {
 
 describe("ResourceManager", () => {
 	it("should return crous list", async () => {
-		const crousList = await crousApi.getCrousList();
+		const crousList = crousApi.getCrousList();
 		expect(crousList).toHaveLength(26);
 	});
 
 	it("should have a precise number of restaurant for Nantes Crous ", async () => {
-		const crousNantes = await crousApi.getCrous("nantes");
+		const crousNantes = crousApi.getCrous("nantes");
 		expect(crousNantes?.restaurants.list).toHaveLength(56);
 	});
 

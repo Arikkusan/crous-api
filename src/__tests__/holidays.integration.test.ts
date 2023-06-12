@@ -33,14 +33,15 @@ describe("HolidayManager", () => {
 	it("should delay start of special holidays", async () => {
 		const holidayManager = new HolidaysManager();
 		await holidayManager.updateCache();
-		await holidayManager.loadCustomVacances();
+		holidayManager.loadCustomVacances();
 		const customHolidays = holidayManager.getCustomVacances();
 
 		expect(customHolidays?.["Le Mans Université"]).toBeDefined();
 
 		const expectedStartDate: Date = new Date("2022-10-28");
 		expectedStartDate.setUTCHours(22);
-
-		expect(customHolidays?.["Le Mans Université"]![0].start_date).toStrictEqual(expectedStartDate);
+		if (customHolidays?.["Le Mans Université"]) {
+			expect(customHolidays["Le Mans Université"][0].start_date).toStrictEqual(expectedStartDate);
+		}
 	});
 });
