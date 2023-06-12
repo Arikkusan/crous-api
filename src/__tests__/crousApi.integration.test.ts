@@ -33,12 +33,12 @@ afterEach(() => {
 });
 
 describe("ResourceManager", () => {
-	it("should return crous list", async () => {
+	it("should return crous list", () => {
 		const crousList = crousApi.getCrousList();
 		expect(crousList).toHaveLength(26);
 	});
 
-	it("should have a precise number of restaurant for Nantes Crous ", async () => {
+	it("should have a precise number of restaurant for Nantes Crous ", () => {
 		const crousNantes = crousApi.getCrous("nantes");
 		expect(crousNantes?.restaurants.list).toHaveLength(56);
 	});

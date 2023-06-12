@@ -115,9 +115,9 @@ class CrousAPI {
 	public async fetchRestaurants() {
 		const minifiedJsonEndpoint = (crousName: string) => `/externe/crous-${crousName}.min.json`;
 		const data: string = await crousWebServiceAxios.get("").then((res) => res.data);
-		let crousShortNames: string[] = [];
+		const crousShortNames: string[] = [];
 		for (const match of data.matchAll(/(?<=http:\/\/webservices-v2\.crous-mobile\.fr:8080\/feed\/).+?(?=\/">)/g)) {
-			let possibleCrousName = match[0];
+			const possibleCrousName = match[0];
 			if (isCrousName(possibleCrousName)) crousShortNames.push(possibleCrousName);
 		}
 		for await (const crousShortName of crousShortNames) {

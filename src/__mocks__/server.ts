@@ -20,7 +20,7 @@ const handlers = [
 		if (!crousName) {
 			return res(ctx.body(crousWebServiceFeed));
 		} else {
-			let fileName = req.url.toString().split("/").pop();
+			const fileName = req.url.toString().split("/").pop();
 			let filePath, fileData;
 			if (fileName?.endsWith(".xml")) {
 				filePath = `${mockFolderPath}/${crousName}/${fileName}`;
