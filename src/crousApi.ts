@@ -177,7 +177,7 @@ class CrousAPI {
 		});
 	}
 
-	private cronJob = new CronJob("0 0 0 * * *", async () => CrousAPI.setupApi(), null, true, "Europe/Paris");
+	updateCronJob = new CronJob("0 0 0 * * *", async () => CrousAPI.setupApi(), null, true, "Europe/Paris");
 }
 
 export default CrousAPI;

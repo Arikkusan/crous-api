@@ -11,6 +11,7 @@ beforeAll(
 			crousApi = new CrousAPI();
 			interval = setInterval(() => {
 				if (CrousAPI.isLoaded) {
+					crousApi.updateCronJob.stop();
 					interval.unref();
 					resolve(true);
 				}
