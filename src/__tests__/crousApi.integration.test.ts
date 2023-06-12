@@ -8,7 +8,6 @@ beforeAll(
 	async () =>
 		new Promise((resolve) => {
 			server.listen();
-			jest.useRealTimers().setSystemTime(new Date("2023-06-09"));
 			crousApi = new CrousAPI();
 			interval = setInterval(() => {
 				if (CrousAPI.isLoaded) {
