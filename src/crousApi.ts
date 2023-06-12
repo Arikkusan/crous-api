@@ -1,5 +1,6 @@
 import { Residence, Restaurant, Actualites } from "crous-api-types";
 import axios from "axios";
+import { crousWebServiceAxios } from "./utils/AxiosCustom.js";
 import { xml2json } from "xml-js";
 import { Dataset } from "./utils/Dataset.js";
 import { isCrousName } from "crous-api-types";
@@ -112,22 +113,17 @@ class CrousAPI {
 	}
 
 	public async fetchRestaurants() {
-		const baseUrl = "http://webservices-v2.crous-mobile.fr/feed";
 		const minifiedJsonEndpoint = (crousName: string) => `/externe/crous-${crousName}.min.json`;
-		const data: string = await axios({ method: "GET", url: baseUrl }).then((res) => res.data);
-		let crousShortNames = data
-			.replace(/<\/a>.+\n/g, "\n")
-			.split("\n")
-			.reduce((acc: string[], str) => {
-				const regResult = /<a href=(?:"|')(?<url>.+?\/)(?:"|')>/g.exec(str);
-				const url = regResult?.groups?.url?.replace("/", "");
-				if (!!url && isCrousName(url)) acc.push(url);
-				return acc;
-			}, []);
-		for (const crousShortName of crousShortNames) {
+		const data: string = await crousWebServiceAxios.get("").then((res) => res.data);
+		const crousShortNames: string[] = [];
+		for (const match of data.matchAll(/(?<=http:\/\/webservices-v2\.crous-mobile\.fr:8080\/feed\/).+?(?=\/">)/g)) {
+			const possibleCrousName = match[0];
+			if (isCrousName(possibleCrousName)) crousShortNames.push(possibleCrousName);
+		}
+		for await (const crousShortName of crousShortNames) {
 			const crous = this.listeCrous.get(crousShortName);
-			const minifiedJsonUrl = `${baseUrl}/${crousShortName}/${minifiedJsonEndpoint(crousShortName)}`.replace(/(?<!http:)\/{2,}/g, "/");
-			const res = await axios({ method: "GET", url: minifiedJsonUrl });
+			const minifiedJsonUrl = `${crousShortName}/${minifiedJsonEndpoint(crousShortName)}`.replace(/(?<!http:)\/{2,}/g, "/");
+			const res = await crousWebServiceAxios.get(minifiedJsonUrl);
 			if (!res || !res?.data) continue;
 			typeof res.data == "string" && (res.data = JSON.parse(res.data.replace(/	/g, "")));
 			if (!res.data) continue;
@@ -177,7 +173,7 @@ class CrousAPI {
 		});
 	}
 
-	private cronJob = new CronJob("0 0 0 * * *", async () => CrousAPI.setupApi(), null, true, "Europe/Paris");
+	updateCronJob = new CronJob("0 0 0 * * *", () => CrousAPI.setupApi(), null, true, "Europe/Paris");
 }
 
 export default CrousAPI;

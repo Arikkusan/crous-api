@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <residence id="204" title="Résidence Jean-Baptiste Lamarck" short_desc="Élancourt" lat="48.7656211853" lon="1.9489860535" zone="YVELINES">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;br /&gt;&lt;/strong&gt;Résidence universitaire située au cœur du centre-ville et tout près du bois de Nogent.&lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt; Elle comprend 110 studios équipés, dont 2 sont accessibles aux personnes à mobilité réduite.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt;Chacun des logements dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : La Verrière&lt;br /&gt;Depuis La Défense : lignes de bus 412 ou 411, arrêt Franche-Comté Bourgogne&lt;br /&gt;Depuis Saint-Quentin-en-Yvelines : ligne de bus 401&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;&lt;br /&gt;Tarif&lt;/strong&gt;&lt;br /&gt; de 314 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Canap%C3%A9.png" alt="" width="41" height="34" /&gt; Salle Commune&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" height="50" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Zone de travail &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Jean-Baptiste Lamarck&lt;/h2&gt;&#13;&lt;p&gt;3, allée du Théâtre - 78 990 Élancourt&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.lamarck@crous-versailles.fr"&gt; residence.lamarck@crous-versailles.fr &lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud&lt;br /&gt;&lt;/strong&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>3, allée du Théâtre - 78 990 Élancourt</address>
+    <mail>residence.lamarck@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle polyvalente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="205" title="Résidence Vauban" short_desc="Guyancourt" lat="48.7796516418" lon="2.0441513062" zone="YVELINES">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;La résidence est située au cœur de l’université de Versailles Saint-Quentin-en-Yvelines, en plein centre-ville et à proximité du centre commercial.&lt;br /&gt;&lt;br /&gt; Elle comprend 94 studios, 17 logements en colocation (duplex en colocation pour 2 garçons ou 2 filles) et de 4 appartements.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chaque logement dispose d'une kitchenette, d'une douche, d'un réfrigérateur et de toilettes.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt;Gare : St-Quentin-en-Yvelines (RER C) &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; De 297 € à 526 €, loyer toutes charges comprises (eau, chauffage, électricité et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente (avec télévision)&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local vélos&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Vauban&lt;/h2&gt;&#13;&lt;p&gt;1, boulevard d’Alembert - 78 280 Guyancourt&lt;br /&gt;Tél. : 01 80 73 04 00&lt;br /&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.vauban@crous-versailles.fr"&gt; residence.vauban@crous-versailles.fr &lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud &lt;/strong&gt;&lt;br /&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>1, boulevard d’Alembert - 78 280 Guyancourt</address>
+    <mail>residence.vauban@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="206" title="Résidence La Croix St-Sylvère" short_desc="Cergy-Pontoise" lat="49.0356178284" lon="2.0603249073" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située en plein centre-ville, à proximité de l’université de Cergy-Pontoise, des établissements d’enseignement supérieur et du centre-commercial &lt;em&gt;Les 3 fontaines.&lt;/em&gt;&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 200 chambres traditionnelles.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Equipements&lt;/strong&gt;&lt;br /&gt;Un badge est fourni pour accéder à la résidence. Celle-ci est aménagée de différentes salles communes, de cuisines et d’autres fonctionnalités pratiques pour les résidents. Chacune des chambres dispose d’une connexion à Internet.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Cergy-préfecture (RER A). &lt;br /&gt;La résidence est également desservie par plusieurs lignes de bus.&amp;nbsp&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt; 158 € * Loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="40" height="40" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Babyfoot.png" alt="" width="41" /&gt; Salle de détente et de baby-foot&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" height="49" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence La Croix St-Sylvère&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;Rue La Croix Saint-Sylvère 95014 Cergy-Pontoise&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 30 30 72 74&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;La plateforme d’accueil de la résidence&lt;strong&gt; La Croix St-Sylvère&lt;/strong&gt; est ouverte&lt;br /&gt;du lundi au vendredi de 8h à 12h30 et de 13h30 à 16h45.&lt;/p&gt;</contact>
+    <address>Rue La Croix Saint-Sylvère 95014 Cergy-Pontoise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="207" title="Résidence Le Square de l'Échiquier" short_desc="Cergy-Pontoise" lat="49.0482978821" lon="2.02688694" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;br /&gt;&lt;/strong&gt;Résidence universitaire nouvellement réhabilitée, située à proximité du centre-ville, du cinéma et à 5 minutes à pied de la gare RER A Cergy Saint-Christophe.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Elle comprend 221 studios et 8 logements en colocation.&lt;br /&gt;Chaque studio dispose d’une kitchenette et d’une douche individuelle.&lt;br /&gt;Chaque étudiant dispose de sa propre chambre dans les logements en colocation. La kitchenette et l’espace convivial sont communs aux 2 étudiants.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Cergy Saint-Christophe (RER A).&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;De 323 € à 369 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="40" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Salle%20de%20sport.png" alt="" width="41" /&gt;salle de sport&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Le Square de l'échiquier&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;9, square de l'échiquier - 95 800 Cergy-Pontoise&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 30 30 72 74&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.neuville@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;La plateforme d’accueil de la résidence&lt;strong&gt; La Croix St-Sylvère&lt;/strong&gt; est ouverte &lt;br /&gt;Du lundi au vendredi de 8h à 12h30 et de 13h30 à 16h45.&lt;br /&gt;Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise.&lt;/p&gt;</contact>
+    <address>9, square de l'échiquier - 95 800 Cergy-Pontoise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de sport</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="208" title="Résidence Les Châteaux St-Sylvère" short_desc="Cergy-Pontoise" lat="49.0306434631" lon="2.0756952763" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;br /&gt;&lt;/strong&gt;Résidence universitaire située en plein centre-ville, à proximité de l’université de Cergy-Pontoise, des établissements d’enseignement supérieur et du centre-commercial Les 3 fontaines.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 77 studios et 42 logements en colocation.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Un badge est fourni pour accéder à la résidence.&lt;/p&gt;&#13;&lt;p&gt;Studios : chaque studio dispose d’une kitchenette et d’une douche individuelle.&lt;br /&gt;Logements en colocation : chaque étudiant dispose de sa propre chambre. La kitchenette et l’espace convivial sont communs aux 2 ou 5 étudiants. Les appartements disposent de sanitaires à partager.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Cergy-Préfecture (RER A)&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;br /&gt;&lt;/strong&gt;de 232 € à 357 €, loyer toutes charges comprises (eau, chauffage, EDF et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="40" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt;   &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail et de détente&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Ping%20pong.png" alt="" width="41" /&gt; Salle de Ping Pong&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local à vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Les Châteaux St-Sylvère&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 30 30 72 74&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;Horaire accueil plateforme : &lt;br /&gt;Du lundi au vendredi de 9h à 12h30 et de 13h30 à 17h.&lt;br /&gt;Mardi de 13h30 à 17h.&lt;br /&gt;Résidence La Croix Saint-Sylvère et Les Châteaux Saint-Sylvère : Quartier Croix St-Sylvère - 95 014 Cergy-Pontoise.&lt;/p&gt;</contact>
+    <address>Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="209" title="Résidence Les Chênes d’Or" short_desc="Cergy-Pontoise" lat="49.0380859375" lon="2.073132515" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;br /&gt;&lt;/strong&gt;Résidence universitaire située en plein centre-ville, à proximité de l’université de Cergy-Pontoise et du centre-commercial Les 3 fontaines. Elle comprend 45 studios et 54 logements en colocation.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Un badge est fourni pour accéder à la résidence. &lt;br /&gt;&lt;strong&gt;Studios &lt;/strong&gt;: chaque étudiant dispose de sa propre chambre, d’une kitchenette et d’une douche individuelle.&lt;br /&gt;&lt;strong&gt;Logements en colocation&lt;/strong&gt; : chaque étudiant dispose de sa propre chambre. La kitchenette et les sanitaires sont communs aux deux étudiants.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Cergy-Préfecture. La résidence est également desservie par plusieurs lignes de bus.&lt;br /&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt;De 274 € à 398 €, loyer toutes charges comprises (eau, chauffage, EDF et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="40" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Les Chênes d’Or&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;7, rue les Chênes d'Or - 95 014 Cergy-Pontoise&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 30 30 72 74&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;                &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;La plateforme d’accueil de la résidence La Croix St-Sylvère est ouverte &lt;br /&gt;Du lundi au vendredi de 8h à 12h30 et de 13h30 à 16h45.&lt;br /&gt;Mardi de 13h30 à 17h.&lt;br /&gt;Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise.&lt;/p&gt;</contact>
+    <address>7, rue les Chênes d'Or - 95 014 Cergy-Pontoise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="210" title="Résidence Les Linandes Mauves" short_desc="Cergy-Pontoise" lat="49.0427703857" lon="2.0711619854" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située en plein centre-ville, à proximité de l’université de Cergy-Pontoise et du centre-commercial Les 3 fontaines.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 171 studios dont 11 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Un badge est fourni pour accéder à la résidence. Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Cergy-Préfecture (RER A).&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt; 283 à 474 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salle de travail&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking &lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Les Linandes Mauves&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;1, rue des Linandes Mauves - 95 000 Cergy-Pontoise&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 30 30 72 74&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;         &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;À la plateforme de la résidence La Croix Saint-Sylvère, ouverte&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;Du lundi au vendredi de 8h à 12h30 et de 13h30 à 16h45.&lt;br /&gt;Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;</contact>
+    <address>1, rue des Linandes Mauves - 95 000 Cergy-Pontoise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="211" title="Résidence Irène Joliot-Curie" short_desc="Cergy-Pontoise" lat="49.015007019" lon="2.0771718025" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt;Cette résidence universitaire dispose d'une cour intérieure, elle est située sur le site de Neuville-sur-Oise de l'université de Cergy-Pontoise.&lt;br /&gt;&lt;br /&gt; Elle comprend 180 studios dont 10 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt;Chacun des logements dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit. Un badge permet d'accéder à la résidence. La résidence met à disposition : salle de travail, salle avec télévision, salle de détente, laverie et un parking souterrain.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Neuville-Université (RER A ou transilien ligne L) - à 6 minutes à pied de la gare&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; de 351 € à 540 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente dont une avec télévision&lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt;  salle de travail&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking souterrain&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Ping%20pong.png" alt="" width="41" /&gt; Salle de ping-pong&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Irène Joliot Curie - La Boucle de l'Oise&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;8, mail Gay-Lussac - 95 000 Neuville-sur-Oise&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 30 30 72 74&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;&lt;br /&gt;&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;La plateforme d’accueil de la résidence La Croix St-Sylvère est ouverte&lt;br /&gt;Du lundi au vendredi de 8h à 12h30 et de 13h30 à 16h45.&lt;br /&gt;Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise.&lt;br /&gt;Uniquement sur rendez-vous&lt;/p&gt;</contact>
+    <address>8, mail Gay-Lussac - 95 000 Neuville-sur-Oise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="213" title="Résidence Louise Bourgeois" short_desc="Antony" lat="48.7365150452" lon="2.2866821289" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire bordée par plusieurs parcs, située à proximité des commerces, de restaurants et de complexes sportifs.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 119 studios.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une salle d’eau individuelle et d’un accès à internet (Wifirst).&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Les Baconnets (RER B)&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt;De 432 € à 544 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt; Salle de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" height="49" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Louise Bourgeois&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;3, rue de l'Annapurna - 92 160 Antony&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Tél. &lt;/strong&gt;: &lt;a href="tel:0186671000"&gt;01 86 67 10 00&lt;/a&gt;&lt;/p&gt;&#13;&lt;p align="LEFT"&gt; &lt;/p&gt;&#13;&lt;p align="JUSTIFY"&gt;&lt;strong&gt;Mél :&lt;/strong&gt; &lt;a href="mailto:residence.louise-bourgeois@crous-versailles.fr"&gt;residence.louise-bourgeois@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;À la plateforme d'Antony&lt;/strong&gt; &lt;br /&gt;Du lundi au vendredi de 8h à 17h&lt;br /&gt;55, avenue du Général de Gaulle - 92160 Antony CEDEX.&lt;/p&gt;</contact>
+    <address>3, rue de l'Annapurna - 92 160 Antony</address>
+    <mail>residence.louise-bourgeois@crous-versailles.fr</mail>
+    <phone>01 86 67 10 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+    </house_services>
+  </residence>
+  <residence id="214" title="Résidence Les Bas Longchamps" short_desc="Bagneux" lat="48.7906913757" lon="2.3169708252" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située à proximité du campus et de l'IUT de Sceaux et de l'IUT de Cachan, l’université de Paris-Sud, l'université de Châtenay-Malabry, de l'EPF et à 20 minutes de Paris par les transports en commun.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 14 studios (de 17 à 28 m²) et 14 sont accessibles aux personnes à mobilité réduite et 74 logements en colocation.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Un code permet d’accéder à la résidence. &lt;br /&gt;Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Bagneux (RER B) &lt;br /&gt;Plusieurs lignes de bus desservent également la résidence&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt; de 293 € à 476 €,  toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt;  &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt; Salles de travail et de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;  Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="40" height="40" /&gt; Local vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="43" height="51" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="44" height="37" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence de Bagneux /Les Bas de Longchamps&lt;/h2&gt;&#13;&lt;p&gt;2, rue Abraham Lincoln - 92220 Bagneux&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 86 63 00 90&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.bagneux@crous-versailles.fr"&gt; residence.bagneux@crous-versailles.fr &lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;Plateforme d'accueil&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;Bât B de la résidence &lt;strong&gt;Olympe de Gouges&lt;/strong&gt; &lt;br /&gt;31, avenue Lombart - 92 260 Fontenay-aux-Roses &lt;br /&gt;Du lundi au vendredi de 8h à 17h&lt;/p&gt;</contact>
+    <address>2, rue Abraham Lincoln - 92 220 Bagneux</address>
+    <mail>residence.bagneux@crous-versailles.fr</mail>
+    <phone>01 86 63 00 90</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="215" title="Résidence Vincent Fayo" short_desc="Châtenay-Malabry" lat="48.762802124" lon="2.2827095985" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt; &lt;br /&gt;Résidence universitaire située à proximité des établissements d’enseignement supérieur et en bordure du parc de Sceaux (2 hectares de verdure avec un terrain de tennis).&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 295 chambres individuelles avec parties communes à partager avec les colocataires de l'étage (douches, WC et cuisine).&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Un badge permet d’accéder à la résidence. Celle-ci dispose de plusieurs salles communes, d’un accès à internet dans chacune des chambres et d’un court de tennis.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : La Croix de Berny - bus ligne 379 en direction de Vélizy 2, arrêt carrefour du 19 Mars 1962 (Châtenay-Malabry)&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs &lt;/strong&gt;&lt;br /&gt;158 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt;    &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de travail et de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Tennis.png" alt="" width="41" /&gt; Cours de tennis&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="43" height="51" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="44" height="37" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Vincent Fayo&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;75, rue Vincent Fayo - 92 290 Châtenay-Malabry&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 86 67 10 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.chatenay@crous-versailles.fr"&gt;residence.chatenay@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la plateforme d'Antony&lt;/strong&gt; (résidence Jean-Zay)&lt;br /&gt;Du lundi au vendredi de 8h à 17h&lt;br /&gt; 55, avenue du Général de Gaulle - 92 290 Antony CEDEX.&lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;</contact>
+    <address>75, rue Vincent Fayo - 92 290 Châtenay-Malabry</address>
+    <mail>residence.chatenay@crous-versailles.fr</mail>
+    <phone>01 86 67 10 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="216" title="Résidence Saints-Sauveurs" short_desc="Fontenay-aux-Roses" lat="48.7911109924" lon="2.2972493172" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située au cœur du centre-ville, bordée par des espaces verts et à proximité du campus et de l'IUT de Sceaux, de l'EPF et de l’université de Paris-Sud.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 203 T1 (de 14,5 m² à 24 m²) dont 3 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Un code permet d’accéder à la résidence. Chacun des studios de type T1 dispose d’une kitchenette et d’une douche individuelle.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;br /&gt;&lt;/strong&gt;Gare : Fontenay-aux-Roses (RER B) Plusieurs lignes de bus desservent également la résidence.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt; de 329 € à 543 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salle de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail (avec wifi)&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" /&gt; Salle de réunion&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="40" height="40" /&gt; Local vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Saints-Sauveurs&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;15, rue des Saints-Sauveurs - 92 260 Fontenay-aux-Roses&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 86 63 00 90&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.vauban@crous-versailles.fr"&gt; residence.fontenay@crous-versailles.fr &lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;&lt;br /&gt;Plateforme d'accueil&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;Bât B de la résidence &lt;strong&gt;Olympe de Gouges&lt;/strong&gt; &lt;br /&gt;31, avenue Lombart - 92260 Fontenay-aux-Roses&lt;br /&gt;Du lundi au vendredi de 8h à 17h&lt;/p&gt;</contact>
+    <address>15, rue des Saints-Sauveurs - 92 260 Fontenay-aux-Roses</address>
+    <mail>residence.fontenay@crous-versailles.fr</mail>
+    <phone>01 86 63 00 90</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="217" title="Résidence Simone Weil" short_desc="Boulogne Billancourt" lat="48.8285217285" lon="2.2348971367" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située à proximité de commerces, de restaurants, du métro et des quais de Seine, bordée par les parcs de Billancourt, des Glacières et la Seine musicale.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 155 studios dont 11 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Equipements&lt;/strong&gt;&lt;br /&gt; Chacun des logements dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare RATP : Pont de Sèvres (métro ligne 9) &lt;br /&gt;Tramway : Musée de Sèvres (T2)&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;br /&gt;&lt;/strong&gt;De 367 € à 490 € * Loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt;  Salle TV&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Cuisine.png" alt="" width="41" /&gt; Cuisine&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salle de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Simone Weil&lt;/h2&gt;&#13;&lt;p&gt;5, place Joseph Frantz 92100 Boulogne Billancourt&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.boulogne@crous-versailles.fr"&gt;residence.boulogne@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;À la plateforme située au 2 rue Pozzo di Borgo 92210 Saint-Cloud&lt;br /&gt;Du lundi au vendredi de 9h à 17h &lt;/p&gt;</contact>
+    <address>5, place Joseph Frantz 92100 Boulogne Billancourt</address>
+    <mail>residence.boulogne@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Cuisine collective</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="218" title="Résidence de Nanterre" short_desc="Nanterre" lat="48.9051856995" lon="2.2120680809" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située au cœur du campus de l’université de Paris-Ouest Nanterre La Défense et à 2 stations (RER ligne A) de La Défense et de son centre commercial Les 4 temps.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 1 132 studios dont 9 accessibles à des personnes à mobilité réduite et 16 logements domotisés.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Un badge permet d’accéder à la résidence. Chacun des studios dispose d’une kitchenette et d’une douche individuelle.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Nanterre université (RER A)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Loyer&lt;/strong&gt;&lt;br /&gt; 245 € à 472 €, loyer  toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente dont une avec télévision&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" /&gt;  Salles de travail et de réunion&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Courrir.png" alt="" width="41" /&gt; SUAPS à proximité&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence de Nanterre&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;8, allée de l'Université - 92 001 Nanterre&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 41 20 32 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence-nanterre@crous-versailles.fr"&gt;residence.nanterre@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la plateforme d'accueil Nanterre&lt;br /&gt;&lt;/strong&gt;Lundi, mardi, jeudi et vendredi : de 8h30 à 16h&lt;br /&gt;Mercredi : de 8h30 à 12h et de 13h à 16h&lt;br /&gt;8, allée de l’Université - 92000 Nanterre &lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;</contact>
+    <address>8, allée de l'Université - 92 001 Nanterre</address>
+    <mail>residence.nanterre@crous-versailles.fr</mail>
+    <phone>01 41 20 32 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="219" title="Résidence Le Vieux Pozzo" short_desc="Saint-Cloud" lat="48.8452682495" lon="2.2163643837" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située dans un quartier résidentiel calme, à proximité du centre-ville, des transports en commun et des campus de Paris Nanterre et de l'université Versailles-St Quentin.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 158 studios, dont 7 sont accessibles aux personnes à mobilité réduite, et de 8 appartements.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des logements dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare SNCF : Saint-Cloud &lt;br /&gt;Tramway : Parc de Saint-Cloud (ligne T2)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;De 428 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salle de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente dont &lt;br /&gt;            une dispose d'une télévision&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Cuisine.png" alt="" width="41" /&gt; Cuisine&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence de Saint-Cloud&lt;/h2&gt;&#13;&lt;p&gt;2, avenue Pozzo di Borgo - 92 210 Saint-Cloud&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 80 73 04 00&lt;br /&gt;Mél : &lt;a href="mailto:residence.st-cloud@crous-versailles.fr"&gt;residence.stcloud@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>2, avenue Pozzo di Borgo - 92 210 Saint-Cloud</address>
+    <mail>residence.stcloud@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Cuisine collective</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="220" title="Résidence Flora Tristan" short_desc="Évry" lat="48.635974884" lon="2.430277586" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située au sein du quartier des Pyramides en plein centre ville, bordée par des espaces verts et à proximité du centre commercial régional Évry 2.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 120 chambres rénovées, 184 studios et 49 T1 dont 15 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;br /&gt;&lt;/strong&gt;Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet. Pas de micro-ondes dans les logements. Cuisine commune dans chaque bâtiment pour les étudiants logés en chambre.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Évry-Courcouronnes (RER D)&lt;br /&gt;Lignes de bus 403, 404, 405, 407 arrêt Jules Vallès ou 402 arrêt Les Miroirs.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;245 € à 474 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/R%C3%A9sidences/crous-versailles-velo.jpg" alt="" width="40" height="40" /&gt; Local vélo et rack&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Flora Tristan&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;1, rue Jules Vallès - 91 000 Évry&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 60 91 72 22 ou 01 60 91 72 23 ou 01 60 91 72 25 ou 01 60 91 72 26&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.flora-tristan@crous-versailles.fr"&gt;plateforme.evry@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la plateforme Le Dragueur&lt;/strong&gt; &lt;br /&gt;Du lundi au mercredi : de 8h30 à 17h&lt;br /&gt;Le jeudi : de 8h30 à 18h&lt;br /&gt;Le vendredi : de 8h30 à 17h&lt;br /&gt; 4, allée Jean Rostand - 91 000 Évry&lt;/p&gt;</contact>
+    <address>1, rue Jules Vallès - 91 000 Évry</address>
+    <mail>plateforme.evry@crous-versailles.fr</mail>
+    <phone>01 60 91 72 22 / 01 60 91 72 23 / 01 60 91 72 26</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="221" title="Résidence Le Dragueur" short_desc="Évry" lat="48.6271018982" lon="2.4313938618" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située au cœur de la ville et à quelques pas de l’université d’Évry et du centre commercial &lt;br /&gt;Évry 2.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 103 studios et 6 T2.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Equipement&lt;/strong&gt;&lt;br /&gt; Un badge permet d’accéder à la résidence.Chaque logement dispose d’une kitchenette, d’une douche individuelle et d’un accès à Internet.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Évry-Courcouronnes (RER D)&lt;br /&gt;A 5 minutes à pied de la gare SNCF&lt;br /&gt;Bus : à proximité.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt;354 € à 456 € * Loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Babyfoot.png" alt="" width="40" /&gt; Salle commune avec baby foot&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Le Dragueur&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;4, allée Jean-Rostand &lt;/strong&gt;&lt;strong&gt;91000 Évry&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 60 91 72 22 ou 01 60 91 72 23 ou 01 60 91 72 25 ou 01 60 91 72 26&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.dragueur@crous-versailles.fr"&gt;plateforme.evry@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la plateforme Le Dragueur&lt;/strong&gt; &lt;br /&gt;Du lundi au mercredi : de 8h30 à 17h&lt;br /&gt;Jeudi : de 8h30 à 18h &lt;br /&gt;Vendredi : de 8h30 à 17h&lt;br /&gt; 4, allée Jean Rostand 91000 Évry&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;</contact>
+    <address>4, allée Jean-Rostand 91000 Évry</address>
+    <mail>plateforme.evry@crous-versailles.fr</mail>
+    <phone>01 60 91 72 22 ou 01 60 91 72 25</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="222" title="Résidence Les Aunettes" short_desc="Évry" lat="48.617641449" lon="2.4339873791" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située près des commerces et restaurants, à proximité de l’université d’Évry, des établissements d'enseignement supérieur et du grand parc des Coquibus.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 22 T1 et 91 logements en colocation.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;br /&gt;&lt;/strong&gt;Chacun des studios de type T1 dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet. Les T1 bis sont des logements en collocation avec deux chambres et une partie commune (cuisine, douche, WC).&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Évry-Courcouronnes (RER D) - Ligne de bus 407 arrêt Place des Aunettes.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;267 € à 366 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking sécurisé payant&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="40" height="40" /&gt; Abri vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;&#13;&lt;p&gt; Petite salle de travail&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Les Aunettes&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;1, impasse de Prédecelle - 91 000 Évry&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 60 91 72 22 ou 01 60 91 72 23 ou 01 60 91 72 25 ou 01 60 91 72 26&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.aunettes@crous-versailles.fr"&gt;plateforme.evry@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;À la plateforme Le Dragueur&lt;/strong&gt;&lt;br /&gt;Du lundi au mercredi : de 8h30 à 17h&lt;br /&gt;Jeudi : de 8h30 à 18h&lt;br /&gt;Vendredi : de 8h30 à 17h&lt;br /&gt;4, allée Jean Rostand - 91 000 Évry&lt;/p&gt;</contact>
+    <address>1, impasse de Prédecelle 91000 Évry</address>
+    <mail>plateforme.evry@crous-versailles.fr</mail>
+    <phone>01 60 91 72 22 ou 01 60 91 72 25</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="223" title="Résidence Marguerite Yourcenar" short_desc="Évry" lat="48.6238670349" lon="2.4252643585" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située au sein du campus universitaire d’Évry, à proximité du centre commercial Évry 2 et du parc des Coquibus. Elle comprend 200 T1. Possibilité de loger des apprentis du CFA Évry.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Un badge permet d’accéder à la résidence. Chacun des logements dispose d’une kitchenette, d’une douche individuelle et d’un accès à Internet.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Évry-Courcouronnes (RER D)&lt;br /&gt;Bus : à 5 min&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; De 348 € à 515 € , loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/R%C3%A9sidences/crous-versailles-velo.jpg" alt="" width="40" /&gt; Rack vélo&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Marguerite Yourcenar&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;15, rue André Lalande - 91000 Évry&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Téléphone&lt;/strong&gt; : 01 60 91 72 22 ou 01 60 91 72 23 ou 01 60 91 72 25 ou 01 60 91 72 26&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Mél&lt;/strong&gt; : &lt;a href="mailto:residence.marguerite-yourcenar@crous-versailles.fr"&gt;plateforme.evry@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;À la plateforme Le Dragueur&lt;/strong&gt;&lt;br /&gt;Du lundi au mercredi : de 8h30 à 17h&lt;br /&gt;Jeudi : de 8h30 à 18h&lt;br /&gt;Vendredi : de 8h30 à 17h&lt;br /&gt;4, allée Jean Rostand - 91 000 Évry&lt;/p&gt;</contact>
+    <address>15, rue André Lalande - 91 000 Évry</address>
+    <mail>plateforme.evry@crous-versailles.fr</mail>
+    <phone>01 60 91 72 22 ou 01 60 91 72 23</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="225" title="Résidence de l’Île" short_desc="Bures-sur-Yvette" lat="48.698802948" lon="2.1578958035" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située à proximité du campus universitaire de Paris-Sud et des établissements d’enseignement supérieur.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 290 studios (18 m2) dont 9 sont accessibles aux personnes à mobilité réduite et 12 appartements.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Un badge permet d’accéder à la résidence et au parking. Chacun des logements de type T1 dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Bures-sur-Yvette (RER B)&lt;br /&gt;Plusieurs lignes de bus desservent la résidence.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt; 369 € à 477 € * Loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente, une avec télévision&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" /&gt;  Salle de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20bibli.png" alt="" width="41" /&gt; Bibliothèque&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence de l’Île&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;14, rue du Docteur Collé - bâtiment 227 du campus universitaire &lt;br /&gt;91 440 Bures-sur-Yvette&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 69 07 68 96 / 06 42 28 96 70 &lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.ile@crous-versailles.fr"&gt;residence.ile@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la plateforme de la résidence de l'Île&lt;/strong&gt;&lt;br /&gt;Lundi, mardi, jeudi et vendredi : de 8h30 à 16h30&lt;br /&gt;Le mercredi : de 8h30 à 18h30&lt;br /&gt;14, rue du Docteur Collé bâtiment 227 du campus &lt;br /&gt;91 440 Bures-sur-Yvette &lt;/p&gt;</contact>
+    <address>14, rue du Docteur Collé - bâtiment 227 du campus universitaire 91440 Bures-sur-Yvette</address>
+    <mail>residence.ile@crous-versailles.fr</mail>
+    <phone>01 69 07 68 96 / 06 42 28 96 70</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Bibliothèque</house_service>
+    </house_services>
+  </residence>
+  <residence id="226" title="Résidence Émilie du Châtelet" short_desc="Gif-sur-Yvette" lat="48.7097740173" lon="2.1665172577" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située idéalement près des établissements d’enseignement supérieur du site Paris-Saclay dans la zone géographique du plateau du Moulon.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 200 studios (18 m2) dont 10 sont accessibles aux personnes à mobilité réduite. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Equipements&lt;/strong&gt;&lt;br /&gt; Un badge permet d’entrer au sein de la résidence. Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à Internet.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Orsay-ville (RER B) - bus ligne 9106 en direction de Saint-Quentin en Yvelines, arrêt Moulon (Gif-sur-Yvette)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt; 357 € * Loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt;  Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" /&gt;Salle de réunion&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt;Salle de détente &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;  Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="44" height="52" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="44" height="38" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Émilie du Châtelet&lt;/h2&gt;&#13;&lt;p&gt;13, rue Joliot Curie 91190 Gif-sur-Yvette&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 69 07 68 96 / 06 42 28 96 70&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.emilie-chatelet@crous-versailles.fr"&gt;residence.emilie-chatelet@crous-versailles.fr&lt;/a&gt;&lt;a href="mailto:residence.emilie-chatelet@crous-versailles.fr"&gt;&lt;br /&gt;&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la résidence Émilie du Châtelet&lt;/strong&gt;&lt;br /&gt;Les jeudi de 14h à 16h30&lt;br /&gt;&lt;strong&gt;À la plateforme de la résidence de l'Île&lt;br /&gt;&lt;/strong&gt;Lundi, mardi, jeudi, vendredi: de 8h30 à 16h30&lt;br /&gt;Mercredi : de 08h30 à 18h30&lt;/p&gt;</contact>
+    <address>13, rue Joliot Curie - 91 192 Gif-sur-Yvette</address>
+    <mail>residence.emilie-chatelet@crous-versailles.fr</mail>
+    <phone>01 69 07 68 96 / 06 42 28 96 70</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="227" title="Résidence Le Bosquet" short_desc="Les Ulis" lat="48.6792793274" lon="2.1664700508" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située en plein centre-ville, à proximité du centre commercial Les Ulis 2 et à 20 minutes de l’université de Paris-Sud. Elle comprend 159 chambres traditionnelles.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Un code permet d’accéder à la résidence et au parking. Celle-ci est aménagée de différentes salles communes, de cuisine et d’autres fonctionnalités pratiques pour les résidents. Chacune des chambres dispose d’une connexion à Internet.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt; &lt;br /&gt;Gare : Orsay-ville (RER B)&lt;br /&gt;Bus ligne 23 direction Centre commercial Ulis 2, arrêt Thomas&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;167 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salles de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt;  Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Photo.png" alt="" width="41" /&gt; Laboratoire photos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;Wifi &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Le Bosquet&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;15, rue le Bosquet - 91 940 Les Ulis&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 69 07 68 96 / 06 42 28 96 70 &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;À la résidence Le Bosquet :&lt;br /&gt;&lt;/strong&gt;Tous les jours de 14h à 16h30&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;À la plateforme de la résidence de l’Île :&lt;br /&gt;&lt;/strong&gt; Lundi, mardi, jeudi, vendredi : de 8h30 à 16h30&lt;br /&gt;Mercredi : de 08h30 à 18h30&lt;/p&gt;</contact>
+    <address>15, rue le Bosquet - 91 940 Les Ulis</address>
+    <mail>Residence.ulis@crous-versailles.fr</mail>
+    <phone>01 69 07 68 96 / 06 42 28 96 70</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl />
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="228" title="Résidence La Pacaterie" short_desc="Orsay" lat="48.7015419006" lon="2.1846776009" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Résidence universitaire longée par la rivière de l’Yvette, située au sein du campus de l’université de Paris-Sud et à proximité de la bibliothèque universitaire, du restaurant universitaire Les Cèdres et du parc Charles Boucher.&lt;br /&gt;Elle abrite plusieurs associations étudiantes, notamment les clubs de peinture et de photo.&lt;br /&gt;La résidence comprend 309 chambres traditionnelles.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Un code permet d’accéder à la résidence. Celle-ci est aménagée de différentes salles communes, de cuisines, et d’autres fonctionnalités pratiques pour les résidents. Chacune des chambres dispose d’une connexion à Internet.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Orsay-ville ou Le guichet (RER B) - Des bus desservent également la résidence.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;De 158 € Loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20musique.png" alt="" width="41" /&gt; Salles de détente &lt;br /&gt;            (télévision, atelier peinture, musique)&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt;  Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Informatique.png" alt="" width="41" /&gt; Salle informatique&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Photo.png" alt="" width="41" /&gt; Laboratoire photos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Internet (ADSL, wifi)&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence La Pacaterie&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;Bâtiment 499 - rue de la Pacaterie - 91 400 Orsay&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;Téléphone : 01 69 15 75 98&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.pacaterie@crous-versailles.fr"&gt;residence.pacaterie@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Permanence à la résidence la Pacaterie :&lt;/strong&gt;&lt;br /&gt;Le mardi : de 11h30 à 19h30&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;</contact>
+    <address>Bâtiment 499 - rue de la Pacaterie 91400 Orsay</address>
+    <mail>residence.pacaterie@crous-versailles.fr</mail>
+    <phone>01 69 15 75 98</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle informatique</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="229" title="Résidence  Les Jardins de Fleming" short_desc="Orsay" lat="48.6935462952" lon="2.1846373081" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire bordée par des espaces verts et située à proximité du centre-ville, du campus de Paris-Saclay.&lt;br /&gt; Elle comprend 714 studios, dont 28 sont accessibles aux personnes à mobilité réduite, et 18 appartements.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à Internet.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Orsay-ville (RER B) - Des lignes de bus desservent également la résidence, arrêt Joffre.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt;De 266 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20musique.png" alt="" width="41" /&gt; Salles de détente &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" height="34" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Informatique.png" alt="" width="41" /&gt; Salle informatique&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Les jardins de Fleming&lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;21, rue André Maginot 91400 Orsay&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Téléphone standard: 01 69 18 97 97&lt;a href="tel:01 69 18 97 97"&gt;&lt;br /&gt;&lt;/a&gt;&lt;a href="tel:01 69 18 97 97"&gt;&lt;br /&gt;&lt;/a&gt;Mél : &lt;a href="mailto:residence.fleming@crous-versailles.fr"&gt;residence.fleming@crous-versailles.fr&lt;/a&gt;&lt;a href="mailto:residence.fleming@crous-versailles.fr"&gt;&lt;br /&gt;&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil &lt;br /&gt;&lt;br /&gt;À la plateforme Fleming&lt;br /&gt;&lt;/strong&gt;Lundi et Vendredi : de 8h30 à 16h30&lt;br /&gt;Mardi, mercredi et jeudi : de 8h30 à 19h30&lt;br /&gt;21, rue André Maginot - 91 000 Orsay&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;</contact>
+    <address>21, rue André Maginot - 91400 Orsay</address>
+    <mail>residence.fleming@crous-versailles.fr</mail>
+    <phone>01 69 18 97 97</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle informatique</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="230" title="Résidence Olympe de Gouges" short_desc="Fontenay" lat="48.7897758484" lon="2.2871809006" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; &lt;strong&gt;Résidence de la réussite&lt;/strong&gt; située au sein d’un quartier résidentiel calme, longée par des espaces verts et à proximité de commerces, de restaurants et des campus de Sceaux, de l'IUT de Sceaux, de Châtenay-Malabry, de l'EFP et de l’université de Paris-Sud.&lt;br /&gt; La résidence comprend 274 studios (de 16 à 25 m²) dont 58 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;Les résidences pour la réussite proposent à des &lt;strong&gt;étudiants inscrits dans un établissement de l'enseignement supérieur de l’académie de Versailles et sélectionnés parmi les étudiants boursiers&lt;/strong&gt;, un hébergement de qualité associé à un accompagnement éducatif et pédagogique.&lt;/p&gt;&#13;&lt;p&gt;Ce dispositif s'inscrit dans la continuité des dispositifs d'égalité des chances de type Cordées de le réussite ou internats de la réussite, en collège ou en lycée et permettant à des jeunes de s'engager avec succès dans des cursus d'étude ambitieux (licence, CPGE, STS ou IUT).&lt;br /&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Une carte magnétique permet d’accéder à la résidence. Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à Internet.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Fontenay-aux-Roses (RER B)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif &lt;/strong&gt;&lt;br /&gt; De 275 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" /&gt;  Salle de réunion et de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;  Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="40" /&gt;  Local vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Olympe de Gouges&lt;/h2&gt;&#13;&lt;p&gt;Bât B / 31, avenue Lombart - 92 260 Fontenay-aux-Roses&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 86 63 00 90 / 01 46 68 40 72&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.olympe-gouges@crous-versailles.fr"&gt; residence.olympe-gouges@crous-versailles.fr&lt;br /&gt;&lt;br /&gt; &lt;/a&gt;&lt;strong&gt;Plateforme d'accueil&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Bât B de la résidence &lt;strong&gt;Olympe de Gouges&lt;/strong&gt;&lt;br /&gt;31, avenue Lombart - 92260 Fontenay-aux-Roses&lt;/p&gt;&#13;&lt;p&gt;Lundi : 8h30 à 12h30 et 13h30 à 17h&lt;br /&gt;Mardi : 8h à 12h30 et 13h30 à 19h&lt;br /&gt;Vendredi : 8h30 à 17h (sans interruption)&lt;/p&gt;</contact>
+    <address>31, avenue Lombard - 92 260 Fontenay-aux-Roses</address>
+    <mail>residence.olympe-gouges@crous-versailles.fr</mail>
+    <phone>01 86 63 00 90 / 01 46 68 40 72</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="231" title="Résidence Adrienne Bolland" short_desc="Buc" lat="48.780872345" lon="2.1315436363" zone="YVELINES">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située dans un quartier résidentiel calme bordé par les bois de la forêt de Versailles et à proximité de la gare Versailles-Chantiers (13 minutes de la gare Paris-Montparnasse).&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 120 studios dont 6 sont accessibles aux personnes à mobilité réduite. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chaque studio dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet (Wifirst).&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Versailles-Chantiers - de nombreux bus desservent l'arrêt ZAC Cerf-Volant.&lt;br /&gt;La résidence se trouve à proximité des campus universitaires, des écoles et des commerces.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; 352 € à 539 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salle de détente avec télévision&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local Vélo&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20reunion.png" alt="" width="41" /&gt; Salle de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Adrienne Bolland&lt;/h2&gt;&#13;&lt;p&gt;1526, rue Blériot - 78 530 Buc&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél :&lt;a href="https://admin-v2.crous-mobile.fr/residence.buc@crous-versailles.fr"&gt; residence.buc@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud&lt;br /&gt;Du lundi au vendredi de 9h à 17h &lt;/p&gt;</contact>
+    <address>1526, rue Blériot - 78 530 Buc</address>
+    <mail>residence.buc@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle TV</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="232" title="Résidence Jacqueline de Romilly" short_desc="Versailles" lat="48.8187904358" lon="2.1487836838" zone="YVELINES">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire donnant sur la forêt domaniale de Fausses Reposes et idéalement située à proximité du campus des sciences de l’Université de Versailles Saint-Quentin-en-Yvelines et d'une gare desservant Paris-St Lazare.&lt;/p&gt;&#13;&lt;p&gt;La résidence comprend 49 studios (de 16 à 26,91 m²), dont 1 accessible aux personnes à mobilité réduite.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gares SNCF : Versailles Rive-Droite et Montreuil &lt;br /&gt;Bus : Plusieurs lignes de bus permettent également de desservir les gares de Versailles (Rive Gauche, Rive Droite, Chantiers et Porchefontaine)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; 458 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt; Salles de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20ascenseur.png" alt="" width="41" /&gt; Ascenseurs&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Jacqueline de Romilly&lt;/h2&gt;&#13;&lt;p&gt;52 bis, avenue de Villeneuve l'Étang - 78 000 Versailles&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.jacqueline-de-romilly@crous-versailles.fr"&gt; residence.jacqueline-de-romilly@crous-versailles.fr &lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>52 bis, avenue de Villeneuve l'Étang - 78 000 Versailles</address>
+    <mail>residence.jacqueline-de-romilly@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl />
+    <appointmentUrl />
+    <virtualVisitUrl />
+    <bookingUrl />
+    <troubleshootingUrl />
+    <house_services>
+      <house_service>Ascenseur</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="233" title="Résidence La Fresque" short_desc="Versailles" lat="48.8112220764" lon="2.1460649967" zone="YVELINES">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située aux portes de l’UFR des sciences de l’Université de Versailles-Saint-Quentin-en-Yvelines, dans le quartier résidentiel de Clagny-Glatigny et non loin du centre-ville et de la forêt domaniale de Fausses Reposes.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 60 studios (de 17 à 25,30 m²), tous accessibles aux personnes à mobilité réduite.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Versailles Rive-Droite&lt;br /&gt;Bus : Arrêt de bus ligne 4 Richard Mique&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif &lt;/strong&gt;&lt;br /&gt; 434 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage et internet).&lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt; Salles de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local à vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking à réserver&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence La Fresque&lt;/h2&gt;&#13;&lt;p&gt;10, rue Edmé Bouchardon - 78 000 Versailles&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.vauban@crous-versailles.fr"&gt; residence.la-fresque@crous-versailles.fr &lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;&lt;br /&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud &lt;br /&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>10, rue Edmé Bouchardon - 78 000 Versailles</address>
+    <mail>residence.la-fresque@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl />
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle polyvalente</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="234" title="Résidence Jacqueline Auriol" short_desc="Viroflay" lat="48.8005752563" lon="2.1810252666" zone="Yvelines">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située en plein centre-ville, à proximité des commerces, de restaurants, du campus des sciences de l’université de Versailles-Saint-Quentin-en-Yvelines et de 2 gares desservant Paris St-Lazare et Montparnasse.&lt;/p&gt;&#13;&lt;p&gt;La résidence comprend 165 studios (de 18,10 à 24,80 m²) dont 9 sont accessibles aux personnes à mobilité réduite.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des logements dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; 4 min à pied de la gare Chaville-Vélizy ou 10 min à pied des gares Viroflay-Rive Droite et Viroflay-Rive Gauche.&lt;br /&gt;Tramway T6 à proximité.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; De 362 € à 541 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt; Salle de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local Velo&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salle de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20ascenseur.png" alt="" width="41" /&gt; Ascenseurs&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Jacqueline Auriol&lt;/h2&gt;&#13;&lt;p&gt;64, avenue Gaston Boissier - 78 220 Viroflay&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="https://admin-v2.crous-mobile.fr/residence.jacqueline-auriol@crous-versailles.fr"&gt; residence.jacqueline-auriol@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud &lt;br /&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>64, avenue Gaston Boissier - 78 220 Viroflay</address>
+    <mail>residence.jacqueline-auriol@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Ascenseur</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="235" title="Résidence René Cassin" short_desc="Élancourt" lat="48.7681694031" lon="1.9499287605" zone="YVELINES">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située au-dessus de l’hôtel de ville, dans un quartier du centre-ville particulièrement animé (commerces, restaurants, cinéma, pharmacie...), à proximité d'un secteur d'implantation de nombreuses entreprises et de centres de recherches et dans un cadre agréable pour la vie estudiantine.&lt;/p&gt;&#13;&lt;p&gt;Elle comprend 161 studios (de 16 à 25 m²), dont 23 sont accessibles aux personnes à mobilité réduite. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : La Verrière depuis La Défense ou Saint-Quentin-en-Yvelines. &lt;br /&gt;Bus : plusieurs lignes de bus desservent la résidence. Arrêt de bus Franche-Comté Bourgogne.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt; de 326 € à 433 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="41" /&gt; Salle de détente&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="41" /&gt; Local à vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20ascenseur.png" alt="" width="41" /&gt; Ascenseurs&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence René Cassin&lt;/h2&gt;&#13;&lt;p&gt;4, place Pierre Mendès-France - 78 990 Élancourt&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 80 73 04 00&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.rene-cassin@crous-versailles.fr"&gt;residence.rene-cassin@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;À la plateforme située au 2, rue Pozzo di Borgo - 92 210 Saint-Cloud &lt;br /&gt;Du lundi au vendredi de 9h à 17h&lt;/p&gt;</contact>
+    <address>4, place Pierre Mendès-France - 78 990 Élancourt.</address>
+    <mail>residence.rene-cassin@crous-versailles.fr</mail>
+    <phone>01 80 73 04 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Ascenseur</house_service>
+      <house_service>Parking</house_service>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle polyvalente</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="1184" title="Résidence Les Linandes Mauves Extension" short_desc="Cergy-Pontoise" lat="49.0427703857" lon="2.0711619854" zone="VAL D'OISE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située en plein centre-ville, à proximité de l’université de Cergy-Pontoise et du centre-commercial Les 3 fontaines.&lt;br /&gt;Elle comprend 61 logements en colocation, dont 5 sont accessibles aux personnes à mobilité réduite.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipement&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une douche individuelle et d’un accès à internet à haut-débit. Un badge permet d’accéder à la résidence.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt;Gare : Cergy-Préfecture (RER A)&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarifs&lt;/strong&gt;&lt;br /&gt; 282 € à 322 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt; Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Les Linandes Mauves Extension&lt;/h2&gt;&#13;&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt;1, rue des Linandes Mauves - 95 000 Cergy-Pontoise&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;Tél. : 01 30 30 72 74&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;Mél : &lt;a href="mailto:residence.lacroix@crous-versailles.fr"&gt;residence.lacroix@crous-versailles.fr&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;La plateforme d’accueil de la résidence La Croix St-Sylvère est ouverte&lt;br /&gt;Du lundi au vendredi de 8h à 12h30 et de 13h30 à 16h45.&lt;br /&gt;Rue La Croix Saint-Sylvère - 95 014 Cergy-Pontoise.&lt;/p&gt;</contact>
+    <address>1, rue des Linandes Mauves - 95 000 Cergy-Pontoise</address>
+    <mail>residence.lacroix@crous-versailles.fr</mail>
+    <phone>01 30 30 72 74</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="1228" title="Résidence Clichy" short_desc="Clichy" lat="48.9039522" lon="2.3064767" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située à proximité du centre-ville, des commerces et à 10 min à pied de la station de métro Mairie de Clichy (ligne 13) ou de la gare de Saint-Ouen (RER C).&lt;br /&gt;&lt;br /&gt;Elle comprend 148 studios (de 18 à 33 m2), plus 10 logements pour les enseignants-chercheurs.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt; Chacun des studios dispose d’une kitchenette, d’une douche individuelle accessible aux personnes à mobilité réduite et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : Saint-Ouen (RER C)&lt;br /&gt;Métro : Mairie de Clichy (ligne 13)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; de 337 € à 540 €, loyer toutes charges comprises (eau, EDF, chauffage et internet) &lt;/p&gt;</infos>
+    <services>&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Canap%C3%A9.png" alt="" width="41" height="34" /&gt; Salle Commune&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="41" height="50" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Velo%20lock.png" alt="" width="40" height="45" /&gt; Local vélos&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="41" /&gt;Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Clichy&lt;/h2&gt;&#13;&lt;p&gt;71, rue Villeneuve - 92 110 Clichy&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 55 46 09 01&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.clichy@crous-versailles.fr"&gt;residence.clichy@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Lundi : 13h45 à 16h45&lt;br /&gt;Jeudi : 12h45 à 20h&lt;br /&gt;Vendredi : 8h45 à 12h&lt;/p&gt;</contact>
+    <address>71, rue Villeneuve - 92 110 Clichy</address>
+    <mail />
+    <phone>01 55 46 09 01</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Garage à vélos</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle polyvalente</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="1238" title="Résidence Jean Zay" short_desc="Antony" lat="48.7620003" lon="2.3018678" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt; Résidence universitaire située à proximité du parc de Sceaux et des commerces et à une dizaine de minutes de Paris en transports en commun. Elle est desservie par la ligne B du RER.&lt;br /&gt;La résidence comprend 316 chambres.&lt;br /&gt;&lt;br /&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt;Chacun des logements dispose d’une kitchenette, d’une douche individuelle accessible aux personnes à mobilité réduite (PMR) et d’un accès à internet à haut-débit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt; Gare : La Croix de Berny (RER B)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;/strong&gt;&lt;br /&gt; de 325 € à 544 €, loyer toutes charges comprises (eau, EDF, chauffage et internet)&lt;/p&gt;</infos>
+    <services>&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20caf%C3%A9.png" alt="" width="46" height="46" /&gt; Salles de détente&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="46" height="46" /&gt; Salles de travail/réunion&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Machine.png" alt="" width="46" height="46" /&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20ascenseur.png" alt="" width="46" height="46" /&gt; Ascenseurs&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Wifi%202.png" alt="" width="38" height="46" /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/gardiennage.png" alt="" width="40" height="47" /&gt; Gardiennage&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 14pt;"&gt;Résidence Jean Zay&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;55, avenue du Général de Gaulle&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;92 160 Antony CEDEX&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Tél. :&lt;/strong&gt; &lt;strong&gt;01 86 67 10 00&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil &lt;br /&gt;&lt;br /&gt;À la plateforme d'Antony (résidence Jean-Zay)&lt;/strong&gt;&lt;br /&gt;Du lundi au vendredi : de 8h à 17h&lt;br /&gt; 55, avenue du Général de Gaulle - 92160 Antony CEDEX.&lt;/p&gt;</contact>
+    <address>55, avenue du Général de Gaulle - 92160 Antony CEDEX</address>
+    <mail />
+    <phone>01 86 67 10 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Ascenseur</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle polyvalente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="1250" title="Résidence Eileen Gray" short_desc="Orsay" lat="48.7110757" lon="2.1744080999999" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt;La résidence est située idéalement près des établissements d'enseignement supérieur de Paris-Saclay au sein de la zone géographique du plateau du Moulon.&lt;br /&gt;&lt;br /&gt;Elle comprend 237 studios, 64 logements en colocation et de 10 appartements pour enseignants-chercheurs.&lt;/p&gt;&#13;&lt;p class="x_x_ContentPasted5"&gt;&lt;strong style="color: #e20517;"&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;En raison des Jeux Olympiques 2024, la résidence sera mise à disposition des services de l’État en juillet et août 2024. La durée des baux sera de dix mois. Votre bail s'achèvera donc le 30/06/2024.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt;Chaque logement dispose d'une kitchenette, d'une douche, d'un réfrégirateur, d'un four micro-ondes et de toilettes.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt;Gare : Massy-Palaiseau (RER B)&lt;br /&gt;Bus : Ligne 7 arrêt IUT maison de l'ingénieur (RER B) &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt;de 250 € à 538 € * Loyer toutes charges comprises (eau, chauffage, électricité et internet)&lt;/p&gt;</infos>
+    <services>&lt;p&gt; Laverie&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Zone%20travail.png" alt="" width="41" /&gt; Salles de travail&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20tv.png" alt="" width="41" /&gt; Salle de musique&lt;br /&gt;&lt;br /&gt; Potagers&lt;br /&gt;&lt;br /&gt; Laverie&lt;br /&gt;&lt;br /&gt; Wifi&lt;/p&gt;&#13;&lt;p&gt; &lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/160922%20-%20Parking.png" alt="" width="41" /&gt;Parking&lt;/p&gt;&#13;&lt;p&gt;&lt;img src="https://admin-v2.crous-mobile.fr/upload/files/CROUS-Versailles/video-surveillance.png" alt="" width="40" height="34" /&gt; Vidéo-surveillance&lt;/p&gt;</services>
+    <contact>&lt;p&gt; &lt;/p&gt;&#13;&lt;h2&gt;Résidence Eileen Gray&lt;/h2&gt;&#13;&lt;p&gt;1, rue d'Arsonval&lt;br /&gt;91400 Orsay&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01 69 15 37 38 / 01.75.31.91.04&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.eileen-gray@crous-versailles.fr"&gt;residence.eileen-gray@crous-versailles.fr&lt;br /&gt;&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil de la résidence&lt;br /&gt;&lt;/strong&gt;Ouvert les lundis de 14h à 16h et les vendredis de 8h30 à 12h30.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil principal&lt;br /&gt;&lt;/strong&gt;Plateforme d’accueil à la résidence George Sand 16, rue André Blanc Lapierre 9190 Gif-sur-Yvette&lt;br /&gt;Du lundi au vendredi de 8h30 à 16h30&lt;/p&gt;</contact>
+    <address>2, rue Sophie Germain - 91 400 Orsay</address>
+    <mail>residence.eileen-gray@crous-versailles.fr</mail>
+    <phone>01 69 15 37 38 / 01 75 31 91 04</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Cuisine collective</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Studio de musique</house_service>
+    </house_services>
+  </residence>
+  <residence id="1263" title="Résidence Jean d'Ormesson" short_desc="Palaiseau" lat="48.713" lon="2.20353" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt;La résidence est située idéalement près des établissements d'enseignement supérieur de Paris-Saclay dans la ZAC de l'École Polytechnique. &lt;br /&gt;&lt;br /&gt;Elle comprend 193 studios et 22 grands appartements. 23 colocations de 4 personnes sont également possibles.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt;Chaque logement dispose d'une kitchenette, d'une douche, d'un réfrégirateur, d'un four micro-ondes et de toilettes.&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt;Gare : Station Lozère (RER B)&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt;de 315 € à 460 € * Loyer toutes charges comprises (eau, chauffage, électricité et internet)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</infos>
+    <services>&lt;p&gt;Salles de travail&lt;br /&gt;&lt;br /&gt;Salle de détente&lt;br /&gt;&lt;br /&gt;Salle de musique&lt;br /&gt;&lt;br /&gt;Cuisine partagée&lt;br /&gt;&lt;br /&gt;Laverie (aménagée en véritable lieu de convivialité)&lt;br /&gt;&lt;br /&gt;Espace co-working &lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Jean d'Ormesson &lt;/h2&gt;&#13;&lt;p&gt;20 cours Pierre Vasseur 91120 Palaiseau&lt;/p&gt;&#13;&lt;p&gt;Téléphone : 01.69.15.38.30 / 06.22.85.59.45&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.jean-dormesson@crous-versailles.fr"&gt;residence.jean-dormesson@crous-versailles.fr&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil de la résidence ouvert&lt;/strong&gt;&lt;br /&gt;les mardis et jeudis de 14h à 16h.&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil principal&lt;/strong&gt;&lt;br /&gt;Du lundi au vendredi de 8h30 à 16h30&lt;br /&gt;Plateforme d’accueil à la résidence George Sand 16 rue André Blanc Lapierre 9190 Gif-sur-Yvette&lt;br /&gt;Tel : 01.75.31.91.04&lt;/p&gt;</contact>
+    <address>20, cours Pierre Vasseur 91 120 Palaiseau</address>
+    <mail>residence.jean-dormesson@crous-versailles.fr</mail>
+    <phone>01 69 15 38 30 / 01 75 31 91 04</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl />
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Cuisine collective</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="1264" title="Résidence George Sand" short_desc="Gif-sur-Yvette" lat="48.7137" lon="2.16683" zone="Essonne">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt;La résidence est située idéalement à proximité de plusieurs établissements d'enseignement supérieur de Paris-Saclay et de la future station de métro Orsay-Gif de la ligne 18, ce qui lui confère un positionnement de choix.&lt;br /&gt;&lt;br /&gt;Elle comprend 390 studios – 19 studios pour PMR - 25 appartements en colocation&lt;/p&gt;&#13;&lt;p class="x_x_ContentPasted5"&gt;&lt;strong style="color: #e20517;"&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;En raison des Jeux Olympiques 2024, la résidence sera mise à disposition des services de l’État en juillet et août 2024. La durée des baux sera de dix mois. Votre bail s'achèvera donc le 30/06/2024.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Équipements&lt;/strong&gt;&lt;br /&gt;Chaque logement dispose d'une kitchenette, d'une douche, d'un réfrégirateur, d'un four micro-ondes et de toilettes.&lt;br /&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt;Gare : RER B Massy-Palaiseau&lt;br /&gt;&lt;br /&gt;&lt;strong style="color: #e20517;"&gt;Tarif *&lt;/strong&gt;&lt;br /&gt;de 211 € à 537 €* Loyer toutes charges comprises (eau, chauffage, électricité et internet)&lt;/p&gt;</infos>
+    <services>&lt;p&gt;Salles de travail&lt;br /&gt;&lt;br /&gt;Laverie&lt;br /&gt;&lt;br /&gt;Epicerie automatique&lt;br /&gt;&lt;br /&gt;Salle de danse&lt;br /&gt;&lt;br /&gt;Cinéma en plein air&lt;br /&gt;&lt;br /&gt;Terrasse zen &lt;br /&gt;&lt;br /&gt;Café forum &lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence George Sand&lt;/h2&gt;&#13;&lt;p&gt;16, Rue André Blanc Lapierre - 91 190 Gif-sur-Yvette&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 75 31 91 04&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.george-sand@crous-versailles.fr"&gt;residence.george-sand@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Accueil&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;Du lundi au vendredi : de 8h30 à 16h30&lt;/p&gt;</contact>
+    <address>16, Rue André Blanc Lapierre - 91190 Gif-sur-Yvette</address>
+    <mail>residence.george-sand@crous-versailles.fr</mail>
+    <phone>01 75 31 91 04</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl />
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Parking</house_service>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de détente</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle de sport</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+      <house_service>Studio de musique</house_service>
+    </house_services>
+  </residence>
+  <residence id="1265" title="Résidence Charlotte Perriand" short_desc="Antony" lat="48.7599" lon="2.29804" zone="HAUTS-DE-SEINE">
+    <infos>&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Description&lt;/strong&gt;&lt;br /&gt;La résidence est implantée à Antony et s'inscrit dans la lignée du projet de construction du quartier Antony Renaissance. La nature est au cœur du projet, avec des jardins répartis sur l'ensemble des terrasses. &lt;br /&gt;&lt;br /&gt;Elle comprend 179 studios de 18 à 25 m²&lt;/p&gt;&#13;&lt;p class="x_x_ContentPasted5"&gt;&lt;strong style="color: #e20517;"&gt;&lt;span class="ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr"&gt;En raison des Jeux Olympiques 2024, la résidence sera mise à disposition des services de l’État en juillet et août 2024. La durée des baux sera de dix mois. Votre bail s'achèvera donc le 30/06/2024.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p class="x_x_ContentPasted5"&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Equipements&lt;/strong&gt;&lt;br /&gt;Chaque logement dispose d'une kitchenette, d'une douche, d'un réfrigérateur, d'un four micro-ondes et de toilettes.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Accès&lt;/strong&gt;&lt;br /&gt;Gare : Station "Antony" RER B : arrêt "Croix de Berny"&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong style="color: #e20517;"&gt;Tarif&lt;br /&gt;&lt;/strong&gt;De 373 € à 403 €, loyer toutes charges comprises (eau, chauffage, électricité et internet)&lt;/p&gt;</infos>
+    <services>&lt;p&gt;Salle de travail &lt;/p&gt;&#13;&lt;p&gt;Salle de détente&lt;br /&gt;&lt;br /&gt;Laverie&lt;br /&gt;&lt;br /&gt;Wifi&lt;br /&gt;&lt;br /&gt;Vidéo protection&lt;/p&gt;&#13;&lt;p&gt;Local à vélos&lt;/p&gt;</services>
+    <contact>&lt;h2&gt;Résidence Charlotte Perriand &lt;/h2&gt;&#13;&lt;p&gt;&lt;strong&gt;33, avenue Gallieni - 92 160 Antony&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Mél : &lt;a&gt;residence.antony@crous-versailles.fr&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Plateforme d'accueil à la résidence Jean-Zay&lt;br /&gt;55, avenue du Général de Gaulle - 92160 Antony &lt;br /&gt;Du lundi au vendredi : de 8h à 17h&lt;/p&gt;</contact>
+    <address>33, avenue Gallieni - 92 160 Antony</address>
+    <mail>residence.antony@crous-versailles.fr</mail>
+    <phone>01 86 67 10 00</phone>
+    <openingHours />
+    <internetUrl>https://www.crous-versailles.fr/</internetUrl>
+    <appointmentUrl>https://www.crous-versailles.fr/</appointmentUrl>
+    <virtualVisitUrl />
+    <bookingUrl>https://www.crous-versailles.fr/logements/1795-2/</bookingUrl>
+    <troubleshootingUrl>https://www.crous-versailles.fr/</troubleshootingUrl>
+    <house_services>
+      <house_service>Salle de travail</house_service>
+      <house_service>Surveillance / Sécurité</house_service>
+    </house_services>
+  </residence>
+  <residence id="1293" title="Résidence Les Rives de L'Yvette" short_desc="Bures-sur-Yvette" lat="48.700490463595" lon="2.1655387404362" zone="ESSONNE">
+    <infos>&lt;p&gt;&lt;strong&gt;Description &lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Résidence universitaire longée par la rivière de l'Yvette, située sur le campus de l'université Paris Saclay et à proximité du centre-ville de Bures Sur Yvette. Commerces et RER à proximité. &lt;/p&gt;&#13;&lt;p&gt;Elle comprend 433 studios de 12 à 23 m² dont 41 accessibles aux personnes à mobilité réduite&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Equipements&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;1 lit, 1 placard, 1 table, 1 chaise, 1 étagère, kitchenette avec micro-onde et réfrigérateur et cabine tri-fonction&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accès&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Gare : Station Bures-sur-Yvette (RER B)&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Tarif&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;De 309 à 454 € - Loyer toutes charges comprises (eau, chauffage, électricité)&lt;/p&gt;</infos>
+    <services>&lt;p&gt;Salles de rencontre&lt;/p&gt;&#13;&lt;p&gt;Salles numériques&lt;/p&gt;&#13;&lt;p&gt;Salle de jeu&lt;/p&gt;&#13;&lt;p&gt;Salle de sport&lt;/p&gt;&#13;&lt;p&gt;Laveries&lt;/p&gt;&#13;&lt;p&gt;Locaux vélos&lt;/p&gt;</services>
+    <contact>&lt;p&gt;&lt;strong&gt;Résidence Les Rives de L'Yvette&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;Bâtiments 231/232 - voie de la Faculté&lt;br /&gt;Bâtiment 233 - rue Pierre de Courbertin&lt;/p&gt;&#13;&lt;p&gt;91 440 Bures Sur Yvette&lt;/p&gt;&#13;&lt;p&gt;Tél. : 01 69 07 68 96 / 06 42 28 96 70&lt;/p&gt;&#13;&lt;p&gt;Mél : &lt;a href="mailto:residence.bures@crous-versailles.fr"&gt;residence.bures@crous-versailles.fr&lt;/a&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;Accueil&lt;/strong&gt;&lt;/p&gt;&#13;&lt;p&gt;&lt;strong&gt;À la résidence des Rives de l’Yvette bâtiment 233 :&lt;br /&gt;&lt;/strong&gt;Mardi de 14h à 16h30 – jeudi de 14h à 18h30 &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;À la plateforme de la résidence de l'Île&lt;/strong&gt; &lt;br /&gt;Lundi, mardi, jeudi et vendredi : de 8h30 à 16h30 &lt;br /&gt;Mercredi : de 8h30 à 18h30&lt;br /&gt;&lt;br /&gt;14, rue du Docteur Collé - bâtiment 227 du campus - 91 440 Bures-sur-Yvette&lt;/p&gt;&#13;&lt;p&gt; &lt;/p&gt;</contact>
+    <address>Bâtiments 231-232 : voie de la Faculté / Bâtiment 233 : rue Pierre de Courbertin</address>
+    <mail>residence.bures@crous-versailles.fr</mail>
+    <phone>01 69 07 68 96 / 06 42 28 96 70</phone>
+    <openingHours />
+    <internetUrl />
+    <appointmentUrl />
+    <virtualVisitUrl />
+    <bookingUrl />
+    <troubleshootingUrl />
+    <house_services>
+      <house_service>Internet / Wifi</house_service>
+      <house_service>Laverie</house_service>
+      <house_service>Salle de travail</house_service>
+      <house_service>Salle de jeux</house_service>
+    </house_services>
+  </residence>
+</root>

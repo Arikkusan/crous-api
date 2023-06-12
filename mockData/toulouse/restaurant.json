@@ -1,0 +1,5054 @@
+{
+  "restaurants": [
+    {
+      "id": 167,
+      "title": "Resto U' Arsenal",
+      "lat": 43.605629,
+      "lon": 1.436063,
+      "area": "Toulouse",
+      "adresse": "2 Boulevard Armand Duportal, 31000 Toulouse",
+      "opening": "011,011,011,011,011,011,011",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "En centre-ville de Toulouse, sur le campus de l'université Toulouse Capitole.  Restauration administrative et étudiante. Salle d'hôtes : possibilité de réaliser des cocktails et buffet Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "description": "En centre-ville de Toulouse, sur le campus de l'université Toulouse Capitole. <br/>Restauration administrative et étudiante.<br/>Salle d'hôtes : possibilité de réaliser des cocktails et buffet<br/>Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "access": "Métro ligne B - Station Compans-Caffarelli.<br/>Métro ligne A station Capitole<br/>Bus 16,70,71.",
+      "operationalhours": "De 11h15 à 14h et de 18h30 à 20h45 la semaine.<br/>De 11h30 à 13h30 et de 18h30 à 20h15 le week-end.<br/><br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 53",
+        "email": "restaurant.arsenal@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/04/arsenal-e1491836145676.jpg",
+        "alt": "Resto U' Arsenal"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 804,
+      "title": "Brasserie L'Esplanade",
+      "lat": 43.56238,
+      "lon": 1.46324,
+      "area": "Toulouse",
+      "adresse": "Crous R1 118 route de Narbonne, 31077 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Brasserie",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Venez vous restaurer dans un cadre moderne et accueillant sur le campus de Paul Sabatier.  Pour nous contacter par mail : lesplanade@crous-toulouse.fr  A très bientôt dans notre brasserie L'Esplanade.",
+      "description": "Venez vous restaurer dans un cadre moderne et accueillant sur le campus de Paul Sabatier.<br/><br/>Pour nous contacter par mail : lesplanade@crous-toulouse.fr<br/><br/>A très bientôt dans notre brasserie L'Esplanade.",
+      "access": "Métro ligne B - Station Université Paul Sabatier",
+      "operationalhours": "11h30 - 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "0562256209",
+        "email": "lesplanade@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Esplanade.jpg",
+        "alt": "Brasserie L'Esplanade"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Menu Gourmand"
+                    },
+                    {
+                      "name": "Entrée + Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Menu Duo "
+                    },
+                    {
+                      "name": "Entrée + Plat ou Plat + Dessert"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Vin à la carte"
+                    },
+                    {
+                      "name": "Café, thé et café gourmand en supplément"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 985,
+      "title": "Brasserie Riquet",
+      "lat": 43.6057154,
+      "lon": 1.4361288,
+      "area": "Toulouse",
+      "adresse": "2 boulevard Armand Duportal 31000 Toulouse ",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Brasserie",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus de Toulouse 1 Capitole, le chef, propose des plats à l'ardoise et au fil des saisons composée de produits frais et cuisinés maison.",
+      "description": "Sur le campus de Toulouse 1 Capitole, le chef, propose des plats à l'ardoise et au fil des saisons composée de produits frais et cuisinés maison.",
+      "access": "Métro ligne B - Station Compans-Caffarelli<br/>Métro ligne A - Station Capitole ",
+      "operationalhours": "Les équipes vous accueillent de 12h à 14h du lundi au vendredi, avec ou sans réservation.<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 55 34",
+        "email": "brasserie.riquet@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Riquet.jpg",
+        "alt": "Brasserie Riquet"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1037,
+      "title": "Crous & go' Le Canal",
+      "lat": 43.56087,
+      "lon": 1.47213,
+      "area": "Toulouse",
+      "adresse": "118 Route de Narbonne, 31077 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "épicerie",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Une nouvelle offre de restauration dans un lieu entièrement repensé ! ",
+      "description": "Une nouvelle offre de restauration dans un lieu entièrement repensé ! ",
+      "access": "Adresse locale sur le campus : 585 Cours Rosalind Franklin",
+      "operationalhours": "de 8h à 17h30<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 19",
+        "email": "restaurant.rangueil@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/crousango.jpg",
+        "alt": "Crous & go' Le Canal"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 791,
+      "title": "Resto U' Le Célé",
+      "lat": 44.6088,
+      "lon": 2.01387,
+      "area": "Figeac",
+      "adresse": "IUT de Figeac, Avenue de Nayrac, 46100 Figeac",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Restaurant universitaire proposant un repas complet.",
+      "description": "Restaurant universitaire proposant un repas complet.",
+      "access": "",
+      "operationalhours": "Restaurant universitaire : 11h30 - 13h30.<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 65 50 06 80",
+        "email": "contact.figeac@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Cele-cafet.jpg",
+        "alt": "Resto U' Le Célé"
+      },
+      "payment": [
+        {
+          "name": "Monéo"
+        },
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Assortiment d'entrées"
+                    },
+                    {
+                      "name": "Rôti de Porc "
+                    },
+                    {
+                      "name": "Fish and Chips"
+                    },
+                    {
+                      "name": "Galette tomate mozza"
+                    },
+                    {
+                      "name": "Frites /Carottes"
+                    },
+                    {
+                      "name": "Assortiment de laitages/Pâtisserie"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 662,
+      "title": "Resto U' Insa",
+      "lat": 43.5703224,
+      "lon": 1.4679205,
+      "area": "Toulouse",
+      "adresse": "135 avenue de Rangueil, 31077 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Le complexe de restauration est composé d'un self-service, d'un restaurant d'affaires et d'un service de prestations exceptionnelles (pauses, buffets, cocktails...). ",
+      "description": "Le complexe de restauration est composé d'un self-service, d'un restaurant d'affaires et d'un service de prestations exceptionnelles (pauses, buffets, cocktails...). ",
+      "access": "Métro ligne B - Station Rangueil ou Faculté de Pharmacie<br/>Bus 23 et 80 : arrêt INSA ou Université<br/>Bus 78 arrêt IUT Rangueil ",
+      "operationalhours": "de 11h15 à 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer. <br/>",
+      "contact": {
+        "tel": "05 61 55 96 19",
+        "email": "restaurant.insa@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Insa.jpg",
+        "alt": "Resto U' Insa"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "CELERI RAPE REMOULADE"
+                    },
+                    {
+                      "name": "SALAMI"
+                    },
+                    {
+                      "name": "SALADE LENTILLE"
+                    },
+                    {
+                      "name": "FEUILLETE FROMAGE"
+                    },
+                    {
+                      "name": "SARDINE TOMATE"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS CHAUDS",
+                  "dishes": [
+                    {
+                      "name": "DINDE CORDON BLEU"
+                    },
+                    {
+                      "name": "POISSON AMANDE"
+                    },
+                    {
+                      "name": "BRUSCHETTA TOMATE"
+                    },
+                    {
+                      "name": "PORC COTE"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "POMME FRITE"
+                    },
+                    {
+                      "name": "RATATOUILLE"
+                    },
+                    {
+                      "name": "PATES"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "CORBEILLE DE FRUIT"
+                    },
+                    {
+                      "name": "ASSORTIMENT DE YAOURT"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "CHAUSSON POMME"
+                    },
+                    {
+                      "name": "FAR PRUNEAU"
+                    },
+                    {
+                      "name": "GATEAU BASQUE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "MACEDOINE/TOMATE"
+                    },
+                    {
+                      "name": "TARTE LEGUME"
+                    },
+                    {
+                      "name": "TABOULE"
+                    },
+                    {
+                      "name": "PAMPLEMOUSSE"
+                    },
+                    {
+                      "name": "CELERI RAPE REMOULADE"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS CHAUDS",
+                  "dishes": [
+                    {
+                      "name": "LASAGNE EPINARD"
+                    },
+                    {
+                      "name": "GALETTE LENTILLE"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "BOULGOUR"
+                    },
+                    {
+                      "name": "BROCOLIS"
+                    },
+                    {
+                      "name": "PATES"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "FROMAGE MORBIER"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "CORBEILLE DE FRUIT"
+                    },
+                    {
+                      "name": "ASSORTIMENT DE YAOURT"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "DONUTS"
+                    },
+                    {
+                      "name": "CHAUSSON POMME"
+                    },
+                    {
+                      "name": "ILE FLOTANTE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "CAROTTE/CACAHUETE"
+                    },
+                    {
+                      "name": "RIZ ESTIVAL"
+                    },
+                    {
+                      "name": "PIZZA BANDE"
+                    },
+                    {
+                      "name": "OEUF MAYONNAISE"
+                    },
+                    {
+                      "name": "BOUDIN"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS CHAUDS",
+                  "dishes": [
+                    {
+                      "name": "PORC SAUCISSE"
+                    },
+                    {
+                      "name": "FISH AND CHIPS"
+                    },
+                    {
+                      "name": "PARMENTIER"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "LENTILLE DIJONNAISE"
+                    },
+                    {
+                      "name": "POELLE MEXICAINE"
+                    },
+                    {
+                      "name": "PATES"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "FROMAGE BLEU BRESSE"
+                    },
+                    {
+                      "name": "FROMAGE BLANC COULIS"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "CORBEILLE DE FURIT"
+                    },
+                    {
+                      "name": "ASSORTIMENT DE YAOURT"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "GATEAU AU CITRON"
+                    },
+                    {
+                      "name": "MILLE FEUILLE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "SALADE ANDALOUSE"
+                    },
+                    {
+                      "name": "SALADE DE PATE"
+                    },
+                    {
+                      "name": "CONCOMBRE YAOURT"
+                    }
+                  ]
+                },
+                {
+                  "name": "PLATS CHAUDS",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 663,
+      "title": "Resto U' Auch",
+      "lat": 43.6468,
+      "lon": 0.57769,
+      "area": "Auch",
+      "adresse": "7 chemin de Landon, 32000 Auch",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Situé à l'entrée de l'IUT d'Auch, le Resto U' vous propose des repas complets et équilibrés.   Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "description": "Situé à l'entrée de l'IUT d'Auch, le Resto U' vous propose des repas complets et équilibrés. <br/><br/>Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "access": "Sur le site de l'IUT.",
+      "operationalhours": "Du lundi au vendredi,  de 11h45 à 14h00<br/>",
+      "contact": {
+        "tel": "05 62 59 82 42",
+        "email": "restaurant.auch@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Auch-resto.jpg",
+        "alt": "Resto U' Auch"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1086,
+      "title": "Cafet' Auch",
+      "lat": 43.64662,
+      "lon": 0.57801,
+      "area": "Auch",
+      "adresse": "7 chemin de Landon, 32000 Auch",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Situé à l'entrée de l'IUT d'Auch, la Cafet' vous propose plusieurs formules (sandwich, panini...)",
+      "description": "Situé à l'entrée de l'IUT d'Auch, la Cafet' vous propose plusieurs formules (sandwich, panini...)",
+      "access": "Sur le site de l'IUT.",
+      "operationalhours": "de 7h30 à 14h00<br/>Attention, ces horaires sont susceptibles d'évoluer.<br/> ",
+      "contact": {
+        "tel": "05 62 59 82 42",
+        "email": "restaurant.auch@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Auch-resto.jpg",
+        "alt": "Cafet' Auch"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 664,
+      "title": "Resto U' Lapérouse",
+      "lat": 43.91809,
+      "lon": 2.1365,
+      "area": "Albi",
+      "adresse": "Place de Verdun, 81000 Albi",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Le restaurant est situé au coeur du campus : deux grandes salles, une au rez-de-chaussée et une à l'étage. Capacité d'accueil : 480 places assises. Une salle VIP de 14 places, réservée aux repas servis à table . 2 pistes traditionnelles.",
+      "description": "Le restaurant est situé au coeur du campus : deux grandes salles, une au rez-de-chaussée et une à l'étage. Capacité d'accueil : 480 places assises. Une salle VIP de 14 places, réservée aux repas servis à table .<br/>2 pistes traditionnelles.",
+      "access": "A proximité de la gare SNCF,  En voiture en venant de Toulouse, sortie direction Centre Universitaire avenue François Verdier , Bus ligne H",
+      "operationalhours": "de 11h30 à 13h30.<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 63 48 16 92",
+        "email": "contact.albi@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Albi-cafet.jpg",
+        "alt": "Resto U' Lapérouse"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 665,
+      "title": "Resto U' Enseeiht",
+      "lat": 43.6024,
+      "lon": 1.45538,
+      "area": "Toulouse",
+      "adresse": " 2 rue Camichel, 31071 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Structure moderne et aérée : - une salle de 200 places - une salle de réception de 30 places assises  Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "description": "Structure moderne et aérée :<br/>- une salle de 200 places<br/>- une salle de réception de 30 places assises<br/><br/>Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "access": "Métro ligne B : arrêt François Verdier<br/>Bus Linéo 1 et 8 : arrêts François Verdier ou place Dupuy<br/>Bus ligne 27 : arrêt Guilhemery<br/>",
+      "operationalhours": "de 11h30 à 13h45.<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 61 12 54 88",
+        "email": "restaurant.enseeiht@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/EN7.jpg",
+        "alt": "Resto U' Enseeiht"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "fricassée de volaille"
+                    },
+                    {
+                      "name": "filet de colin sauce pesto"
+                    },
+                    {
+                      "name": "galette végétarienne"
+                    },
+                    {
+                      "name": "pâtes crozet"
+                    },
+                    {
+                      "name": "brocolis"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "merguez"
+                    },
+                    {
+                      "name": "filet de colin crème de poireaux"
+                    },
+                    {
+                      "name": "chili végétarien"
+                    },
+                    {
+                      "name": "purée de pommes de terre"
+                    },
+                    {
+                      "name": "gratin de courgettes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "pilons de poulet sauce champignons"
+                    },
+                    {
+                      "name": "poisson bordelaise"
+                    },
+                    {
+                      "name": "pâtes italienne"
+                    },
+                    {
+                      "name": "boulgour"
+                    },
+                    {
+                      "name": "gratin de poireaux"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "pâtes carbonara"
+                    },
+                    {
+                      "name": "tarte au saumon"
+                    },
+                    {
+                      "name": "quesadillas tomate"
+                    },
+                    {
+                      "name": "coquillettes"
+                    },
+                    {
+                      "name": "poêlée indienne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "cote de porc sauce charcutière"
+                    },
+                    {
+                      "name": "filet de colin meunière"
+                    },
+                    {
+                      "name": "bagel chèvre miel courgettes"
+                    },
+                    {
+                      "name": "semoule"
+                    },
+                    {
+                      "name": "haricots verts/carottes"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "PISTE TRADITIONNELLE",
+                  "dishes": [
+                    {
+                      "name": "escalope de dinde viennoise"
+                    },
+                    {
+                      "name": "filet de cabillaud à l origan"
+                    },
+                    {
+                      "name": "crêpe au fromage"
+                    },
+                    {
+                      "name": "riz pilaf"
+                    },
+                    {
+                      "name": "épinards béchamel"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "title": "Resto U' Castres",
+      "lat": 43.62478,
+      "lon": 2.26474,
+      "area": "Castres",
+      "adresse": "Rue Firmin Oules, 81100 Castres",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Notre restaurant d'une capacité de 224 places, vous propose une restauration traditionnelle de qualité avec un grand choix d'entrées, plats et desserts. ",
+      "description": "Notre restaurant d'une capacité de 224 places, vous propose une restauration traditionnelle de qualité avec un grand choix d'entrées, plats et desserts. ",
+      "access": "",
+      "operationalhours": "De 11h30 à 13h30.<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 54 89",
+        "email": "contact.castres@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Castres.jpg",
+        "alt": "Resto U' Castres"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 667,
+      "title": "Cafet' Les Oliviers",
+      "lat": 43.5691223,
+      "lon": 1.4649632,
+      "area": "Toulouse",
+      "adresse": "118 Route de Narbonne, 31077 Toulouse",
+      "opening": "111,111,111,111,111,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Ouverte toute la journée et en soirée, la cafétéria des Oliviers vous propose une grande terrasse pour vos pauses et un grand écran TV pour des soirées spéciales.",
+      "description": "Ouverte toute la journée et en soirée, la cafétéria des Oliviers vous propose une grande terrasse pour vos pauses et un grand écran TV pour des soirées spéciales.",
+      "access": "Métro ligne B station Faculté de pharmacie",
+      "operationalhours": "de 7h30 à 21h30<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 09",
+        "email": "restaurant.rangueil@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Lesoliviers.jpg",
+        "alt": "Cafet' Les Oliviers"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 668,
+      "title": "Resto U' Ensat",
+      "lat": 43.533517,
+      "lon": 1.489637,
+      "area": "Toulouse",
+      "adresse": "Avenue de l'Agrobiopôle, 31326 CASTANET-TOLOSAN",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Le Resto U' Ensat vous propose entrées variées, menus traditionnels, desserts et pâtisseries maison.  Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "description": "Le Resto U' Ensat vous propose entrées variées, menus traditionnels, desserts et pâtisseries maison.<br/><br/>Ce Resto U’ est engagé dans la démarche Mon Restau Responsable ",
+      "access": "Métro B - Station Ramonville puis bus ligne 62 arrêt ENSAT.",
+      "operationalhours": "Du lundi au vendredi de 11h45 à 13h45.<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 63 37",
+        "email": "restaurant.ensat@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2020/10/Ensat.png",
+        "alt": "Resto U' Ensat"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1103,
+      "title": "Cafet' Ensat",
+      "lat": 43.533518,
+      "lon": 1.489637,
+      "area": "Toulouse",
+      "adresse": "Avenue de l'Agrobiopôle, 31326 CASTANET-TOLOSAN",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Située sur le campus de l'Ensat.  Formules sandwichs, salades, desserts, boissons.",
+      "description": "Située sur le campus de l'Ensat.<br/><br/>Formules sandwichs, salades, desserts, boissons.",
+      "access": "Métro B - Station Ramonville puis bus ligne 62 arrêt ENSAT.",
+      "operationalhours": "de 8h00 à 17h00<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 63 37",
+        "email": "restaurant.ensat@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafet' Ensat"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 669,
+      "title": "Cafet' Manufacture des Tabacs",
+      "lat": 43.6053969,
+      "lon": 1.4325866,
+      "area": "Toulouse",
+      "adresse": "21 allées de Brienne, 31000 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Située dans l'enceinte de l'Université Toulouse 1 Capitole, sur le site de la Manufacture des Tabacs, dans une magnifique cave voutée en briques. ",
+      "description": "Située dans l'enceinte de l'Université Toulouse 1 Capitole, sur le site de la Manufacture des Tabacs, dans une magnifique cave voutée en briques. ",
+      "access": "Métro ligne B station Compans-Caffarelli. Bus 16, 70, 71 arrêt Compans-Caffarelli",
+      "operationalhours": "De 8h00 à 17h00.<br/>Attention, les horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 61 12 45 45",
+        "email": "restaurant.arsenal@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Manu.jpg",
+        "alt": "Cafet' Manufacture des Tabacs"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 670,
+      "title": "Cafet' Capitole",
+      "lat": 43.60695,
+      "lon": 1.4366,
+      "area": "Toulouse",
+      "adresse": "2 rue du Doyen Gabriel Marty 31000 Toulouse Cedex.",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Située dans l'enceinte de l'Université Toulouse 1 Capitole. ",
+      "description": "Située dans l'enceinte de l'Université Toulouse 1 Capitole. ",
+      "access": "Métro ligne B station Compans-Caffarelli<br/>Métro ligne A station Capitole<br/>Bus 16, 70, 71 arrêt Compans-Caffarelli",
+      "operationalhours": "De 8h à 17h la semaine<br/>De 8h30 à 14h30 le samedi<br/><br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 71",
+        "email": "restaurant.arsenal@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/Capitole.jpg",
+        "alt": "Cafet' Capitole"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 671,
+      "title": "Cafet' des Puits Creusés (ex IEP)",
+      "lat": 43.60691,
+      "lon": 1.43823,
+      "area": "Toulouse",
+      "adresse": "2 Ter rue des puits creusés, 31000 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Structure située sur le campus Toulouse Capitole, rue des Puits Creusés dans les anciens locaux de l'IEP.",
+      "description": "Structure située sur le campus Toulouse Capitole, rue des Puits Creusés dans les anciens locaux de l'IEP.",
+      "access": "Métro ligne B - Station Compans-Caffarelli. Bus 16, 70, 71 arrêt Compans Cafarelli",
+      "operationalhours": "7h45-17h30",
+      "contact": {
+        "tel": "07 72 24 44 08 ",
+        "email": "restaurant.arsenal@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/iep.jpg",
+        "alt": "Cafet' des Puits Creusés (ex IEP)"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 672,
+      "title": "Cafet' Arsenal",
+      "lat": 43.6055032,
+      "lon": 1.4357214,
+      "area": "Toulouse",
+      "adresse": "2 boulevard Armand Duportal, 31000 Toulouse",
+      "opening": "110,110,110,110,110,010,010",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Située au rez-de-chaussée du Resto U' Arsenal. Sur place ou à emporter : boissons chaudes et fraîches, salades, pasta box, sandwichs, paninis, crêpes au sucre et au chocolat, viennoiseries et pâtisseries... Ce Resto U’ est garantie Mon Restau Responsable",
+      "description": "Située au rez-de-chaussée du Resto U' Arsenal.<br/>Sur place ou à emporter : boissons chaudes et fraîches, salades, pasta box, sandwichs, paninis, crêpes au sucre et au chocolat, viennoiseries et pâtisseries...<br/>Ce Resto U’ est garantie Mon Restau Responsable",
+      "access": "Métro ligne B - Station Compans-Caffarelli.<br/>Métro ligne A station Capitole<br/>Bus 16, 70, 71",
+      "operationalhours": "De 7h45 à 17h30 du lundi au vendredi<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 71",
+        "email": "restaurant.arsenal@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Arsenal-cafet.jpg",
+        "alt": "Cafet' Arsenal"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 673,
+      "title": "Resto U' Envt",
+      "lat": 43.6002708,
+      "lon": 1.3843158,
+      "area": "Toulouse",
+      "adresse": "23 chemin des capelles, 31300 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Sur le campus de l’ENVT, tout près de Purpan. Une restauration variée et de qualité :  - Un self avec repas traditionnel et légumes à volonté en salle,  - Un stand pizza, grillade du jour et grillade à la carte. Prestations exceptionnelles sur commande",
+      "description": "Sur le campus de l’ENVT, tout près de Purpan.<br/>Une restauration variée et de qualité : <br/>- Un self avec repas traditionnel et légumes à volonté en salle, <br/>- Un stand pizza, grillade du jour et grillade à la carte.<br/>Prestations exceptionnelles sur commande",
+      "access": "Prendre le bus, ligne 46 à partir de la station de métro A/Tram des Arènes. Descendre à l’arrêt « Capelles ».<br/>",
+      "operationalhours": "De 11h30 à 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 34 39 06 13",
+        "email": "restaurant.envt@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/ENVT.jpg",
+        "alt": "Resto U' Envt"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                },
+                {
+                  "name": "MENU TRADITIONNEL",
+                  "dishes": [
+                    {
+                      "name": "Burritos de boeuf"
+                    },
+                    {
+                      "name": "Poisson aux amandes"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Pâtes penne rigate/pleurotes (végétarien)"
+                    },
+                    {
+                      "name": "Pizza 'campagnarde'"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Pâtes penne rigate"
+                    },
+                    {
+                      "name": "Poêlée orientale"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "ENTREES",
+                  "dishes": [
+                    {
+                      "name": "Entrées au choix:"
+                    }
+                  ]
+                },
+                {
+                  "name": "DESSERTS",
+                  "dishes": [
+                    {
+                      "name": "Desserts au choix"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Café/Thé"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "title": "Resto U' Blagnac",
+      "lat": 43.6512073,
+      "lon": 1.3737232,
+      "area": "Toulouse",
+      "adresse": "5 rue George Sand, 31700 Blagnac",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": false,
+      "shortdesc": "Une restauration de grande qualité au quotidien. Formule traditionnelle et formule brasserie proposées sur la piste dédiée aux étudiants. ",
+      "description": "Une restauration de grande qualité au quotidien. Formule traditionnelle et formule brasserie proposées sur la piste dédiée aux étudiants. ",
+      "access": "Situé sur le campus de l'IUT, accès facile avec le tramway. Arrêt place Georges Brassens,",
+      "operationalhours": "De 11h45 à 13h45<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 55 00",
+        "email": "restaurant.blagnac@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Blagnac.jpg",
+        "alt": "Resto U' Blagnac"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 676,
+      "title": "Resto U' Le Théorème",
+      "lat": 43.5619026,
+      "lon": 1.4638067,
+      "area": "Toulouse",
+      "adresse": "118 Route de Narbonne, 31077 Toulouse",
+      "opening": "011,011,011,011,011,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Notre restaurant d'une capacité de 950 places sur 3 salles, vous propose un choix d'entrées variées, grillades, pâtes et plats complets. Également à votre disposition, une cafétéria à proximité.",
+      "description": "Notre restaurant d'une capacité de 950 places sur 3 salles, vous propose un choix d'entrées variées, grillades, pâtes et plats complets. Également à votre disposition, une cafétéria à proximité.",
+      "access": "Métro B - Station Université Paul Sabatier",
+      "operationalhours": "de 11h15 à 13h30 et de 18h30 à 21h<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 09",
+        "email": "restaurant.rangueil@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Resto U' Le Théorème"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "PATE INDIENNE "
+                    },
+                    {
+                      "name": "COLIN PAVE"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "PATE TAGLIATELLE"
+                    },
+                    {
+                      "name": "GRATIN COURGETTE"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "GALETTE LENTILLE CORAIL INDIEN"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "BŒUF BOULETTE"
+                    },
+                    {
+                      "name": "MERLU EN CROÛTE D'ÉPICES"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "SEMOULE"
+                    },
+                    {
+                      "name": "JULIENNE DE LEGUMES"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "AIGUILLETTE BLE EMMENTAL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "DINDE SAUTE BASE"
+                    },
+                    {
+                      "name": "PAUPIETTE POISSON BLANC "
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "CURRY HARICOT ROUGE"
+                    },
+                    {
+                      "name": "POELEE RUSTIQUE"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "WRAP FETA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "MOUSSAKA GRECE"
+                    },
+                    {
+                      "name": "POISSON"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "PATE TORTI"
+                    },
+                    {
+                      "name": "HARICOT BEURRE PERSILLÉ"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "BOULETTE BLE THAI"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "PORC EMINCE BASE"
+                    },
+                    {
+                      "name": "MOULE A LA CREME"
+                    },
+                    {
+                      "name": " "
+                    },
+                    {
+                      "name": "POMME FRITE 7/7"
+                    },
+                    {
+                      "name": "RATATOUILLE"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "TARTE TROIS FROMAGE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "BOEUF BOURRITOS"
+                    },
+                    {
+                      "name": "BORDELAISE "
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "RIZ AUX POIVRONS"
+                    },
+                    {
+                      "name": "CAROTTE/NAVET/BROCOLIS/CHAMPIGNON"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "PATE PENNE RIGATE PLEUROTTE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "PIZZA"
+                    },
+                    {
+                      "name": "COLIN COCO/CURRY"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "PATE COQUILETTE"
+                    },
+                    {
+                      "name": "POELEE CHINOISE"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "GALETTE SARRASIN LENTILLE POIREAU"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "BOEUF STEAK CAMPAGNARD"
+                    },
+                    {
+                      "name": "POISSON"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "POIS CASSE PILAFF LARDON"
+                    },
+                    {
+                      "name": "POELEE VILLAGEOISE PETIT POIS"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "FALAFEL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "POULET CUISSE"
+                    },
+                    {
+                      "name": "FISH N CHIPS"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "GNOCCHIS GRATINE"
+                    },
+                    {
+                      "name": "POELEE BROCOLIS CHAMPIGNON"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "BURGER TOME NOIRE/ GALETTE OIGNON"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "PORC ROUGAIL SAUCISSE"
+                    },
+                    {
+                      "name": "FIDEUA"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "POMME SAUTEE SURG"
+                    },
+                    {
+                      "name": "COURGETTE PROVENCALE"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "TARTE PROVENCALE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "CHILI CON CARNE"
+                    },
+                    {
+                      "name": "GALETTE BRETONNE POISSON"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "RIZ CREOLE"
+                    },
+                    {
+                      "name": "HARICOT VERT PERSILLE"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "EMINCE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "title": "Resto U' Le Canal",
+      "lat": 43.5609,
+      "lon": 1.47184,
+      "area": "Toulouse",
+      "adresse": "118 Route de Narbonne, 31077 Toulouse ",
+      "opening": "010,110,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Le resto' Le Canal vous propose une toute nouvelle offre :  Plat végétarien, menu burger, libre service ... dans un lieu entièrement repensé.",
+      "description": "Le resto' Le Canal vous propose une toute nouvelle offre : <br/>Plat végétarien, menu burger, libre service ... dans un lieu entièrement repensé.",
+      "access": "Adresse locale sur le campus : 585 Cours Rosalind Franklin",
+      "operationalhours": "Le restaurant vous accueille du lundi au vendredi de 11h30 à 13h30.<br/>Le Crous & Go de 8h à 17h30<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 19",
+        "email": "restaurant.rangueil2@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/lecanal.jpg",
+        "alt": "Resto U' Le Canal"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Pâte Carbonara"
+                    },
+                    {
+                      "name": "Calamar à la Romaine"
+                    },
+                    {
+                      "name": ""
+                    },
+                    {
+                      "name": "Carotte/ haricot vert/ maïs"
+                    },
+                    {
+                      "name": "Spaghetti"
+                    }
+                  ]
+                },
+                {
+                  "name": "Plat végétarien",
+                  "dishes": [
+                    {
+                      "name": "Aiguillette blé/ emmental"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La Plancha du Chef",
+                  "dishes": [
+                    {
+                      "name": "Plancha en panne"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 678,
+      "title": "Resto U' Tarbes",
+      "lat": 43.22763,
+      "lon": 0.05087,
+      "area": "Tarbes",
+      "adresse": "39 rue Vincent Scotto, 65000 Tarbes",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Au coeur du pôle universitaire, resto'U de 500 places",
+      "description": "Au coeur du pôle universitaire, resto'U de 500 places",
+      "access": "ligne de bus 3 et 5",
+      "operationalhours": "de 11h40 à 13h15<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 44 65 65",
+        "email": "contact.tarbes@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/04/TARBES-restaurant-U.jpg",
+        "alt": "Resto U' Tarbes"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 679,
+      "title": "Resto U' Labège",
+      "lat": 43.5558496,
+      "lon": 1.503661,
+      "area": "Toulouse",
+      "adresse": "6 Allée Emile Monso 31029 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Le restaurant du campus de l'INP/ENSIACET vous accueille dans des locaux récents et lumineux bâtiment K  (plats du jour,pizzas, pâtes, grillades, libre service en entrées et desserts) ",
+      "description": "Le restaurant du campus de l'INP/ENSIACET vous accueille dans des locaux récents et lumineux bâtiment K  (plats du jour,pizzas, pâtes, grillades, libre service en entrées et desserts) ",
+      "access": "Métro B - Station Ramonville puis le bus 79 arrêt INP",
+      "operationalhours": "de 11h30 à 13h40<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 32",
+        "email": "restaurant.labege@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Labege-Resto.jpg",
+        "alt": "Resto U' Labège"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "pavé de colin"
+                    },
+                    {
+                      "name": "pâtes tagliatelle"
+                    },
+                    {
+                      "name": "gratin de courgette"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "galette lentilles corail"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "jambon"
+                    },
+                    {
+                      "name": "frites & légumes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "Boulette de boeuf sauce poivre"
+                    },
+                    {
+                      "name": "merlu en croûte d'épices"
+                    },
+                    {
+                      "name": "semoule"
+                    },
+                    {
+                      "name": "julienne de légumes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "aiguillettes de blé à l'emmental"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "sauté de dinde au curry"
+                    },
+                    {
+                      "name": "paupiette de poisson blanc"
+                    },
+                    {
+                      "name": "curry de haricots rouges"
+                    },
+                    {
+                      "name": "poêlée rustique"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "boulettes de pois chiche"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "moussaka (plat complet)"
+                    },
+                    {
+                      "name": "poisson du marché"
+                    },
+                    {
+                      "name": "pâtes torti"
+                    },
+                    {
+                      "name": "haricots beurre persillés"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "galette blé, fromage & épinards"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "émincé de porc"
+                    },
+                    {
+                      "name": "purée de pomme de terre"
+                    },
+                    {
+                      "name": "ratatouille"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "tarte aux trois fromages"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "moules à la crème"
+                    },
+                    {
+                      "name": "frites"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "poisson bordelaise"
+                    },
+                    {
+                      "name": "riz aux poivrons"
+                    },
+                    {
+                      "name": "carottes/navet & brocolis"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "pâtes penne aux pleurotes (plat complet)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "steak haché de boeuf"
+                    },
+                    {
+                      "name": "frites & légumes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "colin coco & curry"
+                    },
+                    {
+                      "name": "pâtes coquillettes"
+                    },
+                    {
+                      "name": "poêlée chinoise"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "galette de sarrasin & lentilles"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "merguez"
+                    },
+                    {
+                      "name": "frites & légumes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "poisson du marché"
+                    },
+                    {
+                      "name": "haricots lyonnaises"
+                    },
+                    {
+                      "name": "poêlée villageoise"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "boulettes de blé thaï"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "steak haché de boeuf"
+                    },
+                    {
+                      "name": "frites & légumes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "colin meunière"
+                    },
+                    {
+                      "name": "polenta"
+                    },
+                    {
+                      "name": "poêlée brocolis & champignons"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "burger pommes de terre & tome noire"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "cuisse de poulet"
+                    },
+                    {
+                      "name": "frites & légumes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "rougail de saucisse"
+                    },
+                    {
+                      "name": "merlu"
+                    },
+                    {
+                      "name": "courgettes provençales"
+                    },
+                    {
+                      "name": "pâtes"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "tarte aux légumes"
+                    },
+                    {
+                      "name": "avec accompagnement"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Plats du jour",
+                  "dishes": [
+                    {
+                      "name": "chili con carne (plat complet)"
+                    },
+                    {
+                      "name": "riz pilaff"
+                    },
+                    {
+                      "name": "haricots verts persillés"
+                    }
+                  ]
+                },
+                {
+                  "name": "Végétarien",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Grillade",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizzas / Pâtes",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 680,
+      "title": "Resto U' Médecine",
+      "lat": 43.56338,
+      "lon": 1.45925,
+      "area": "Toulouse",
+      "adresse": "133 Route de Narbonne, 31070 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Sur le campus de la faculte de Médecine Rangueil",
+      "description": "Sur le campus de la faculte de Médecine Rangueil",
+      "access": "Métro B - Station Faculté de pharmacie ou Université Paul Sabatier",
+      "operationalhours": "de 11h30 à 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 25",
+        "email": "restaurant.rangueil3@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Med-Ru.jpg",
+        "alt": "Resto U' Médecine"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "entrées variées"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "title": "Resto U' Arum",
+      "lat": 43.5766,
+      "lon": 1.40104,
+      "area": "Toulouse",
+      "adresse": "5, allée Antonio Machado 31058 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Le Resto U' Arum est fermée jusqu'au vendredi 21 avril inclus.  Sur le campus UT2J. Restauration étudiante et administrative. Entrées, stand grillades, stand traditionnel, bar à salades, stand pizza et pâtes, stand végétarien desserts.  Ce Resto U’ est",
+      "description": "Le Resto U' Arum est fermée jusqu'au vendredi 21 avril inclus.<br/><br/>Sur le campus UT2J. Restauration étudiante et administrative. Entrées, stand grillades, stand traditionnel, bar à salades, stand pizza et pâtes, stand végétarien desserts.<br/><br/>Ce Resto U’ est",
+      "access": "Métro ligne A, station Mirail université",
+      "operationalhours": "de 11H30 à 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 55 78",
+        "email": "restaurant.mirail@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Arum-resto.jpg",
+        "alt": "Resto U' Arum"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "Entrées",
+                  "dishes": [
+                    {
+                      "name": "Tomates à la Monégasque (crabe) "
+                    },
+                    {
+                      "name": "Salade choux/carotte"
+                    },
+                    {
+                      "name": "Salade de tomates"
+                    },
+                    {
+                      "name": "Salade verte"
+                    },
+                    {
+                      "name": "Mousse de canard"
+                    },
+                    {
+                      "name": "pizza 4 fromages"
+                    }
+                  ]
+                },
+                {
+                  "name": "Desserts",
+                  "dishes": [
+                    {
+                      "name": "Gâteau coco maison"
+                    },
+                    {
+                      "name": "Crème chocolat/vanille"
+                    },
+                    {
+                      "name": "Corbeille de fruits frais"
+                    },
+                    {
+                      "name": "Salade de maison"
+                    },
+                    {
+                      "name": "Yaourts divers"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stand Végétarien",
+                  "dishes": [
+                    {
+                      "name": "Crêpes au  fromage"
+                    },
+                    {
+                      "name": "Sauce aux champignons"
+                    },
+                    {
+                      "name": "Riz forestier"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stand Grillades",
+                  "dishes": [
+                    {
+                      "name": "menu non communiqué"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stand Tradi",
+                  "dishes": [
+                    {
+                      "name": "Escalope de dinde Viennoise"
+                    },
+                    {
+                      "name": "Cabillaud au romarin"
+                    },
+                    {
+                      "name": "Légumes du jour"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stand Pizza Pâtes",
+                  "dishes": [
+                    {
+                      "name": "Pizza 4 fromages"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "title": "Cafet' Le Théorème",
+      "lat": 43.5618824,
+      "lon": 1.4636288,
+      "area": "Toulouse",
+      "adresse": "118 Route de Narbonne 31077 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus de l'université Paul Sabatier. Formules sandwichs, salades, desserts, boissons, plats à emporter.  Ici, point de retrait du Crous and go' en Click and Collect : https://crousandgo.crous-toulouse.fr/",
+      "description": "Sur le campus de l'université Paul Sabatier. Formules sandwichs, salades, desserts, boissons, plats à emporter.<br/><br/>Ici, point de retrait du Crous and go' en Click and Collect : https://crousandgo.crous-toulouse.fr/",
+      "access": "Métro ligne B - Station université Paul Sabatier",
+      "operationalhours": "de 7h30 à 18h00 <br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 09",
+        "email": "restaurant.rangueil@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/letheoreme.jpg",
+        "alt": "Cafet' Le Théorème"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 806,
+      "title": "Cafet' Arum",
+      "lat": 43.57667,
+      "lon": 1.40112,
+      "area": "Toulouse",
+      "adresse": "5, allée Antonio Machado 31058 Toulouse",
+      "opening": "111,110,110,110,110,000,000",
+      "closing": "1",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "La Cafet' Arum est fermée jusqu'au 21 avril inclus.  Sur le campus UT2J. Formules sandwichs, paninis, salades, petit déjeuners, boissons, vente à emporter ... Ici, point de retrait du Crous and go' en Click and Collect : https://crousandgo.crous-toulous",
+      "description": "La Cafet' Arum est fermée jusqu'au 21 avril inclus.<br/><br/>Sur le campus UT2J. Formules sandwichs, paninis, salades, petit déjeuners, boissons, vente à emporter ...<br/>Ici, point de retrait du Crous and go' en Click and Collect : https://crousandgo.crous-toulous",
+      "access": "Métro ligne A - Station Mirail université",
+      "operationalhours": "de 8h à 15h00<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 61 12 55 78",
+        "email": "restaurant.mirail@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Arum-resto.jpg",
+        "alt": "Cafet' Arum"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 986,
+      "title": "Cafet' Médecine",
+      "lat": 43.5634023,
+      "lon": 1.4603476,
+      "area": "Toulouse",
+      "adresse": "133 Route de Narbonne, 31070 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Sur le campus de la faculté de Médecine Rangueil",
+      "description": "Sur le campus de la faculté de Médecine Rangueil",
+      "access": "Métro B - Station Faculté de pharmacie ou Université Paul Sabatier",
+      "operationalhours": "7h30-14h00<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 62 25 62 25",
+        "email": "restaurant.rangueil3@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Med-caf.jpg",
+        "alt": "Cafet' Médecine"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 987,
+      "title": "Crous & go' Tarbes",
+      "lat": 43.2280079,
+      "lon": 0.0501236,
+      "area": "Tarbes",
+      "adresse": "39 rue Vincent Scotto, 65000 Tarbes",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "De 11h30 à 14h30<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 44 65 65",
+        "email": "contact.tarbes@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/TarbesIUT.jpg",
+        "alt": "Crous & go' Tarbes"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": [
+        {
+          "date": "2023-06-09",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-12",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-13",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-14",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-15",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-20",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-21",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-22",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "meal": [
+            {
+              "name": "midi",
+              "foodcategory": [
+                {
+                  "name": "La carte",
+                  "dishes": [
+                    {
+                      "name": "Le temps d'un café ou d'un déjeuner, venez découvrir et profiter de nos formules à consommer sur place ou à emporter. "
+                    },
+                    {
+                      "name": "Les personnels de votre cafétéria vous accueillent pour une pause salée ou sucrée."
+                    },
+                    {
+                      "name": "Consultez la carte sur "
+                    },
+                    {
+                      "name": "http://www.crous-toulouse.fr/restauration/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "title": "Crous & go' La Boussole",
+      "lat": 43.9198215,
+      "lon": 2.1374132,
+      "area": "Albi",
+      "adresse": "Place de Verdun, 81000 Albi",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "épicerie",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "Boissons froides, sandwichs et salades, box, tartes, pâtisseries, viennoiseries...",
+      "description": "Boissons froides, sandwichs et salades, box, tartes, pâtisseries, viennoiseries...",
+      "access": "A proximité de la gare SNCF,  En voiture en venant de Toulouse, sortie direction Centre Universitaire avenue François Verdier , Bus ligne H",
+      "operationalhours": "de 11h30 à 14h30<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 63 48 16 92",
+        "email": "contact.albi@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Albi-cafet.jpg",
+        "alt": "Crous & go' La Boussole"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 989,
+      "title": "Triporteur La Pause Toulouse",
+      "lat": 43.605719,
+      "lon": 1.436137,
+      "area": "Toulouse",
+      "adresse": "2 Boulevard Armand Duportal, 31000 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Triporteur",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Triporteur sur le campus de l’Université Toulouse 1 Capitole.",
+      "description": "Triporteur sur le campus de l’Université Toulouse 1 Capitole.",
+      "access": "Métro ligne B - station Compans Caffarelli.",
+      "operationalhours": "du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "05 62 25 62 53",
+        "email": "restaurant.arsenal@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/lapause.jpg",
+        "alt": "Triporteur La Pause Toulouse"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 996,
+      "title": "Cafet' Enseeiht",
+      "lat": 43.60252,
+      "lon": 1.45548,
+      "area": "Toulouse",
+      "adresse": " 2 rue Camichel 31071 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Sur le campus de l'ENSEEIHT.",
+      "description": "Sur le campus de l'ENSEEIHT.",
+      "access": "Métro ligne B - Stations Jean Jaurès ou François Verdier.",
+      "operationalhours": "de 8h à 11h et de 11h30 à 14h<br/>Attention, ces horaires sont susceptibles d'évoluer. <br/>",
+      "contact": {
+        "tel": "05 61 12 54 88",
+        "email": "restaurant.enseeiht@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/EN7.jpg",
+        "alt": "Cafet' Enseeiht"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 992,
+      "title": "Côté Ru",
+      "lat": 43.601323,
+      "lon": 1.405576,
+      "area": "Toulouse",
+      "adresse": "rue du Docteur Suzanne Noël, 31300 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Foodtruck",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Les équipes du Côté Ru vous proposent, chaque jour, une carte gourmande et cuisinée maison ! Une carte de sandwichs, salades, pâtisseries et formules variées à la Cartoucherie.",
+      "description": "Les équipes du Côté Ru vous proposent, chaque jour, une carte gourmande et cuisinée maison ! Une carte de sandwichs, salades, pâtisseries et formules variées à la Cartoucherie.",
+      "access": "Métro A - Station Patte d'Oie",
+      "operationalhours": "de 11h30 à 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 19",
+        "email": "restaurant.rangueil2@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Côté Ru"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 994,
+      "title": "Crous Truck'",
+      "lat": 43.564121,
+      "lon": 1.468022,
+      "area": "Toulouse Crous Truck'",
+      "adresse": "Localisation des Crous Truck' sur crous-toulouse.fr/crous-truck",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Foodtruck",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Chaque jour retrouvez une carte gourmande et cuisinée maison : burger ou gratiné en passant par des pâtisseries maison. Retrouvez-les du lundi au vendredi sur les campus de Toulouse ! Localisation et carte de l'offre sur crous-toulouse.fr/crous-truck",
+      "description": "Chaque jour retrouvez une carte gourmande et cuisinée maison : burger ou gratiné en passant par des pâtisseries maison.<br/>Retrouvez-les du lundi au vendredi sur les campus de Toulouse !<br/>Localisation et carte de l'offre sur<br/>crous-toulouse.fr/crous-truck",
+      "access": "",
+      "operationalhours": "11h30 à 13h30<br/>Ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 19",
+        "email": "restaurant.rangueil2@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/CrousTruck-Ensat.jpg",
+        "alt": "Crous Truck'"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 997,
+      "title": "Resto U' L'Inspé",
+      "lat": 43.5806199,
+      "lon": 1.4494941,
+      "area": "Toulouse",
+      "adresse": "56 avenue de l'URSS, 31400 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Restaurant",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "Métro ligne B - station Saint-Agnes SNCF",
+      "operationalhours": "11h30 à 13h30.<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "05 62 25 62 25",
+        "email": "restaurant.espe@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Espe.jpg",
+        "alt": "Resto U' L'Inspé"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1083,
+      "title": "Cafet' Insa",
+      "lat": 43.57007,
+      "lon": 1.46904,
+      "area": "Toulouse",
+      "adresse": "135 avenue de Rangueil, 31077 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "Boissons chaudes et fraîches, salades, sandwichs, paninis, viennoiseries et pâtisseries...  Ici, point de retrait du Crous and go' en Click and Collect : https://crousandgo.crous-toulouse.fr/insa",
+      "description": "Boissons chaudes et fraîches, salades, sandwichs, paninis, viennoiseries et pâtisseries...<br/><br/>Ici, point de retrait du Crous and go' en Click and Collect : https://crousandgo.crous-toulouse.fr/insa",
+      "access": "Métro ligne B - Station Rangueil ou Faculté de Pharmacie<br/>Bus 23 et 80 : arrêt INSA ou Université<br/>Bus 78 arrêt IUT Rangueil ",
+      "operationalhours": "de 8h00 à 20h00<br/>Attention, ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05.61.55.96.15",
+        "email": "restaurant.insa@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2017/03/Insa.jpg",
+        "alt": "Cafet' Insa"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1004,
+      "title": "Triporteur La Pause Castres (IUT)",
+      "lat": 43.6213122,
+      "lon": 2.2590693,
+      "area": "Castres",
+      "adresse": "Rue Firmin Oulès - 81100 Castres",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Triporteur",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Bagnats, bagels, sandwichs, bretzels, salades, pâtisseries et boissons.",
+      "description": "Bagnats, bagels, sandwichs, bretzels,<br/>salades, pâtisseries et boissons.",
+      "access": "Sur le campus de l'IUT",
+      "operationalhours": "du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "05 61 12 54 89",
+        "email": "contact.castres@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/lapause.jpg",
+        "alt": "Triporteur La Pause Castres (IUT)"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1005,
+      "title": "Triporteur La Pause - MFJA",
+      "lat": 43.562272,
+      "lon": 1.489684,
+      "area": "Toulouse",
+      "adresse": "1 Rue Tarfaya, 31400 Toulouse",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "0",
+      "type": "Triporteur",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Bagnat, bagel, sandwichs, bretzels, salades, pâtisseries et boissons.",
+      "description": "Bagnat, bagel, sandwichs, bretzels,<br/>salades, pâtisseries et boissons.",
+      "access": "",
+      "operationalhours": "du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "05 62 25 62 19",
+        "email": "restaurant.rangueil2@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/lapause.jpg",
+        "alt": "Triporteur La Pause - MFJA"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1028,
+      "title": "Crous & go' La Cantine",
+      "lat": 43.578005,
+      "lon": 1.4018971,
+      "area": "Toulouse",
+      "adresse": "5 Allée Antonio Machado, 31100 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "épicerie",
+      "accessibility": true,
+      "wifi": true,
+      "shortdesc": "La Cantine vous accueille sur le campus Mirail de l'université Jean Jaurès. Ce nouveau lieu de restauration vous propose également des espaces de détente, de travail au coeur de l'université.",
+      "description": "La Cantine vous accueille sur le campus Mirail de l'université Jean Jaurès. Ce nouveau lieu de restauration vous propose également des espaces de détente, de travail au coeur de l'université.",
+      "access": "Métro ligne A, station Mirail université<br/><br/>",
+      "operationalhours": "Du lundi au vendredi de 8h à 15h30.<br/>Attention, ces horaires sont susceptibles d'évoluer.<br/>",
+      "contact": {
+        "tel": "05 61 12 55 78",
+        "email": "restaurant.mirail@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "http://www.crous-toulouse.fr/wp-content/uploads/sites/36/2018/10/lacantine.jpg",
+        "alt": "Crous & go' La Cantine"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1038,
+      "title": "Moovy Market",
+      "lat": 43.561459,
+      "lon": 1.489969,
+      "area": "Toulouse",
+      "adresse": "",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Libre-service",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Sur le campus de Blagnac",
+      "description": "Sur le campus de Blagnac",
+      "access": "",
+      "operationalhours": "11h30 - 13h30<br/>Attention, ces horaires sont susceptibles d'évoluer.",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.rangueil2@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr/wp-content/uploads/sites/36/2022/07/Moovy-2020.jpg",
+        "alt": "Moovy Market"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1084,
+      "title": "Cafet' Le Célé",
+      "lat": 44.61372,
+      "lon": 2.01018,
+      "area": "Figeac",
+      "adresse": "IUT de Figeac, Avenue de Nayrac, 46100 Figeac",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": true,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "de 8h00 à 15h00<br/>Attention en raison de la crise sanitaire ces horaires sont susceptibles d'évoluer. ",
+      "contact": {
+        "tel": "05 65 50 06 80",
+        "email": "contact.figeac@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "https://www.crous-toulouse.fr//wp-content/uploads/sites/36/2017/03/Cele-cafet.jpg",
+        "alt": "Cafet' Le Célé"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1197,
+      "title": "Cafet' MFJA",
+      "lat": 43.562272,
+      "lon": 1.489684,
+      "area": "Toulouse",
+      "adresse": "1 Rue Tarfaya, 31400 Toulouse",
+      "opening": "110,110,110,110,110,000,000",
+      "closing": "0",
+      "type": "Cafétéria",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "Situé sur le campus de Montaudran, la Cafet’ MFJA vous accueille du lundi au vendredi de 8h à 17h au 4ème étage du bâtiment de la Maison de la Formation Jacqueline Auriol.  Profitez d’un espace chaleureux pour déjeuner sur place, d’un coin détente pour v",
+      "description": "Situé sur le campus de Montaudran, la Cafet’ MFJA vous accueille du lundi au vendredi de 8h à 17h au 4ème étage du bâtiment de la Maison de la Formation Jacqueline Auriol.<br/><br/>Profitez d’un espace chaleureux pour déjeuner sur place, d’un coin détente pour v",
+      "access": "",
+      "operationalhours": "8h - 17h",
+      "contact": {
+        "tel": "",
+        "email": ""
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Cafet' MFJA"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    },
+    {
+      "id": 1200,
+      "title": "Crous Truck' - MJFA",
+      "lat": 43.561896,
+      "lon": 1.489572,
+      "area": "Toulouse",
+      "adresse": "",
+      "opening": "010,010,010,010,010,000,000",
+      "closing": "1",
+      "type": "Foodtruck",
+      "accessibility": false,
+      "wifi": false,
+      "shortdesc": "",
+      "description": "",
+      "access": "",
+      "operationalhours": "du lundi au vendredi : 11h30-13h30",
+      "contact": {
+        "tel": "",
+        "email": "restaurant.rangueil2@crous-toulouse.fr"
+      },
+      "crousandgo": "",
+      "photo": {
+        "src": "",
+        "alt": "Crous Truck' - MJFA"
+      },
+      "payment": [
+        {
+          "name": "Carte bancaire"
+        },
+        {
+          "name": "IZLY"
+        }
+      ],
+      "menus": []
+    }
+  ]
+}
