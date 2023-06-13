@@ -9,7 +9,9 @@
 		"prestart": "npm run build ",
 		"start": "node dist/server.js",
 		"pretest": "npm run build",
-		"test": "jest"
+		"test": "jest",
+		"deploy": "npm run build && pm2 start dist/server.js -o output.log -e error.log --time -n 'CrousAPI'",
+		"restart": "npm run build && pm2 restart 'CrousAPI'"
 	},
 	"author": "Le_Roux-Nard",
 	"license": "ISC",
