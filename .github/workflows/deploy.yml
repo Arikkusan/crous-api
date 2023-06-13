@@ -1,0 +1,15 @@
+name: Deployment
+on:
+    push:
+        branches: 
+            - master
+
+jobs:
+    deployment:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Ping deployment server"
+              uses: im-open/url-status-check@v1.1.1
+              with:
+                  url: "https://deployment.lerouxnard.fr/crous"
+                  fail-on-bad-status: false
