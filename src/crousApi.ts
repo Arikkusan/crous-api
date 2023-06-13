@@ -116,7 +116,7 @@ class CrousAPI {
 		const minifiedJsonEndpoint = (crousName: string) => `/externe/crous-${crousName}.min.json`;
 		const data: string = await crousWebServiceAxios.get("").then((res) => res.data);
 		const crousShortNames: string[] = [];
-		for (const match of data.matchAll(/(?<=http:\/\/webservices-v2\.crous-mobile\.fr:8080\/feed\/).+?(?=\/">)/g)) {
+		for (const match of data.matchAll(/(?<=href=").+?(?=\/">)/g)) {
 			const possibleCrousName = match[0];
 			if (isCrousName(possibleCrousName)) crousShortNames.push(possibleCrousName);
 		}
