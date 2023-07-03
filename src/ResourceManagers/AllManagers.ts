@@ -7,3 +7,4 @@ export {
 	ActualitesManager,
 	ResidenceManager
 };
+export type CustomResourceManager = RestaurantManager | ActualitesManager | ResidenceManager;

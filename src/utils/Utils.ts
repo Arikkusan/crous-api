@@ -34,3 +34,8 @@ export function transformCrousName(str: string) {
 	let name = snake(str.trim()).replace(/_/g, ".");
 	return name == "bourgogne.franche.comte" ? "bfc" : name;
 }
+
+export enum byEnum {
+	"name" = "name",
+	"id" = "id",
+}
