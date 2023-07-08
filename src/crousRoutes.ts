@@ -8,10 +8,11 @@ import { Namespace, Socket } from "socket.io";
 import * as swaggerDoc from "./swagger.json" assert { type: "json" };
 
 import CrousAPI from "./crousApi.js";
-import { CrousData, Crous, CustomSocketData, CustomHolidays, ResourceManager } from "crous-api-types";
+import { CrousData, Crous, CustomSocketData, CustomHolidays, ResourceManager, Restaurant } from "crous-api-types";
 import { HolidayZone } from "crous-api-types/types/HolidayZones";
 import HolidaysManager from "./utils/HolidaysManager.js";
 import PublicHolydaysManager from "./utils/publicHolydayManager.js";
+import { byEnum } from "./utils/Utils";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
@@ -30,7 +31,7 @@ router.use("/docs", Swagger.serveFiles(swaggerDoc, swaggerOptions), Swagger.setu
 
 const apiRateLimit = rateLimit({
 	windowMs: 1 * 1000, // 1 seconds
-	max: 1, // Limit each IP to 1 requests per `window` (here, per 1 seconds)
+	max: 10, // Limit each IP to 1 requests per `window` (here, per 1 seconds)
 	standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
 	legacyHeaders: false, // Disable the `X-RateLimit-*` headers
 	skip: (request) => {
@@ -50,37 +51,34 @@ router.get("/", (req: Request, res: Response) => {
 	res.send(crousApi.getCrousList());
 });
 
-router.get("/restaurant/:idRestaurant", async(req: Request, res: Response) => {
-	const { idRestaurant } = req.params;
-	try {
-		let restaurant = await crousApi.getRestaurant(idRestaurant);
-		if(!restaurant) return res.status(404).send(`No restaurant found with id ${idRestaurant}`);
-		else res.json(restaurant);
-	} catch (e) {
-		res.status(404).send(`No restaurant found with id ${idRestaurant}`);
-	}
-});
+router.get("/:resource(residences|restaurants|actualites)/:id?", async (req: Request, res: Response) => {
+	const { resource, id } = req.params;
+	const { search, by } = req.query;
 
-router.get("/residence/:idResidence", async(req: Request, res: Response) => {
-	const { idResidence } = req.params;
-	try {
-		let residence = await crousApi.getResidence(idResidence);
-		if(!residence) return res.status(404).send(`No residence found with id ${idResidence}`);
-		else res.json(residence);
-	} catch (e) {
-		res.status(404).send(`No residence found with id ${idResidence}`);
+	const searchString = search?.toString();
+	const byString: byEnum | string | undefined = by?.toString();
+	if (!!id && !!searchString && !!byString) {
+		return res.status(400).send("You can't provide both id and search parameters");
+	} else if (!!searchString && !!byString) {
+		if (byString in byEnum) {
+			const searchResult = await crousApi.searchResourceByName(resource, byString as byEnum, searchString);
+			if (!searchResult) return res.status(404).send(`No ${resource} found with ${byString} ${searchString}`);
+			else res.json(searchResult);
+		} else {
+			return res.status(400).send(`Invalid search by parameter "${byString}"<br/>\nValid values are ${Object.keys(byEnum).join(", ")}`);
+		}
+	} else if ((!!searchString && !byString) || (!searchString && !!byString)) {
+		return res.status(400).send("You must provide both search and by parameters");
+	} else if (!!id) {
+		const resourceItem = await crousApi.getResource(resource, id);
+		if (!resourceItem) return res.status(404).send(`No ${resource} found with id ${id}`);
+		else res.json(resourceItem);
+	} else {
+		const resourceList = crousApi.listResource(resource);
+		if (!resourceList) return res.status(404).send(`No ${resource} found`);
+		else res.json(resourceList);
 	}
-});
-
-router.get("/actualite/:idActualites", async(req: Request, res: Response) => {
-	const { idActualites } = req.params;
-	try {
-		let actualites = await crousApi.getActualites(idActualites);
-		if(!actualites) return res.status(404).send(`No actualites found with id ${idActualites}`);
-		else res.json(actualites);
-	} catch (e) {
-		res.status(404).send(`No actualites found with id ${idActualites}`);
-	}
+	return;
 });
 
 router.get("/:nomCrous", (req: Request, res: Response) => {
@@ -105,7 +103,7 @@ router.get("/:nomCrous/:resource", (req: Request, res: Response) => {
 	}
 });
 
-router.get("/:nomCrous/:resource/:resourceId", async(req: Request, res: Response) => {
+router.get("/:nomCrous/:resource/:resourceId", async (req: Request, res: Response) => {
 	let { nomCrous, resource, resourceId } = req.params;
 	try {
 		let crous = crousApi.getCrous(nomCrous);
@@ -113,7 +111,7 @@ router.get("/:nomCrous/:resource/:resourceId", async(req: Request, res: Response
 		let payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
 		if (!payload) throw new Error("resource not found");
 		let resourceItem = await payload.get(resourceId);
-		if(!resourceItem) throw new Error("resource item not found");
+		if (!resourceItem) throw new Error("resource item not found");
 		else res.json(resourceItem);
 	} catch (e) {
 		console.error(e);
@@ -146,7 +144,7 @@ function setupRouter(workspace: Namespace): Router {
 const setupSocketFunctions = (socket: Socket) => {
 	socket.on("subscribeToMenu", async (idRestaurant: string) => {
 		let socketData = allSockets.get(socket.id);
-		let localRestaurant = await crousApi.getRestaurant(idRestaurant);
+		let localRestaurant = await crousApi.getResource("restaurants", idRestaurant);
 		if (socketData && localRestaurant != null) {
 			// ajoute le nouveau restaurant à la liste des restaurants suivis via un Set pour garantir l'unicité des identifiants
 			socketData.followingRestaurants = [...new Set([...(socketData.followingRestaurants ?? []), idRestaurant])];
@@ -218,7 +216,7 @@ const cronJob = new CronJob(
 			const followingRestaurants = socketData?.followingRestaurants;
 			if (!!followingRestaurants && followingRestaurants.length > 0) {
 				for (const restaurantId of followingRestaurants) {
-					const restaurant = await crousApi.getRestaurant(restaurantId);
+					const restaurant = (await crousApi.getResource("restaurants", restaurantId)) as Restaurant;
 					if (!!restaurant && restaurant.opening[new Date().getDay()] && restaurant.getTodayMenu()) {
 						socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu());
 					}

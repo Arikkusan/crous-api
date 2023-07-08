@@ -1,15 +1,16 @@
-import { Residence, Restaurant, Actualites } from "crous-api-types";
+import { CrousData, isCrousName } from "crous-api-types";
 import axios from "axios";
 import { crousWebServiceAxios } from "./utils/AxiosCustom.js";
 import { xml2json } from "xml-js";
 import { Dataset } from "./utils/Dataset.js";
-import { isCrousName } from "crous-api-types";
 import { CrousBuilder } from "./classes/Crous.js";
-import { transformCrousName, trimLowSnakeEscape } from "./utils/Utils.js";
+import { byEnum, transformCrousName, trimLowSnakeEscape } from "./utils/Utils.js";
 
 import HolidaysManager from "./utils/HolidaysManager.js";
 import publicHolydaysManager from "./utils/publicHolydayManager.js";
 import { CronJob } from "cron";
+
+import { CustomResourceManager } from "./ResourceManagers/AllManagers.js";
 
 class CrousAPI {
 	static isLoaded: boolean = false;
@@ -67,7 +68,7 @@ class CrousAPI {
 				//#region Récupération des données
 				for await (const dataset of data as Dataset[]) {
 					let result = /^(?<type>.+?)(?=(?: du)? CROUS)(?:.+)(?<=CROUS (?:de |du |d'| )?)(?<crous>.+)/gim.exec(dataset.title);
-					if (result && result.groups) {
+					if (result?.groups) {
 						const nomCrous = result.groups.crous;
 						const idCrous = transformCrousName(trimLowSnakeEscape(nomCrous));
 
@@ -140,36 +141,52 @@ class CrousAPI {
 		return Array.from(this.listeCrous.values());
 	}
 
-	getRestaurant(id: string): Promise<Restaurant | undefined> {
-		let promises = [];
-		for (const crous of this.listeCrous.values()) {
-			let restaurantPromise = crous.restaurants.get(id);
-			promises.push(restaurantPromise);
+	listResource(resourceType: string): CrousData[] {
+		const resources = [];
+		for (const crous of this.getCrousList()) {
+			const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
+			resources.push(...resourceManager.list);
 		}
-		return Promise.any(promises).then((restaurant) => {
-			return restaurant;
-		});
+		return resources;
 	}
 
-	getResidence(id: string): Promise<Residence | undefined> {
-		let promises = [];
-		for (const crous of this.listeCrous.values()) {
-			let residencePromise = crous.residences.get(id);
-			promises.push(residencePromise);
-		}
-		return Promise.any(promises).then((residence) => {
-			return residence;
+	getResource(resourceType: string, id: string): Promise<CrousData | undefined> {
+		const resourcePromise = new Promise<CrousData | undefined>(async (resolve) => {
+			for (const crous of this.getCrousList()) {
+				const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
+				const resource = await resourceManager.get(id).catch(() => undefined);
+				if (resource) resolve(resource);
+			}
 		});
+
+		return resourcePromise;
 	}
 
-	getActualites(id: string): Promise<Actualites | undefined> {
+	searchResourceByName(resourceType: string, by: byEnum, searchParams: string): Promise<CrousData[] | undefined> {
 		let promises = [];
-		for (const crous of this.listeCrous.values()) {
-			let actualitePromise = crous.actualites.get(id);
-			promises.push(actualitePromise);
+		for (const crous of this.getCrousList()) {
+			const resourcePromise = new Promise<CrousData[]>(async (resolve) => {
+				const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
+				let result;
+				switch (by) {
+					case byEnum.name:
+						result = await resourceManager.searchByName(searchParams);
+						resolve(result);
+						break;
+					case byEnum.id:
+						result = await resourceManager.searchById(searchParams);
+						resolve(result);
+						break;
+					default:
+						resolve([]);
+				}
+				return;
+			});
+
+			promises.push(resourcePromise);
 		}
-		return Promise.any(promises).then((actualite) => {
-			return actualite;
+		return Promise.all(promises).then((promises) => {
+			return promises.flat();
 		});
 	}
 

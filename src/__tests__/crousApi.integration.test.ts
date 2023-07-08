@@ -1,5 +1,6 @@
 import CrousAPI from "../crousApi.js";
 import server from "../__mocks__/server";
+import { Restaurant } from "crous-api-types";
 
 let crousApi: CrousAPI;
 let interval: NodeJS.Timer;
@@ -45,7 +46,7 @@ describe("ResourceManager", () => {
 
 	it("should be able to find a precise restaurant and menus", async () => {
 		jest.useFakeTimers().setSystemTime(new Date("2023-06-09"));
-		const restaurant = await crousApi.getRestaurant("603");
+		const restaurant = await crousApi.getResource("restaurants", "603") as Restaurant;
 		expect(restaurant?.nom).toBe("Resto U' Aubépin");
 		expect(restaurant?.paiements).toHaveLength(1);
 		expect(restaurant?.getTodayMenu()).toBeDefined();
