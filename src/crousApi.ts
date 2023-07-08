@@ -1,9 +1,8 @@
-import { CrousData } from "crous-api-types";
+import { CrousData, isCrousName } from "crous-api-types";
 import axios from "axios";
 import { crousWebServiceAxios } from "./utils/AxiosCustom.js";
 import { xml2json } from "xml-js";
 import { Dataset } from "./utils/Dataset.js";
-import { isCrousName } from "crous-api-types";
 import { CrousBuilder } from "./classes/Crous.js";
 import { byEnum, transformCrousName, trimLowSnakeEscape } from "./utils/Utils.js";
 
@@ -69,7 +68,7 @@ class CrousAPI {
 				//#region Récupération des données
 				for await (const dataset of data as Dataset[]) {
 					let result = /^(?<type>.+?)(?=(?: du)? CROUS)(?:.+)(?<=CROUS (?:de |du |d'| )?)(?<crous>.+)/gim.exec(dataset.title);
-					if (result && result.groups) {
+					if (result?.groups) {
 						const nomCrous = result.groups.crous;
 						const idCrous = transformCrousName(trimLowSnakeEscape(nomCrous));
 
@@ -152,7 +151,7 @@ class CrousAPI {
 	}
 
 	getResource(resourceType: string, id: string): Promise<CrousData | undefined> {
-		let resourcePromise = new Promise<CrousData | undefined>(async (resolve) => {
+		const resourcePromise = new Promise<CrousData | undefined>(async (resolve) => {
 			for (const crous of this.getCrousList()) {
 				const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
 				const resource = await resourceManager.get(id).catch(() => undefined);
@@ -166,7 +165,7 @@ class CrousAPI {
 	searchResourceByName(resourceType: string, by: byEnum, searchParams: string): Promise<CrousData[] | undefined> {
 		let promises = [];
 		for (const crous of this.getCrousList()) {
-			let resourcePromise = new Promise<CrousData[]>(async (resolve) => {
+			const resourcePromise = new Promise<CrousData[]>(async (resolve) => {
 				const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
 				let result;
 				switch (by) {

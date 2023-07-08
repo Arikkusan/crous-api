@@ -61,7 +61,7 @@ router.get("/:resource(residences|restaurants|actualites)/:id?", async (req: Req
 		return res.status(400).send("You can't provide both id and search parameters");
 	} else if (!!searchString && !!byString) {
 		if (byString in byEnum) {
-			let searchResult = await crousApi.searchResourceByName(resource, byString as byEnum, searchString);
+			const searchResult = await crousApi.searchResourceByName(resource, byString as byEnum, searchString);
 			if (!searchResult) return res.status(404).send(`No ${resource} found with ${byString} ${searchString}`);
 			else res.json(searchResult);
 		} else {
@@ -70,14 +70,15 @@ router.get("/:resource(residences|restaurants|actualites)/:id?", async (req: Req
 	} else if ((!!searchString && !byString) || (!searchString && !!byString)) {
 		return res.status(400).send("You must provide both search and by parameters");
 	} else if (!!id) {
-		let resourceItem = await crousApi.getResource(resource, id);
+		const resourceItem = await crousApi.getResource(resource, id);
 		if (!resourceItem) return res.status(404).send(`No ${resource} found with id ${id}`);
 		else res.json(resourceItem);
 	} else {
-		let resourceList = await crousApi.listResource(resource);
+		const resourceList = crousApi.listResource(resource);
 		if (!resourceList) return res.status(404).send(`No ${resource} found`);
 		else res.json(resourceList);
 	}
+	return;
 });
 
 router.get("/:nomCrous", (req: Request, res: Response) => {
@@ -215,7 +216,7 @@ const cronJob = new CronJob(
 			const followingRestaurants = socketData?.followingRestaurants;
 			if (!!followingRestaurants && followingRestaurants.length > 0) {
 				for (const restaurantId of followingRestaurants) {
-					const restaurant = await crousApi.getResource("restaurants", restaurantId) as Restaurant;
+					const restaurant = (await crousApi.getResource("restaurants", restaurantId)) as Restaurant;
 					if (!!restaurant && restaurant.opening[new Date().getDay()] && restaurant.getTodayMenu()) {
 						socket.emit("menuSubscription", restaurantId, restaurant?.getTodayMenu());
 					}
