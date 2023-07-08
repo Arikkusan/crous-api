@@ -12,6 +12,7 @@ import { CrousData, Crous, CustomSocketData, CustomHolidays, ResourceManager, Re
 import { HolidayZone } from "crous-api-types/types/HolidayZones";
 import HolidaysManager from "./utils/HolidaysManager.js";
 import PublicHolydaysManager from "./utils/publicHolydayManager.js";
+import { byEnum } from "./utils/Utils";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
@@ -30,7 +31,7 @@ router.use("/docs", Swagger.serveFiles(swaggerDoc, swaggerOptions), Swagger.setu
 
 const apiRateLimit = rateLimit({
 	windowMs: 1 * 1000, // 1 seconds
-	max: 1, // Limit each IP to 1 requests per `window` (here, per 1 seconds)
+	max: 10, // Limit each IP to 1 requests per `window` (here, per 1 seconds)
 	standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
 	legacyHeaders: false, // Disable the `X-RateLimit-*` headers
 	skip: (request) => {
