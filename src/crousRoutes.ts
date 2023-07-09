@@ -12,7 +12,7 @@ import { CrousData, Crous, CustomSocketData, CustomHolidays, ResourceManager, Re
 import { HolidayZone } from "crous-api-types/types/HolidayZones";
 import HolidaysManager from "./utils/HolidaysManager.js";
 import PublicHolydaysManager from "./utils/publicHolydayManager.js";
-import { byEnum } from "./utils/Utils";
+import { byEnum } from "./utils/Utils.js";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
