@@ -125,17 +125,20 @@ function setupRouter(workspace: Namespace): Router {
 	wssWorkspace.on("connection", (socket: Socket) => {
 		const parsedQuery = JSON.parse(JSON.stringify(socket.handshake.query));
 		const socketSettings: CustomSocketData = parsedQuery as CustomSocketData;
-		if (socketSettings.followingRestaurants) {
-			if (!Array.isArray(socketSettings.followingRestaurants) && typeof socketSettings.followingRestaurants === "string") {
-				socketSettings.followingRestaurants = (<string>socketSettings.followingRestaurants).split(",") ?? [];
-			} else {
-				socketSettings.followingRestaurants = [];
-			}
+		if (socketSettings.followingRestaurants && Array.isArray(socketSettings.followingRestaurants)) {
+			socketSettings.followingRestaurants = [...new Set(socketSettings.followingRestaurants)];
+		} else if (typeof socketSettings.followingRestaurants === "string") {
+			socketSettings.followingRestaurants = (socketSettings.followingRestaurants as string).split(",");
 		} else {
 			socketSettings.followingRestaurants = [];
 		}
 		allSockets.set(socket.id, socketSettings);
 		setupSocketFunctions(socket);
+		let followedRestaurants = [];
+		for (const socketS of allSockets.values()) {
+			followedRestaurants.push(socketS.followingRestaurants ?? []);
+		}
+		console.debug(`Now following ${new Set(followedRestaurants.flat()).size} restaurants`);
 	});
 	return router;
 }
