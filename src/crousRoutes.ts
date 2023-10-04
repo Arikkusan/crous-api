@@ -134,7 +134,7 @@ function setupRouter(workspace: Namespace): Router {
 		}
 		allSockets.set(socket.id, socketSettings);
 		setupSocketFunctions(socket);
-		let followedRestaurants = [];
+		const followedRestaurants = [];
 		for (const socketS of allSockets.values()) {
 			followedRestaurants.push(socketS.followingRestaurants ?? []);
 		}
