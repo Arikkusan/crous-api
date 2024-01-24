@@ -42,11 +42,6 @@ const apiRateLimit = rateLimit({
 
 router.use("/", apiRateLimit);
 
-router.use(function (req: Request, res: Response, next: NextFunction) {
-	console.log("Time:", Date.now());
-	next();
-});
-
 router.get("/", (req: Request, res: Response) => {
 	res.send(crousApi.getCrousList());
 });
@@ -60,29 +55,32 @@ router.get("/:resource(residences|restaurants|actualites)/:id?", async (req: Req
 	if (!!id && !!searchString && !!byString) {
 		return res.status(400).send("You can't provide both id and search parameters");
 	} else if (!!searchString && !!byString) {
-		if (byString in byEnum) {
-			const searchResult = await crousApi.searchResourceByName(resource, byString as byEnum, searchString);
-			if (!searchResult) return res.status(404).send(`No ${resource} found with ${byString} ${searchString}`);
-			else res.json(searchResult);
-		} else {
-			return res.status(400).send(`Invalid search by parameter "${byString}"<br/>\nValid values are ${Object.keys(byEnum).join(", ")}`);
+		if (!(byString in byEnum)) {
+			return res.status(400).send(`Invalid search by parameter "${byString}", valid values are ${Object.keys(byEnum).join(", ")}`);
 		}
+		const searchResult = await crousApi.searchResourceByName(resource, byString as byEnum, searchString);
+		if (!searchResult) return res.status(404).send(`No ${resource} found with ${byString} ${searchString}`);
+		else res.json(searchResult);
+		//
 	} else if ((!!searchString && !byString) || (!searchString && !!byString)) {
 		return res.status(400).send("You must provide both search and by parameters");
+		//
 	} else if (!!id) {
 		const resourceItem = await crousApi.getResource(resource, id);
 		if (!resourceItem) return res.status(404).send(`No ${resource} found with id ${id}`);
 		else res.json(resourceItem);
+		//
 	} else {
 		const resourceList = crousApi.listResource(resource);
 		if (!resourceList) return res.status(404).send(`No ${resource} found`);
 		else res.json(resourceList);
+		//
 	}
 	return;
 });
 
 router.get("/:nomCrous", (req: Request, res: Response) => {
-	let { nomCrous } = req.params;
+	const { nomCrous } = req.params;
 	try {
 		res.json(crousApi.getCrous(nomCrous));
 	} catch (e) {
@@ -91,11 +89,11 @@ router.get("/:nomCrous", (req: Request, res: Response) => {
 });
 
 router.get("/:nomCrous/:resource", (req: Request, res: Response) => {
-	let { nomCrous, resource } = req.params;
+	const { nomCrous, resource } = req.params;
 	try {
-		let crous = crousApi.getCrous(nomCrous);
+		const crous = crousApi.getCrous(nomCrous);
 		if (!crous) throw new Error("Crous not found");
-		let payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
+		const payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
 		if (!payload) throw new Error("resource not found");
 		res.json(payload);
 	} catch (e) {
@@ -104,13 +102,13 @@ router.get("/:nomCrous/:resource", (req: Request, res: Response) => {
 });
 
 router.get("/:nomCrous/:resource/:resourceId", async (req: Request, res: Response) => {
-	let { nomCrous, resource, resourceId } = req.params;
+	const { nomCrous, resource, resourceId } = req.params;
 	try {
-		let crous = crousApi.getCrous(nomCrous);
+		const crous = crousApi.getCrous(nomCrous);
 		if (!crous) throw new Error("Crous not found");
-		let payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
+		const payload = crous[resource as keyof Crous] as ResourceManager<CrousData>;
 		if (!payload) throw new Error("resource not found");
-		let resourceItem = await payload.get(resourceId);
+		const resourceItem = await payload.get(resourceId);
 		if (!resourceItem) throw new Error("resource item not found");
 		else res.json(resourceItem);
 	} catch (e) {
@@ -231,9 +229,5 @@ const cronJob = new CronJob(
 	true,
 	"Europe/Paris"
 );
-
-router.get("*", (req: Request, res: Response) => {
-	res.redirect("/");
-});
 
 export default setupRouter;

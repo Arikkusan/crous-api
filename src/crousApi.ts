@@ -142,24 +142,14 @@ class CrousAPI {
 	}
 
 	listResource(resourceType: string): CrousData[] {
-		const resources = [];
-		for (const crous of this.getCrousList()) {
-			const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
-			resources.push(...resourceManager.list);
-		}
-		return resources;
+		return this.getCrousList().flatMap<CrousData>((c) => {
+			let resourceManager = c[resourceType as keyof CrousBuilder] as CustomResourceManager;
+			return resourceManager.list;
+		});
 	}
 
-	getResource(resourceType: string, id: string): Promise<CrousData | undefined> {
-		const resourcePromise = new Promise<CrousData | undefined>(async (resolve) => {
-			for (const crous of this.getCrousList()) {
-				const resourceManager = crous[resourceType as keyof CrousBuilder] as CustomResourceManager;
-				const resource = await resourceManager.get(id).catch(() => undefined);
-				if (resource) resolve(resource);
-			}
-		});
-
-		return resourcePromise;
+	async getResource(resourceType: string, id: string): Promise<CrousData | undefined> {
+		return this.listResource(resourceType).find((r) => r.id === id);
 	}
 
 	searchResourceByName(resourceType: string, by: byEnum, searchParams: string): Promise<CrousData[] | undefined> {
