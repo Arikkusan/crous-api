@@ -9,7 +9,7 @@ beforeAll(
 	() =>
 		new Promise((resolve) => {
 			server.listen();
-			crousApi = new CrousAPI();
+			crousApi = CrousAPI.getInstance();
 			interval = setInterval(() => {
 				if (CrousAPI.isLoaded) {
 					crousApi.updateCronJob.stop();

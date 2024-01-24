@@ -19,38 +19,34 @@ class CrousAPI {
 		"https://www.data.gouv.fr/api/2/datasets/5548d994c751df32e0a7b26c/resources/?page=1&type=main&page_size=-1", //Résidences
 	];
 
-	static cache: CrousAPI | null = null;
+	private static cache?: CrousAPI;
 
 	private listeCrous: Map<string, CrousBuilder> = new Map<string, CrousBuilder>();
 	public holidaysManager: HolidaysManager = new HolidaysManager();
 	public publicHolydaysManager: publicHolydaysManager = new publicHolydaysManager();
 
 	constructor() {
-		if (CrousAPI.cache === null) {
-			CrousAPI.cache = this;
-			CrousAPI.setupApi();
-		} else {
-			return CrousAPI.cache;
-		}
+		CrousAPI.cache ||= this;
+		this.setupApi();
 	}
 
-	private static setupApi() {
-		const api = this.cache ?? new this();
-		api.holidaysManager.updateCache().then(() => {
-			api.holidaysManager.loadCustomVacances();
-			api.publicHolydaysManager.updateCache().then(() => {
-				for (const crous of api.listeCrous.values()) {
+	private setupApi() {
+		this.holidaysManager.updateCache().then(() => {
+			this.holidaysManager.loadCustomVacances();
+			this.publicHolydaysManager.updateCache().then(() => {
+				for (const crous of this.listeCrous.values()) {
 					crous.actualites.removeAll();
 					crous.residences.removeAll();
 					crous.restaurants.removeAll();
 				}
-				api.initialisationAPI();
+				global.gc && global.gc(); //use garbage collector
+				this.initialisationAPI();
 			});
 		});
 	}
 
 	public static getInstance(): CrousAPI {
-		return new CrousAPI();
+		return CrousAPI.cache ?? new CrousAPI();
 	}
 
 	private async initialisationAPI() {
@@ -180,7 +176,7 @@ class CrousAPI {
 		});
 	}
 
-	updateCronJob = new CronJob("0 0 0 * * *", () => CrousAPI.setupApi(), null, true, "Europe/Paris");
+	updateCronJob = new CronJob("0 0 0 * * *", () => CrousAPI.getInstance().setupApi(), null, true, "Europe/Paris");
 }
 
 export default CrousAPI;

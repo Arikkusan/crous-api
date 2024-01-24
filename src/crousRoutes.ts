@@ -16,7 +16,7 @@ import { byEnum } from "./utils/Utils.js";
 
 const allSockets: Map<string, CustomSocketData> = new Map();
 
-const crousApi: CrousAPI = new CrousAPI();
+const crousApi: CrousAPI = CrousAPI.getInstance();
 
 const router: Router = Router();
 let wssWorkspace: Namespace;
@@ -171,7 +171,7 @@ const setupSocketFunctions = (socket: Socket) => {
 const cronJob = new CronJob(
 	"0 0 11 * * *",
 	async () => {
-		const crousApi = new CrousAPI();
+		const crousApi = CrousAPI.getInstance();
 		const holidaysManager = new HolidaysManager();
 		await holidaysManager.updateCache();
 		await holidaysManager.loadCustomVacances();
